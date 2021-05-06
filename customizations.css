@@ -1,0 +1,161 @@
+/* This started out as a way of getting rid of the April Fool's Day 2020 Comic Sans font. */
+* { font-family: Ubuntu; }
+.mw-body h1,
+.mw-body-content h1,
+.mw-body-content h2 { font-family: Ubuntu; }
+
+/**
+ * General hiding of things.
+ *
+ * #p-lang - "In other languages" section (since I only speak English).
+ * #p-Games - The entire "Games" section.
+ * #p-Community - The entire "Community" section.
+ * #feedlinks - Tools, Atom RSS.
+ * #t-print - Tools, "Printable version".
+ * #t-permalink - Tools, "Permanent link".
+ * #t-userrights - Tools, "View user groups".
+ * #n-Rules-.26-Editing-Help - "Rules & Editing Help link" (I am a profeshnul).
+ * .mw-editform .editHelp - "Editing help" text link beside the edit box's Cancel button.
+ * .mw-pt-languages - The language bar to switch the language of the article you're reading.
+ * .mw-pt-translate-header - Language bar header.
+ * #mw-content-text #uploadtext - The entirety of the text above the Upload file page's Browse button.
+ * .mw-htmlform-field-Licenses - The bloody license thing when you upload a file. There's no licenses to even use, so let's hide it.
+ * #mw-clearyourcache - The bit of text above certain pages that instructs you on how to clear your cache to fix broken images.
+ */
+#p-lang { display: none; }
+#p-Games { display: none; }
+#p-Community { display: none; }
+#feedlinks { display: none; }
+#t-print { display: none; }
+#t-permalink { display: none; }
+#t-userrights { display: none; }
+#n-Rules-\.26-Editing-Help { display: none; }
+.mw-editform .editHelp { display: none; }
+.mw-pt-languages { display: none; }
+.mw-pt-translate-header { display: none; }
+#mw-content-text #uploadtext { display: none; }
+.mw-htmlform-field-Licenses { display: none; }
+#mw-clearyourcache { display: none; }
+.mw-rcfilters-ui-FormWrapperWidget.oo-ui-widget-enabled.oo-ui-widget.cloptions.rcoptions { display: none; }
+
+/* Make "Recent changes" sidebar entry bold. */
+#n-recentchanges {
+    font-weight: bold;
+}
+
+/* Decrease font size of Categories box contents and center-align it because why not */
+#catlinks {
+    text-align: center;
+    font-size: 0.7em;
+}
+
+/* Push the Featured Article topicon up a bit. As it stands now, it's in the middle of the line. This should correct that. */
+div.topicon { top: -55px; }
+
+/**
+ * This modifies <tt> text to make things look fancy.
+ * Check out https://i.imgur.com/tqOUGOY.png to see a preview if you want to copy this to your own userspace vector.css.
+ */
+tt {
+    background-color: #023;
+    background-color: hsla(0, 0%, 0%, 0.14);
+    border: 0.17em solid #023;
+    border: 0.17em solid hsla(0, 0%, 0%, 0.01);
+    border-radius: 1em;
+}
+
+/**
+ * This modifies <gallery>'s to not add the checkerboard pattern behind transparent images.
+ * By default, it adds https://tcrf.net/images/5/5d/Checker-16x16.png to the gallery images.
+ * This stops that.
+ * Check out https://i.imgur.com/gWVddes.png to see a preview if you want to copy this to your own userspace vector.css.
+ */
+.gallerybox .thumb img { background: none; }
+
+/**
+ * "Cancel" button fancification.
+ * Check out https://i.imgur.com/SNqfQnY.png to see a preview if you want to copy this to your own userspace vector.css.
+ */
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button {
+    background-color: #DC3232;
+    background-color: hsl(0, 71%, 53%);
+    color: #FFFFFF;
+    color: hsl(0, 0%, 100%);
+    border: 0.063em solid #DC3232;
+    border: 0.063em solid hsl(0, 71%, 53%);
+    border-radius: 0.125em;
+    padding-left: 0.85714286em;
+    padding-right: 0.85714286em;
+}
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button:hover {
+    background-color: #FF4747;
+    background-color: hsl(0, 100%, 64%);
+    color: #FFFFFF;
+    color: hsl(0, 0%, 100%);
+    border-color: #FF4747;
+    border-color: hsl(0, 100%, 64%);
+}
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button:active {
+    background-color: #A42323;
+    background-color: hsl(0, 65%, 39%);
+    color: #FFFFFF;
+    color: hsl(0, 0%, 100%);
+    border-color: #A42323;
+    border-color: hsl(0, 65%, 39%);
+}
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button:focus {
+    box-shadow: inset 0 0 0 0.063em #DC3232, inset 0 0 0 0.125em #FFFFFF;
+    box-shadow: inset 0 0 0 0.063em hsl(0, 71%, 53%), inset 0 0 0 0.125em hsl(0, 0%, 100%);
+    border-color: transparent;
+}
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button:active:focus {
+    color: #FFFFFF;
+    color: hsl(0, 0%, 100%);
+}
+/* End "Cancel" button fancification */
+
+/**
+ * User Group-based Name Highlighting.
+ * This adds in name colors for users of a certain user group.
+ */
+
+/* Bureaucrats */
+.mw-userlink[href="/User:Bast"],
+.mw-userlink[href="/User:CounterDiving"],
+.mw-userlink[href="/User:Raspberry"],
+.mw-userlink[href="/User:Rusty"] {
+    color: #C19C0B;
+    color: hsl(48, 89%, 40%);
+    font-weight: bold;
+}
+
+/* Administrators */
+.mw-userlink[href="/User:GlitterBerri"],
+.mw-userlink[href="/User:GoldS"],
+.mw-userlink[href="/User:HugetteHikari"],
+.mw-userlink[href="/User:Rick"],
+.mw-userlink[href="/User:Sanqui"] {
+    color: #2ECC70;
+    color: hsl(145, 63%, 49%);
+    font-weight: bold;
+}
+
+/* Bots */
+.mw-userlink[href="/User:FuzzyBot"],
+.mw-userlink[href="/User:XkeeperBot"] {
+    color: #808080;
+    color: hsl(0, 0%, 50%);
+    font-weight: bold;
+}
+
+/* Special */
+.mw-userlink[href="/User:Revenant"] {
+    color: #9B58B6;
+    color: hsl(283, 39%, 53%);
+    font-weight: bold;
+}
+.mw-userlink[href="/User:Xkeeper"] {
+    color: #FFA3FA;
+    color: hsl(303, 100%, 82%);
+    font-weight: bold;
+}
