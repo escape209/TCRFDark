@@ -64,6 +64,26 @@ tt {
     border-radius: 1em;
 }
 
+
+/**
+ * Custom light theme'd translation progress icons
+ * Created by 404UNF
+ * These replace the default progress icons with better ones
+ */
+.mw-pt-progress--stub { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog1-light.png"); }
+.mw-pt-progress--low { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog2-light.png"); }
+.mw-pt-progress--med { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog3-light.png"); }
+.mw-pt-progress--complete { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog5.png"); }
+
+/* You can choose which icon version for the "75% done" icon you want to use by commenting out one line, and uncommenting the other one below */
+
+/* Original yellow (kind of hard to see) */
+.mw-pt-progress--high { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog4-light.png"); }
+
+/* Alternate blue (easier to see) */
+/*.mw-pt-progress--high { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog4-light-alt.png"); } */
+
+
 /**
  * This modifies <gallery>'s to not add the checkerboard pattern behind transparent images.
  * By default, it adds https://tcrf.net/images/5/5d/Checker-16x16.png to the gallery images.
