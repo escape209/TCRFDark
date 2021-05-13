@@ -179,3 +179,16 @@ tt {
     color: hsl(303, 100%, 82%);
     font-weight: bold;
 }
+/* Discord Mods */
+.mw-userlink[href="/User:WaluigiBSOD"] {
+    color: #2ECC70;
+    color: hsl(145, 63%, 49%);
+    font-weight: bold;
+    font-style: italic;
+}
+.mw-userlink[href="/User:Hawk"] {
+    color: #2ECC70;
+    color: hsl(145, 63%, 49%);
+    font-weight: bold;
+    font-style: italic;
+}
