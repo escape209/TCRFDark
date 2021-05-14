@@ -1,1 +1,60 @@
 /* TCRF.net - Dark Common CSS */
+
+/**
+ * User Group-based Name Highlighting.
+ * This adds in name colors for users of a certain user group.
+ */
+
+/* Bureaucrats */
+.mw-userlink[href="/User:Bast"],
+.mw-userlink[href="/User:CounterDiving"],
+.mw-userlink[href="/User:Raspberry"],
+.mw-userlink[href="/User:Rusty"] {
+    color: #C19C0B;
+    color: hsl(48, 89%, 40%);
+    font-weight: bold;
+}
+
+/* Administrators */
+.mw-userlink[href="/User:GlitterBerri"],
+.mw-userlink[href="/User:GoldS"],
+.mw-userlink[href="/User:HugetteHikari"],
+.mw-userlink[href="/User:Rick"],
+.mw-userlink[href="/User:Sanqui"] {
+    color: #2ECC70;
+    color: hsl(145, 63%, 49%);
+    font-weight: bold;
+}
+
+/* Bots */
+.mw-userlink[href="/User:FuzzyBot"],
+.mw-userlink[href="/User:XkeeperBot"] {
+    color: #808080;
+    color: hsl(0, 0%, 50%);
+    font-weight: bold;
+}
+
+/* Special */
+.mw-userlink[href="/User:Revenant"] {
+    color: #9B58B6;
+    color: hsl(283, 39%, 53%);
+    font-weight: bold;
+}
+.mw-userlink[href="/User:Xkeeper"] {
+    color: #FFA3FA;
+    color: hsl(303, 100%, 82%);
+    font-weight: bold;
+}
+/* Discord Mods */
+.mw-userlink[href="/User:WaluigiBSOD"] {
+    color: #2ECC70;
+    color: hsl(145, 63%, 49%);
+    font-weight: bold;
+    font-style: italic;
+}
+.mw-userlink[href="/User:Hawk"] {
+    color: #2ECC70;
+    color: hsl(145, 63%, 49%);
+    font-weight: bold;
+    font-style: italic;
+}
