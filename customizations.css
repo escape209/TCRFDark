@@ -49,9 +49,6 @@
     font-size: 0.7em;
 }
 
-/* Push the Featured Article topicon up a bit. As it stands now, it's in the middle of the line. This should correct that. */
-div.topicon { top: -55px; }
-
 /**
  * This modifies <tt> text to make things look fancy.
  * Check out https://i.imgur.com/tqOUGOY.png to see a preview if you want to copy this to your own userspace vector.css.
