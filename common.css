@@ -2,3 +2,22 @@
 
 /* import da root varuhbulls */
 @import url("https://gitcdn.link/repo/404UNFca/TCRFDark/main/root.css");
+
+/* Revamped Translation Progress Icons */
+.mw-pt-progress--stub { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog1.png"); }
+.mw-pt-progress--low { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog2.png"); }
+.mw-pt-progress--med { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog3.png"); }
+.mw-pt-progress--high { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog4.png"); }
+.mw-pt-progress--complete { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog5.png"); }
+
+/* Main body */
+body {
+    background-color: var(--bg-dark);
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/tcrf-dark.png");
+}
+
+/* Top of page gradient */
+#mw-page-base {
+    background-image: linear-gradient(to top, var(--bg-dark) 30%, var(--dark-5));
+    background-color: transparent;
+}
