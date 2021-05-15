@@ -21,3 +21,36 @@ body {
     background-image: linear-gradient(to top, var(--bg-dark) 30%, var(--dark-5));
     background-color: transparent;
 }
+
+/* Document body */
+.mw-body {
+	background-color: var(--dark-25);
+    color: var(--white-90);
+    border-color: var(--dark-45);
+}
+
+/**
+ * Main page boxes
+ * Thank you CounterDiving for adding IDs to those boxes!
+ */
+/* "# articles and counting" box */
+#statistics-bar {
+	border: 1px solid var(--dark-45) !important;
+	background: var(--dark-15) !important;
+    color: var(--white-90) !important;
+}
+/* Featured Article box */
+#featured-area {
+	border: 1px solid var(--dark-45) !important;
+	background: var(--dark-15) !important;
+}
+/* Did You Know box */
+#dyk-area {
+	border: 1px solid var(--dark-45) !important;
+	background: var(--dark-15) !important;
+}
+/* "Contributing" box */
+#contrib-area {
+	border: 1px solid var(--dark-45) !important;
+	background: var(--dark-15) !important;
+}
