@@ -2,3 +2,27 @@
 
 /* import da root varuhbulls */
 @import url("https://gitcdn.link/repo/404UNFca/TCRFDark/main/root.css");
+
+/* "More" vectormenu option */
+.vectorMenu h3 span {
+    color: var(--a-blue);
+    font-weight: bold;
+}
+/* More dropdown arrow */
+.vectorMenu h3 span::after {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/navbar-dropdown.png");
+}
+
+.vectorMenu li a {
+    color: var(--a-blue);
+    background-color: var(--dark-25);
+    font-weight: bold;
+}
+
+.vectorMenu .menu {
+    border: 1px solid var(--dark-45);
+}
+
+.vectorTabs, .vectorTabs span, #mw-head .vectorMenu h3 {
+    background-image: linear-gradient(to top, var(--dark-45) 0, var(--dark-15) 100%);
+}
