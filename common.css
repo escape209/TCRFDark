@@ -54,3 +54,25 @@ body {
 	border: 1px solid var(--dark-45) !important;
 	background: var(--dark-15) !important;
 }
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--white-90);
+}
+h1, h2 {
+    border-bottom: 1px solid var(--dark-45);
+}
+
+/* Linkage - General */
+a.new, #p-personal a.new {
+    color: var(--a-lightred);
+}
+a {
+    color: var(--a-blue);
+}
+a:visited {
+    color: var(--a-blue-visited);
+}
+a:active {
+    color: var(--a-blue);
+}
