@@ -76,3 +76,24 @@ a:visited {
 a:active {
     color: var(--a-blue);
 }
+
+/* History diffs */
+.diff-context {
+    background: var(--dark-35);
+    border-color: var(--dark-45);
+    color: var(--white-90);
+}
+.diff-addedline .diffchange {
+    background: var(--dark-35);
+    color: var(--tcrf-green);
+}
+.diff-deletedline .diffchange {
+    background: var(--dark-35);
+    color: var(--a-lightred);
+}
+.diff-addedline {
+    border-color: var(--tcrf-green);
+}
+.diff-deletedline {
+    border-color: var(--a-lightred);
+}
