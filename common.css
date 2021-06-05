@@ -790,40 +790,11 @@ legend {
     color: var(--white-90);
 }
 #searchInput:focus, #simpleSearch:hover #searchInput:focus {
-	border: 1px solid var(--dark-45);
+    border: 1px solid var(--dark-45);
     outline: none;
     -webkit-box-shadow: inset 0 0 0 0px transparent,inset 0 0 0 0px transparent;
     box-shadow: inset 0 0 0 0px transparent,inset 0 0 0 0px transparent;
 }
-
-/*
-.oo-ui-textInputWidget.oo-ui-widget-enabled .oo-ui-inputWidget-input:focus {
-    border-color: var(--tcrf-green) !important;
-    box-shadow: 0 0 0 1px var(--tcrf-green) !important;
-}
-
-.oo-ui-buttonElement-button.webfonts-changed:focus-visible {
-    border-color: var(--tcrf-green) !important;
-    box-shadow: 0 0 0 1px var(--tcrf-green) !important;
-}
-.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:focus {
-    border-color: var(--tcrf-green) !important;
-    box-shadow: 0 0 0 1px var(--tcrf-green) !important;
-}
-.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-iconElement > .oo-ui-buttonElement-button:focus, .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-labelElement > .oo-ui-buttonElement-button:focus {
-    border-color: var(--tcrf-green) !important;
-    box-shadow: 0 0 0 1px var(--tcrf-green) !important;
-}
-// Search text entry glow
-.oo-ui-textInputWidget.oo-ui-widget-enabled .oo-ui-inputWidget-input:focus {
-    border-color: var(--tcrf-green2);
-    box-shadow: inset 0 0 0 1px var(--tcrf-green);
-}
-.oo-ui-textInputWidget.oo-ui-widget-enabled:hover .oo-ui-inputWidget-input:focus {
-    border-color: var(--tcrf-green);
-}
-*/
-
 .oo-ui-textInputWidget .oo-ui-inputWidget-input {
     background-color: var(--dark-35);
     color: var(--white-90);
@@ -1029,4 +1000,62 @@ textarea#wpUploadDescription {
 .oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle:active {
     color: #000;
     border-color: var(--dark-45);
+}
+
+/**
+ * Patch 1
+ * Some translations stuff I missed
+ */
+input, textarea {
+    border: 1px solid var(--dark-45);
+    background: var(--dark-15);
+    color: var(--white-90);
+}
+.tux-action-bar button:hover {
+    background-color: var(--dark-35);
+    background-image: linear-gradient(var(--dark-35),var(--dark-25));
+}
+.tux-action-bar button {
+    background-color: var(--dark-35);
+    background-image: linear-gradient(var(--dark-35),var(--dark-25));
+    border: 1px solid var(--dark-45);
+}
+.tux-message-filter-box {
+    border: 1px solid var(--dark-45);
+}
+.tux-messagelist {
+    color: var(--white-90);
+}
+.tux-message-item {
+    border-bottom: 1px solid var(--dark-45);
+    background: var(--dark-25);
+}
+.tux-message-item:hover {
+    background-color: var(--dark-15);
+}
+.ext-translate-container .tux-messagelist .tux-message-proofread:first-child .tux-message-item-compact {
+    border-top: 1px solid var(--dark-45);
+}
+.ext-translate-container .tux-messagelist .tux-message-proofread .tux-message-item-compact {
+    border-bottom: 1px solid var(--dark-45);
+    border-left: 1px solid var(--dark-45);
+    border-right: 1px solid var(--dark-45);
+}
+.ext-translate-container .tux-messagelist .tux-message-proofread .tux-message-item-compact:hover {
+    background: var(--dark-25);
+    color: var(--white-90) !important;
+}
+.ext-translate-container .tux-messagelist .tux-message-proofread .tux-message-item-compact {
+    background: var(--dark-25);
+    color: var(--white-90) !important;
+}
+
+.tux-messagelist .tux-message-proofread .tux-proofread-source {
+    color: var(--white-90);
+}
+.tux-message-editor__caret::after {
+    border-right: 20px solid var(--dark-25);
+}
+.tux-message-editor__caret::before, .tux-message-editor__caret::after {
+    border-right: 19px solid var(--dark-45);
 }
