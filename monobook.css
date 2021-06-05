@@ -1,7 +1,29 @@
 /* TCRF.net - Dark Monobook CSS */
 
-/* import da root varuhbulls */
-@import url("https://gitcdn.link/repo/404UNFca/TCRFDark/main/root.css");
+:root {
+ --white-90: hsl(0, 0%, 90%);
+ --bg-dark: hsl(120, 2%, 19%);
+ --dark-5: hsl(0, 0%, 5%);
+ --dark-15: hsl(0, 0%, 15%);
+ --dark-25: hsl(0, 0%, 25%);
+ --dark-35: hsl(0, 0%, 35%);
+ --dark-45: hsl(0, 0%, 45%);
+ --dark-55: hsl(0, 0%, 55%);
+
+ --darka-35: hsla(0, 0%, 0%, 0.35);
+
+ --link: hsl(120, 100%, 87%);
+ --a-blue-visited: hsl(220, 100%, 66%);
+ --a-blue: hsl(220, 100%, 80%);
+ --a-red: hsl(1, 100%, 65%);
+ --a-lightred: hsl(0, 70%, 70%);
+ 
+ --tcrf-green: hsl(120, 100%, 77%);
+ --tcrf-green2: hsl(120, 100%, 87%);
+
+ --focus-highlight: hsl(120, 100%, 87%);
+ --border-radius-2: 2px;
+}
 
 /* Monobook page tabs */
 .pBody {
