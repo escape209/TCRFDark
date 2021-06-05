@@ -21,6 +21,13 @@ body {
     background-image: linear-gradient(to top, var(--bg-dark) 30%, var(--dark-5));
     background-color: transparent;
 }
+/* Top of page links */
+#p-personal a {
+    color: var(--a-blue);
+}
+#p-personal a:visited {
+    color: var(--a-blue-visited);
+}
 
 /* Document body */
 .mw-body {
@@ -96,4 +103,910 @@ a:active {
 }
 .diff-deletedline {
     border-color: var(--a-lightred);
+}
+
+/* Text area stuff */
+textarea {
+    background-color: var(--dark-5);
+    color: var(--white-90);
+    border-color: var(--dark-45);
+}
+
+/**
+ * Wiki Editor UI
+ * This one's gonna be brutal, but I'm in it to win it.
+ */
+
+.editOptions {
+    background-color: var(--dark-15);
+    color: var(--white-90);
+    border: 1px solid var(--dark-45);
+}
+
+.mw-editform #wpTextbox1 {
+    background-color: var(--dark-5);
+    color: var(--white-90);
+}
+.wikiEditor-ui .wikiEditor-ui-top {
+    border-bottom: 1px solid var(--dark-45);
+}
+.wikiEditor-ui-toolbar {
+    background-color: var(--dark-15);
+    background-image: none;
+}
+.wikiEditor-ui-toolbar .sections .section {
+    border-top: 1px solid var(--dark-45);
+    background-color: var(--dark-15);
+}
+.wikiEditor-ui-toolbar .group {
+    border-right: 1px solid var(--dark-45);
+}
+.wikiEditor-ui-toolbar .group .tool-select {
+    border: 1px solid var(--dark-45);
+    background-color: var(--dark-35);
+}
+.wikiEditor-ui-toolbar .group .tool-select .label {
+    color: var(--white-90);
+}
+.wikiEditor-ui-toolbar .group .tool-select .options {
+    border: 1px solid var(--dark-45);
+    background-color: var(--dark-35);
+}
+.wikiEditor-ui-toolbar .group .tool-select .options .option {
+    color: var(--white-90);
+}
+.wikiEditor-ui-toolbar .group .tool-select .options .option:hover {
+    background-color: var(--dark-25);
+}
+.wikiEditor-ui-toolbar .group-search {
+    border-left: 1px solid var(--dark-45);
+}
+.wikiEditor-ui-toolbar .tabs span.tab a.current, .wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
+    color: var(--white-90);
+}
+.wikiEditor-ui-toolbar .tabs span.tab a, .wikiEditor-ui-toolbar .tabs span.tab a:visited {
+    color: var(--a-blue-visited);
+}
+.tool.oo-ui-buttonElement-frameless.oo-ui-iconElement {
+    margin: 0.1em;
+}
+.tool.oo-ui-buttonElement-frameless.oo-ui-iconElement:hover {
+    background-color: transparent;
+    outline: 0 none;
+}
+.wikiEditor-ui-toolbar .group .label {
+    color: var(--white-90);
+}
+.wikiEditor-ui .wikiEditor-ui-view {
+    border: 1px solid var(--dark-45);
+}
+.wikiEditor-ui-toolbar .page-characters div span:hover {
+    background-color: var(--dark-45);
+    color: var(--dark-15);
+}
+.wikiEditor-ui-toolbar .page-characters div span {
+    border: 1px solid var(--dark-45);
+    color: var(--white-90);
+}
+.wikiEditor-ui-toolbar .booklet .index .current {
+    background-color: var(--focus-highlight);
+}
+.wikiEditor-ui-toolbar .booklet .index div {
+    color: var(--white-90);
+}
+.wikiEditor-ui-toolbar .page-table th, .wikiEditor-ui-toolbar .page-table td {
+    color: var(--white-90);
+}
+
+/* Translation */
+.ext-translate-language-selector .uls {
+    color: var(--a-blue-visited);
+}
+.mw-parser-output {
+    color: var(--white-90);
+}
+.uls-search {
+    background-color: var(--dark-35);
+    border-bottom: 1px solid var(--dark-45);
+}
+.uls-languagefilter {
+    background-color: var(--dark-35);
+    color: var(--white-90);
+}
+.uls-lcd {
+    background-color: var(--dark-25);
+}
+.ext-translate-container .tux-messagelist .tux-message-pagemode {
+    background: var(--dark-25);
+}
+.ext-translate-container .tux-messagelist .tux-message-pagemode .tux-message-item-compact {
+    border-bottom: 1px solid var(--dark-45);
+    border-left: 1px solid var(--dark-45);
+    border-right: 1px solid var(--dark-45);
+    background: var(--dark-15);
+}
+.ext-translate-container .tux-messagelist .tux-message-pagemode:first-child .tux-message-item-compact {
+    border-top: 1px solid var(--dark-45);
+}
+.ext-translate-container .tux-messagelist .tux-message-pagemode .tux-message-item-compact:hover {
+    background: var(--dark-35);
+}
+.tux-messagelist .tux-message-pagemode .tux-pagemode-source {
+    color: var(--white-90);
+}
+.tux-action-bar {
+    background-color: var(--dark-15);
+}
+.tux-message-editor .editcolumn {
+    background-color: var(--dark-15);
+    color: var(--white-90);
+}
+.grid .tux-message-editor .messagekey {
+    color: var(--white-90);
+}
+.tux-breadcrumb {
+    color: var(--a-blue);
+}
+.tux-message-selector li a {
+    color: var(--a-blue);
+}
+.tux-breadcrumb__item--aggregate {
+    cursor: pointer;
+    color: var(--a-blue-visited);
+}
+.tux-message-selector li.selected a {
+    color: var(--a-blue-visited);
+}
+.tux-message-editor textarea {
+    border: 1px solid var(--dark-45);
+    background-color: var(--dark-25);
+    color: var(--white-90);
+}
+.tux-editor-editsummary-block input:disabled {
+    background-color: var(--dark-55);
+}
+.tux-editor-editsummary-block input {
+	background-color: var(--dark-25);
+    border: 1px solid var(--dark-45);
+}
+.grid .tux-message-editor .infocolumn-block {
+    background: var(--dark-25);
+    color: var(--white-90);
+}
+.tux-editor-skip-button.mw-ui-button.mw-ui-quiet {
+    background-color: hsl(1, 100%, 65%);
+    color: var(--white-90);
+}
+.tux-editor-skip-button.mw-ui-button.mw-ui-quiet:hover {
+    background-color: hsl(1, 100%, 75%);
+    color: var(--white-90);
+}
+.tux-messagetable-header.floating {
+    background: var(--dark-15);
+}
+
+/* Babel */
+.mw-babel-box {
+    color: var(--dark-5);
+}
+.mw-babel-box a {
+    color: var(--a-blue-visited);
+}
+.mw-babel-header {
+    background-color: var(--dark-15);
+}
+.mw-babel-wrapper {
+	border: 1px solid var(--dark-45);
+    background-color: var(--dark-25);
+}
+
+#mw-allmessagestable > tbody > tr > td {
+    background-color: var(--dark-15);
+}
+#mw-allmessagestable > tbody > tr > td:hover {
+    background-color: var(--dark-35);
+}
+#mw-allmessagestable tbody:hover td {
+    background-color: var(--dark-35);
+}
+#mw-allmessagestable > thead > tr > th {
+    background-color: var(--dark-5);
+}
+
+/* Page history - Selected revisions */
+#pagehistory li.selected {
+    background-color: var(--dark-15);
+    color: var(--white-90);
+    outline: 0 none;
+}
+
+/* Footer text */
+#footer li { color: var(--white-90); }
+#footer a { color: var(--a-blue); }
+
+/* Msgboxes */
+.msgbox {
+    background-color: var(--darka-35) !important;
+    color: var(--white-90) !important;
+    border-color: var(--dark-45) !important;
+}
+
+/* Stupid ID-less "Don't Know How To Edit?" box */
+.mw-editnotice.mw-editnotice-namespace.mw-editnotice-0 div {
+    background-color: var(--dark-15) !important;
+    border-color: var(--dark-45) !important;
+}
+
+.mw_metadata td {
+    background-color: var(--dark-15);
+}
+.mw_metadata td, .mw_metadata th {
+    border: 1px solid var(--dark-45);
+}
+.mw_metadata th {
+    background-color: var(--dark-15);
+}
+
+.mw-pt-languages-list {
+    background-color: var(--dark-15);
+}
+.mw-pt-languages-label {
+    background-color: var(--dark-5);
+}
+.mw-pt-languages {
+	border: 1px solid var(--dark-45);
+}
+
+/* Table of Contents */
+.toc, .mw-warning, .toccolours {
+    border: 1px solid var(--dark-45);
+    background-color: var(--dark-15);
+}
+
+.tocnumber {
+    color: var(--white-90);
+}
+
+.toctogglelabel {
+    color: var(--a-blue-visited);
+}
+
+/* Code blocks */
+.mw-code {
+    color: var(--white-90);
+    background-color: var(--darka-35);
+    border: 1px solid var(--darka-35);
+}
+
+#filetoc {
+    border: 1px solid var(--dark-45);
+    background-color: var(--dark-15);
+}
+
+#image-info-box {
+    background-color: var(--dark-15) !important;
+    color: var(--white-90) !important;
+    border: 1px solid var(--dark-45) !important;
+}
+
+/* Calendar Widget */
+.mw-widget-calendarWidget {
+    border: 1px solid var(--dark-45);
+}
+.mw-widget-calendarWidget-body-wrapper {
+    background-color: var(--dark-25);
+}
+.mw-widget-calendarWidget-body-outer-wrapper {
+    width: 292px;
+}
+.mw-widget-calendarWidget-header {
+    background-color: var(--dark-35);
+}
+.mw-widget-dateInputWidget.oo-ui-widget-enabled .mw-widget-dateInputWidget-handle {
+    background-color: var(--dark-35);
+    color: var(--white-90);
+}
+.mw-widget-calendarWidget-item {
+    color: var(--white-90);
+}
+.mw-widget-calendarWidget-day-additional {
+    color: var(--dark-55);
+}
+.mw-widget-calendarWidget-day-heading {
+    color: var(--white-90);
+}
+.mw-widget-dateInputWidget-calendar {
+    background-color: var(--dark-35);
+}
+
+
+#contentSub, #contentSub2 {
+    color: var(--white-90);
+}
+
+/* Recent changes - No page found */
+a.new, #p-personal a.new {
+    color: var(--a-lightred);
+}
+
+.mw-parser-output a.external:visited {
+    color: var(--a-blue-visited);
+}
+
+#mw-panel .portal .body li a:visited {
+    color: var(--a-blue-visited);
+}
+
+#mw-panel .portal .body li a {
+    color: var(--a-blue);
+}
+
+#mw-panel .portal h3 {
+    color: var(--white-90);
+}
+
+/**
+ * Recent Changes - Active Filter
+ */
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagMultiselectWidget-handle {
+	background-color: var(--dark-15);
+}
+
+/* "Active Filters" text at the top */
+.mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-content-title {
+    color: var(--white-90);
+}
+
+/* Active filter bubbles */
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagItemWidget.oo-ui-widget-enabled {
+    background-color: var(--dark-35);
+    color: var(--white-90);
+}
+
+/* Active filter bubble text height adjustment */
+.oo-ui-tagItemWidget.oo-ui-labelElement .oo-ui-labelElement-label {
+    line-height: 1.4em;
+}
+
+/* Namespaces & Tags area of Active Filters */
+.mw-rcfilters-ui-cell.mw-rcfilters-ui-filterTagMultiselectWidget-views-select {
+    background-color: var(--dark-35);
+}
+.mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget {
+    border-right: 1px solid var(--dark-45);
+    border-top: 1px solid var(--dark-45);
+    border-bottom: 1px solid var(--dark-45);
+}
+.mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle {
+    border: 1px solid var(--dark-45);
+}
+
+/* Edit summaries */
+span.comment {
+    color: var(--dark-55);
+}
+
+/* List of abbreviations */
+.mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend {
+    background-color: var(--dark-15);
+}
+
+/* "View new changes since..." */
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
+    color: var(--a-blue-visited);
+}
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
+    background-color: var(--dark-35);
+}
+.oo-ui-labelElement-label:active:visited { color: var(--a-blue-visited); }
+.oo-ui-labelElement-label:active { background-color: var(--dark-35); }
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:active, .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:active:focus, .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive.oo-ui-buttonElement-pressed > .oo-ui-buttonElement-button {
+    color: var(--a-blue);
+    background-color: var(--dark-35);
+}
+
+/* "Live updates" & "# changes, # days" buttons */
+.oo-ui-buttonElement-button {
+    background-color: var(--dark-35) !important;
+    color: var(--white-90) !important;
+    border-color: var(--dark-35) !important;
+}
+.oo-ui-buttonElement-button:hover {
+	background-color: var(--dark-45) !important;
+    border-color: var(--dark-45) !important;
+}
+.oo-ui-buttonElement-button:active {
+    background-color: var(--dark-35) !important;
+}
+
+/* "# changes, # days" dropdown panel */
+.oo-ui-popupWidget-popup {
+    background-color: var(--dark-35);
+    border: 1px solid var(--dark-45);
+    color: var(--white-90);
+}
+
+
+/* "# changes, # days" dropdown panel, "Recent hours" & "Recent days" text */
+.mw-rcfilters-ui-datePopupWidget .mw-rcfilters-ui-valuePickerWidget-title {
+    color: var(--white-90);
+}
+
+/* Selected changes/days */
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active > .oo-ui-buttonElement-button {
+/*    background-color: var(--tcrf-green); */
+    color: var(--dark-25);
+/*    border-color: var(--tcrf-green2); */
+}
+
+/* "Group results by page" checkbox */
+/*.oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type="checkbox"]:checked + span, .oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type="checkbox"]:indeterminate + span {
+    background-color: var(--dark-25);
+    border-color: var(--dark-45);
+}*/
+
+/* Group results by page checkbox, probably other checkboxes */
+/*
+.oo-ui-checkboxInputWidget:hover * {
+    background-color: hsl(120, 100%, 27%) !important;
+    box-shadow: inset 0 0 0 0.125em var(--tcrf-green);
+}
+
+.oo-ui-checkboxInputWidget[type="checkbox"]:active {
+    background-color: hsl(120, 100%, 27%) !important;
+    box-shadow: inset 0 0 0 0.125em var(--tcrf-green);
+}
+
+.oo-ui-checkboxInputWidget:active:hover * {
+    background-color: hsl(120, 100%, 77%) !important;
+}
+*/
+
+.oo-ui-labelElement .oo-ui-labelElement-label, .oo-ui-labelElement.oo-ui-labelElement-label {
+    color: var(--white-90);
+}
+
+/* Bob template stuff */
+.breakout {
+    background: var(--dark-15);
+}
+.breakouttitle {
+    color: var(--dark-15);
+}
+
+/* RC Filters */
+.mw-rcfilters-ui-menuSelectWidget-footer {
+    background-color: var(--dark-15);
+    border-top: 1px solid var(--dark-45);
+}
+.oo-ui-widget.oo-ui-widget-enabled.oo-ui-selectWidget.oo-ui-selectWidget-unpressed.oo-ui-floatableElement-floatable.oo-ui-menuSelectWidget.mw-rcfilters-ui-menuSelectWidget.mw-rcfilters-ui-menuSelectWidget-view-namespaces {
+    background-color: var(--dark-35);
+}
+.mw-rcfilters-ui-itemMenuOptionWidget:not(:last-child):not(.mw-rcfilters-ui-itemMenuOptionWidget-identifier-talk) {
+    border-bottom: 1px solid var(--dark-45);
+}
+.oo-ui-menuSelectWidget {
+    background-color: var(--dark-25);
+    border: 1px solid var(--dark-45);
+}
+.mw-rcfilters-ui-row {
+    background-color: var(--dark-25);
+}
+.mw-rcfilters-ui-rcTopSectionWidget-savedLinks {
+    background-color: var(--dark-25);
+}
+.mw-rcfilters-ui-rcTopSectionWidget-topLinks-table {
+    background-color: var(--dark-25);
+}
+.oo-ui-menuSectionOptionWidget.oo-ui-widget-enabled {
+    background-color: var(--dark-15);
+}
+.mw-rcfilters-ui-itemMenuOptionWidget.oo-ui-optionWidget-selected {
+    background-color: var(--dark-25);
+}
+.mw-rcfilters-ui-itemMenuOptionWidget:hover {
+    background-color: var(--dark-25);
+}
+.oo-ui-menuOptionWidget.oo-ui-widget-enabled.oo-ui-optionWidget {
+	background-color: var(--dark-25);
+}
+.mw-rcfilters-ui-itemMenuOptionWidget-label-desc {
+    color: var(--white-90);
+}
+.mw-rcfilters-ui-filterMenuOptionWidget.oo-ui-flaggedElement-muted:not(.oo-ui-optionWidget-selected) {
+    background-color: var(--dark-25);
+}
+.mw-rcfilters-ui-savedLinksListWidget-placeholder.oo-ui-optionWidget .oo-ui-labelElement-label {
+    color: var(--white-90);
+}
+.mw-rcfilters-ui-filterMenuHeaderWidget-header {
+    border-bottom: 1px solid var(--dark-45);
+}
+.mw-rcfilters-ui-filterTagMultiselectWidget-cell-filters {
+    background-color: var(--dark-15);
+}
+.mw-rcfilters-ui-itemMenuOptionWidget-view-namespaces {
+    border-top: 4px solid var(--dark-45);
+}
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined.oo-ui-flaggedElement-invalid .oo-ui-inputWidget-input {
+    border-color: var(--a-red);
+}
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-flaggedElement-invalid .oo-ui-inputWidget-input {
+    color: var(--a-red);
+}
+.mw-rcfilters-ui-filterMenuHeaderWidget-helpIcon.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonWidget {
+    padding-left: 8px;
+}
+.mw-rcfilters-ui-viewSwitchWidget label.oo-ui-labelWidget {
+    color: var(--white-90);
+}
+.mw-rcfilters-ui-filterMenuOptionWidget.oo-ui-flaggedElement-muted .mw-rcfilters-ui-itemMenuOptionWidget-label-title, .mw-rcfilters-ui-filterMenuOptionWidget.oo-ui-flaggedElement-muted .mw-rcfilters-ui-itemMenuOptionWidget-label-desc {
+    color: var(--white-90);
+}
+.mw-rcfilters-ui-changesListWrapperWidget:not(.mw-rcfilters-ui-changesListWrapperWidget-highlighted) .mw-changeslist-watchedseen div.mw-rcfilters-ui-highlights-color-none {
+    background-color: var(--white-90);
+    border: 1px solid var(--white-90);
+}
+.mw-rcfilters-ui-changesListWrapperWidget:not(.mw-rcfilters-ui-changesListWrapperWidget-highlighted) .mw-changeslist-watchedunseen div.mw-rcfilters-ui-highlights-color-none {
+    background-color: var(--white-90);
+    border: 1px solid var(--white-90);
+}
+
+div.thumbinner {
+    border: 1px solid var(--dark-45);
+    background-color: var(--dark-15);
+}
+/* Game series navbox stuff */
+.navbox th {
+    background: hsla(120, 100%, 90%, 0.6);
+}
+.navboxhead {
+    background: hsla(120, 43%, 77%, 0.5) !important;
+}
+.navboxhead th a {
+	color: var(--a-blue);
+}
+
+/* Gallery thumbnails - Removal of checkerboard backgrounds */
+#content .gallerybox div.thumb {
+    background-color: var(--dark-35);
+    border-color: var(--dark-45);
+}
+.gallerybox .thumb img {
+    background-color: var(--dark-35);
+    background-image: none;
+}
+
+/* Tables */
+.wikitable {
+    color: var(--white-90);
+}
+.wikitable th, .prettytable th {
+    background: var(--dark-15);
+}
+.wikitable td, .prettytable td {
+    border: 1px solid var(--dark-45);
+    background-color: var(--dark-35);
+}
+
+/* Category section */
+#catlinks {
+    background-color: var(--dark-15);
+    border: 1px solid var(--dark-45)
+}
+#catlinks a {
+	color: var(--a-blue);
+}
+#catlinks a.new {
+    color: var(--a-lightred);
+}
+
+/* Data Table */
+.mw-datatable th {
+    background-color: var(--dark-15);
+}
+.mw-datatable td, .mw-datatable th {
+    border: 1px solid var(--dark-45);
+}
+.mw-datatable td {
+    background-color: var(--dark-35);
+}
+.mw-datatable tr:hover td {
+    background-color: var(--dark-55);
+}
+
+
+/* History page, Compare button */
+.historysubmit {
+    border: 1px solid var(--dark-45);
+    background: var(--darka-35);
+    color: var(--white-90);
+    padding: 0.4em;
+    border-radius: var(--border-radius-2);
+}
+
+/* No dark list bullets */
+ul {
+    list-style-image: none;
+}
+
+/* <pre>, <code> */
+pre {
+    background-color: var(--dark-15);
+    color: var(--white-90);
+    border-color: var(--dark-45);
+    border-radius: var(--border-radius-2);
+}
+
+code {
+	background-color: var(--dark-15);
+    color: var(--white-90);
+    border-color: var(--dark-45);
+    border-radius: var(--border-radius-2);
+}
+
+tt {
+	background-color: var(--dark-15);
+    border: 2px solid var(--dark-15);
+    border-radius: var(--border-radius-2);
+}
+
+fieldset {
+    border: 1px solid var(--dark-45);
+}
+legend {
+    font-weight: bold;
+    color: var(--white-90);
+}
+
+
+/* Search Input */
+#searchInput {
+    border: 1px solid var(--dark-45);
+}
+#simpleSearch input {
+    background-color: var(--dark-15);
+    color: var(--white-90);
+}
+#searchInput:focus, #simpleSearch:hover #searchInput:focus {
+	border: 1px solid var(--dark-45);
+    outline: none;
+    -webkit-box-shadow: inset 0 0 0 0px transparent,inset 0 0 0 0px transparent;
+    box-shadow: inset 0 0 0 0px transparent,inset 0 0 0 0px transparent;
+}
+
+/*
+.oo-ui-textInputWidget.oo-ui-widget-enabled .oo-ui-inputWidget-input:focus {
+    border-color: var(--tcrf-green) !important;
+    box-shadow: 0 0 0 1px var(--tcrf-green) !important;
+}
+
+.oo-ui-buttonElement-button.webfonts-changed:focus-visible {
+    border-color: var(--tcrf-green) !important;
+    box-shadow: 0 0 0 1px var(--tcrf-green) !important;
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:focus {
+    border-color: var(--tcrf-green) !important;
+    box-shadow: 0 0 0 1px var(--tcrf-green) !important;
+}
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-iconElement > .oo-ui-buttonElement-button:focus, .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-labelElement > .oo-ui-buttonElement-button:focus {
+    border-color: var(--tcrf-green) !important;
+    box-shadow: 0 0 0 1px var(--tcrf-green) !important;
+}
+// Search text entry glow
+.oo-ui-textInputWidget.oo-ui-widget-enabled .oo-ui-inputWidget-input:focus {
+    border-color: var(--tcrf-green2);
+    box-shadow: inset 0 0 0 1px var(--tcrf-green);
+}
+.oo-ui-textInputWidget.oo-ui-widget-enabled:hover .oo-ui-inputWidget-input:focus {
+    border-color: var(--tcrf-green);
+}
+*/
+
+.oo-ui-textInputWidget .oo-ui-inputWidget-input {
+    background-color: var(--dark-35);
+    color: var(--white-90);
+    border: 1px solid var(--dark-45);
+}
+
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .mw-rcfilters-ui-tagItemWidget-selected.oo-ui-tagItemWidget.oo-ui-widget-enabled {
+    background-color: var(--dark-35);
+    border-color: var(--white-40);
+}
+.oo-ui-tagItemWidget {
+    border: 1px solid var(--dark-45);
+}
+
+/* Show/Hide button for Active Filters positioning fix */
+.mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-top-hideshow {
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+/* Save current filter settings button (below the Show/Hide button, on the left, the ribbon icon */
+.mw-rcfilters-ui-cell.mw-rcfilters-ui-filterTagMultiselectWidget-cell-save {
+    padding-right: 0.5em;
+    background-color: var(--dark-15);
+}
+.mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend {
+    border: 1px solid var(--dark-45);
+}
+
+/* Parser profiling data */
+.wikitable > tr > th, .wikitable > * > tr > th {
+    background-color: var(--dark-15);
+    color: var(--white-90);
+}
+.wikitable.preview-limit-report > .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+    border: 1px solid var(--dark-45);
+}
+.wikitable.preview-limit-report {
+    background-color: var(--dark-35);
+    color: var(--white-90);
+}
+
+.suggestions-result {
+    color: var(--white-90);
+}
+.suggestions-results {
+    background-color: var(--dark-15);
+    border: 1px solid var(--dark-45);
+    color: var(--white-90) !important;
+}
+.suggestions a.mw-searchSuggest-link, .suggestions a.mw-searchSuggest-link:hover, .suggestions a.mw-searchSuggest-link:active, .suggestions a.mw-searchSuggest-link:focus {
+    color: var(--white-90);
+}
+.suggestions-special {
+    background-color: var(--dark-5);
+    border: 1px solid var(--dark-45);
+    color: var(--white-90);
+}
+.suggestions-special .special-query {
+    color: var(--white-90);
+}
+.highlight {
+    font-weight: bold;
+    color: var(--a-blue);
+}
+
+.mw-search-profile-tabs {
+    background-color: var(--dark-15);
+    border: 1px solid var(--dark-45);
+}
+.search-types .current a {
+    color: var(--a-blue);
+}
+.results-info {
+    color: var(--white-90);
+}
+#mw-searchoptions {
+    background-color: var(--dark-35);
+    border: 1px solid var(--dark-45);
+}
+
+
+.ext-cc-language-selector__trigger {
+    color: var(--a-blue);
+}
+.ext-cc-language-selector__trigger::after {
+    border-top: 4px solid var(--a-blue);
+}
+
+/**
+ * Change placeholder text color.
+ * This is supposed to work, but it doesn't seem to work for me.
+ */
+::placeholder {
+	color: var(--white-90);
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: var(--white-90);
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+	color: var(--white-90);
+    opacity: 1;
+}
+
+/* Plus/Minus text colors */
+.mw-plusminus-pos {
+    color: hsl(140, 70%, 40%);
+}
+.mw-plusminus-neg {
+    color: var(--a-red);
+}
+.mw-plusminus-null {
+    color: #a2a9b1;
+}
+
+/* Warning boxes */
+.warningbox {
+    background-color: var(--dark-15);
+    color: var(--white-90);
+    border: 2px solid #FC3;
+    border-radius: 0 8px 0 8px;
+}
+
+.wikiEditor-ui-toolbar .booklet .pages {
+	background-color: var(--dark-25);
+}
+
+/* Live Updates button */
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
+/*    background-color: var(--tcrf-green); */
+    color: var(--dark-25);
+/*    border-color: var(--tcrf-green2); */
+}
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button {
+    padding-left: 0.85714286em;
+    padding-right: 0.85714286em;
+}
+
+input#wpUploadFile {
+    background-color: var(--dark-15);
+    color: var(--white-90);
+    border: 1px solid var(--dark-45);
+}
+
+input#wpDestFile {
+    background-color: var(--dark-15);
+    color: var(--white-90);
+    border: 1px solid var(--dark-45);
+}
+
+select#wpLicense {
+    background-color: var(--dark-15);
+    color: var(--white-90);
+    border: 1px solid var(--dark-45);
+}
+
+textarea#wpUploadDescription {
+    background-color: var(--dark-15);
+    color: var(--white-90);
+    border: 1px solid var(--dark-45);
+}
+
+.uls-ime-menu-settings-item {
+    background-color: var(--dark-35);
+    color: var(--white-90);
+    border-top: 1px solid var(--dark-45);
+}
+.imeselector-menu {
+    background-color: var(--dark-35);
+    border: 1px solid var(--dark-45);
+}
+.imeselector-menu .selectable-row-item {
+    color: var(--white-90);
+}
+.imeselector a, .ime-disable {
+    color: var(--dark-55);
+}
+.imeselector-menu .selectable-row:hover {
+    background-color: #36c;
+}
+
+.uls-menu {
+    background-color: var(--dark-25);
+    border: 1px solid var(--dark-45);
+}
+.uls-language-block > ul > li:hover {
+    background-color: var(--a-blue);
+}
+
+
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle {
+    background-color: var(--dark-35);
+    color: var(--white-90);
+}
+.oo-ui-dropdownWidget.oo-ui-widget-enabled.oo-ui-dropdownWidget-open .oo-ui-dropdownWidget-handle {
+    background-color: var(--dark-45);
+}
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle:hover {
+    background-color: var(--dark-35);
+}
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle:active {
+    color: #000;
+    border-color: var(--dark-45);
 }
