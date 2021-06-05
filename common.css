@@ -1059,3 +1059,21 @@ input, textarea {
 .tux-message-editor__caret::before, .tux-message-editor__caret::after {
     border-right: 19px solid var(--dark-45);
 }
+
+/**
+ * Patch 2
+ * More random stuff
+ */
+.tux-messagelist {
+    background-color: var(--dark-15);
+}
+.ext-translate-language-selector-label {
+    color: var(--white-90);
+}
+.ext-translate-container .tux-messagelist .tux-message-proofread {
+    background: var(--dark-15);
+}
+.tux-messagetable-loader {
+    color: var(--white-90);
+    background: var(--dark-15);
+}
