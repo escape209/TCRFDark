@@ -1,0 +1,9 @@
+<svg width="25" height="25" xmlns="http://www.w3.org/2000/svg" version="1.0" preserveAspectRatio="xMidYMid meet">
+ <g>
+  <title>Layer 1</title>
+  <g transform="translate(0, 25) scale(0.1, -0.1)" fill="#000000" id="svg_1">
+   <path fill="#333333" d="m0,125l0,-125l125,0l125,0l0,125l0,125l-125,0l-125,0l0,-125zm110,55l0,-40l-40,0l-40,0l0,40l0,40l40,0l40,0l0,-40zm110,0l0,-40l-40,0l-40,0l0,40l0,40l40,0l40,0l0,-40zm-110,-110l0,-40l-40,0l-40,0l0,40l0,40l40,0l40,0l0,-40zm110,0l0,-40l-40,0l-40,0l0,40l0,40l40,0l40,0l0,-40z" id="svg_2"/>
+  </g>
+ </g>
+
+</svg>
