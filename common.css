@@ -1659,3 +1659,13 @@ input, textarea {
     color: var(--white-90);
     background-color: var(--dark-15);
 }
+.tux-messagelist .tux-message-proofread .tux-proofread-translation {
+    color: var(--dark-50);
+}
+.tux-empty-list {
+    background-color: var(--dark-20);
+    border-bottom: var(--border-dark-45);
+}
+.tux-empty-list-guide {
+    color: var(--dark-50);
+}
