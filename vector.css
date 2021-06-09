@@ -1,49 +1,78 @@
-/* TCRF.net - Dark Vector CSS */
+/* TCRF.net - Dark Vector-specific CSS */
+
 :root {
- --white-90: hsl(0, 0%, 90%);
  --bg-dark: hsl(120, 2%, 19%);
+ 
  --dark-5: hsl(0, 0%, 5%);
+ --dark-10: hsl(0, 0%, 10%);
  --dark-15: hsl(0, 0%, 15%);
+ --dark-20: hsl(0, 0%, 20%);
  --dark-25: hsl(0, 0%, 25%);
+ --dark-30: hsl(0, 0%, 30%);
  --dark-35: hsl(0, 0%, 35%);
+ --dark-40: hsl(0, 0%, 40%);
  --dark-45: hsl(0, 0%, 45%);
+ --dark-50: hsl(0, 0%, 50%);
  --dark-55: hsl(0, 0%, 55%);
 
- --darka-35: hsla(0, 0%, 0%, 0.35);
+ --blue: hsl(220, 100%, 66%);
+ --lightblue: hsl(220, 100%, 80%);
 
- --link: hsl(120, 100%, 87%);
- --a-blue-visited: hsl(220, 100%, 66%);
- --a-blue: hsl(220, 100%, 80%);
- --a-red: hsl(1, 100%, 65%);
- --a-lightred: hsl(0, 70%, 70%);
+ --red: hsl(1, 100%, 66%);
+ --lightred: hsl(0, 70%, 70%);
+
+ --diff-red: hsl(1, 100%, 66%);
+ --diff-green: hsl(120, 100%, 66%);
  
- --tcrf-green: hsl(120, 100%, 77%);
- --tcrf-green2: hsl(120, 100%, 87%);
+ --green: hsl(120, 100%, 66%);
+ --lightgreen: hsl(120, 100%, 87%);
+ 
+ --lightyellow: hsl(45, 100%, 50%);
+ --yellow: hsl(45, 50%, 20%);
 
- --focus-highlight: hsl(120, 100%, 87%);
+ --navbox-head-green: hsl(120, 40%, 50%);
+ --navbox-subhead-green: hsl(120, 40%, 70%);
+
+ --white-90: hsl(0, 0%, 90%);
+
  --border-radius-2: 2px;
+ --border-dark-45: 1px solid var(--dark-45);
 }
 
-/**
- * Vector Menu stuff
- */
-
+/* Vector Menu SVGs */
+.vectorTabs #ca-watch.icon a {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/vector-watch.svg");
+}
+.vectorTabs #ca-unwatch.icon a {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/vector-watch-hover.svg");
+}
+.vectorTabs #ca-watch.icon a:hover {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/vector-unwatch.svg");
+}
+.vectorTabs #ca-unwatch.icon a:hover {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/vector-unwatch.svg");
+}
+.vectorTabs #ca-watch.icon a:focus {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/vector-watch.svg");
+}
+.vectorTabs #ca-unwatch.icon a:focus {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/vector-watch-hover.svg");
+}
+.vectorMenu h3 span::after {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/more-dropdown.svg");
+}
 /* "More" vectormenu option */
 .vectorMenu h3 span {
-    color: var(--a-blue);
+    color: var(--lightblue);
     font-weight: bold;
 }
-/* More dropdown arrow */
-.vectorMenu h3 span::after {
-    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/navbar-dropdown.png");
-}
 .vectorMenu li a {
-    color: var(--a-blue);
+    color: var(--lightblue);
     background-color: var(--dark-25);
     font-weight: bold;
 }
 .vectorMenu .menu {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 
 /* Vector Tabs */
@@ -52,7 +81,7 @@
     font-weight: bold;
 }
 .vectorTabs li a {
-    color: var(--a-blue);
+    color: var(--lightblue);
 }
 .vectorTabs, .vectorTabs span, #mw-head .vectorMenu h3 {
     background-image: linear-gradient(to top, var(--dark-45) 0, var(--dark-15) 100%);
@@ -62,7 +91,7 @@
     background-color: var(--dark-25);
 }
 .vectorTabs .selected a, .vectorTabs .selected a:visited {
-    color: var(--a-blue-visited);
+    color: var(--blue);
 }
 
 /* These were fixes for something, but I don't remember what. */
@@ -74,15 +103,4 @@
 }
 .skin-vector .uls-search {
     border-bottom-color: var(--dark-45);
-}
-
-.oo-ui-icon-feedback, .mw-ui-icon-feedback::before {
-    background-image: url(/load.php?modules=oojs-ui.styles.icons-interactions&image=feedback&format=rasterized&lang=en&skin=vector&version=17uzx) !important;
-}
-.oo-ui-icon-reload, .mw-ui-icon-reload::before {
-    background-image: url(/load.php?modules=oojs-ui.styles.icons-interactions&image=reload&format=rasterized&skin=vector&version=17uzx) !important;
-}
-.oo-ui-icon-stop, .mw-ui-icon-stop::before {
-    background-image: url(/load.php?modules=oojs-ui.styles.icons-media&image=stop&format=rasterized&skin=vector&version=1kxm4) !important;
-    background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E stop %3C/title%3E %3Crect width=%2216%22 height=%2216%22 x=%222%22 y=%222%22 rx=%221%22/%3E %3C/svg%3E") !important;
 }

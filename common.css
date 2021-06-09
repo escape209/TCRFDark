@@ -1,37 +1,217 @@
 /* TCRF.net - Dark Common CSS */
 
 :root {
- --white-90: hsl(0, 0%, 90%);
  --bg-dark: hsl(120, 2%, 19%);
+ 
  --dark-5: hsl(0, 0%, 5%);
+ --dark-10: hsl(0, 0%, 10%);
  --dark-15: hsl(0, 0%, 15%);
+ --dark-20: hsl(0, 0%, 20%);
  --dark-25: hsl(0, 0%, 25%);
+ --dark-30: hsl(0, 0%, 30%);
  --dark-35: hsl(0, 0%, 35%);
+ --dark-40: hsl(0, 0%, 40%);
  --dark-45: hsl(0, 0%, 45%);
+ --dark-50: hsl(0, 0%, 50%);
  --dark-55: hsl(0, 0%, 55%);
 
- --darka-35: hsla(0, 0%, 0%, 0.35);
+ --blue: hsl(220, 100%, 66%);
+ --lightblue: hsl(220, 100%, 80%);
 
- --link: hsl(120, 100%, 87%);
- --a-blue-visited: hsl(220, 100%, 66%);
- --a-blue: hsl(220, 100%, 80%);
- --a-red: hsl(1, 100%, 65%);
- --a-lightred: hsl(0, 70%, 70%);
+ --red: hsl(1, 100%, 66%);
+ --lightred: hsl(0, 70%, 70%);
+
+ --diff-red: hsl(1, 100%, 66%);
+ --diff-green: hsl(120, 100%, 66%);
  
- --tcrf-green: hsl(120, 100%, 77%);
- --tcrf-green2: hsl(120, 100%, 87%);
+ --green: hsl(120, 100%, 66%);
+ --lightgreen: hsl(120, 100%, 87%);
+ 
+ --lightyellow: hsl(45, 100%, 50%);
+ --yellow: hsl(45, 50%, 20%);
 
- --focus-highlight: hsl(120, 100%, 87%);
+ --navbox-head-green: hsl(120, 40%, 50%);
+ --navbox-subhead-green: hsl(120, 40%, 70%);
+
+ --white-90: hsl(0, 0%, 90%);
+
  --border-radius-2: 2px;
+ --border-dark-45: 1px solid var(--dark-45);
 }
 
 /* Revamped Translation Progress Icons */
+/* To do: Remake these in SVG */
 .mw-pt-progress--stub { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog1.png"); }
 .mw-pt-progress--low { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog2.png"); }
 .mw-pt-progress--med { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog3.png"); }
 .mw-pt-progress--high { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog4.png"); }
 .mw-pt-progress--complete { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog5.png"); }
 
+/* SVG Icons */
+#pt-uls .uls-trigger::before { 
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/language.svg");
+    opacity: 1.0;
+}
+#mw-indicator-mw-helplink a {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/help.svg");
+}
+.oo-ui-icon-help, .mw-ui-icon-help::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/help2.svg");
+}
+.oo-ui-icon-helpNotice, .mw-ui-icon-helpNotice::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/help.svg");
+}
+.oo-ui-indicator-down {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/down.svg");
+}
+.oo-ui-icon-checkAll, .mw-ui-icon-checkAll::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/check-all.svg");
+}
+.oo-ui-icon-menu, .mw-ui-icon-menu::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/menu.svg");
+}
+.oo-ui-icon-play, .mw-ui-icon-play::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/play.svg");
+}
+.oo-ui-icon-close, .mw-ui-icon-close::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/close.svg");
+}
+.oo-ui-icon-edit, .mw-ui-icon-edit::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/edit.svg");
+}
+.oo-ui-icon-bookmark, .mw-ui-icon-bookmark::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/bookmark.svg");
+}
+.oo-ui-icon-trash, .mw-ui-icon-trash::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/trash.svg");
+}
+.oo-ui-icon-settings, .mw-ui-icon-settings::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/settings.svg");
+}
+.oo-ui-icon-article, .mw-ui-icon-article::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/article.svg");
+}
+.oo-ui-icon-tag, .mw-ui-icon-tag::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tag.svg");
+}
+.oo-ui-icon-search, .mw-ui-icon-search::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/search.svg");
+}
+.oo-ui-icon-feedback, .mw-ui-icon-feedback::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/feedback.svg") !important;
+}
+.oo-ui-image-progressive.oo-ui-icon-feedback, .mw-ui-icon-feedback-progressive::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/feedback.svg") !important;
+}
+.oo-ui-icon-highlight, .mw-ui-icon-highlight::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/highlight.svg");
+}
+.oo-ui-icon-next, .mw-ui-icon-next::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/next.svg");
+}
+.oo-ui-icon-previous, .mw-ui-icon-previous::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/previous.svg");
+}
+.oo-ui-icon-check, .mw-ui-icon-check::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/check.svg");
+}
+.oo-ui-image-invert.oo-ui-icon-stop, .mw-ui-icon-stop-invert::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/invert.svg") !important;
+}
+.oo-ui-icon-stop, .mw-ui-icon-stop::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/invert.svg") !important;
+}
+.oo-ui-icon-reload, .mw-ui-icon-reload::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/reload.svg");
+}
+.oo-ui-icon-code, .mw-ui-icon-code::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/code.svg");
+}
+.oo-ui-icon-expand, .mw-ui-icon-expand::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/expand.svg");
+}
+.oo-ui-icon-collapse, .mw-ui-icon-collapse::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/collapse.svg");
+}
+#pt-anonuserpage, #pt-userpage a {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/avatar.svg");
+    margin-top: 3px;
+    padding-top: 0.3em !important;
+}
+.imeselector {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/imeselector.svg");
+    background-color: var(--dark-15);
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.uls-ime-disable-link {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/imeselector-disabled.svg");
+}
+.imeselector-menu .ime-checked {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/ime-check.svg");
+}
+.uls-ime-more-settings-link {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/ime-settings.svg");
+    border-left: var(--border-dark-45);
+}
+.languagesettings-menu .menu-section.display-settings-block {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/ime-display.svg");
+}
+#uls-settings-block > button.display-settings-block {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/ime-display.svg");
+}
+#uls-settings-block > button.input-settings-block {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/imeselector.svg");
+}
+.languagesettings-menu .menu-section.input-settings-block {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/imeselector.svg");
+}
+.uls-search-label {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/search.svg");
+}
+/* Tux Translation System - SVG Icons */
+.tux-action-bar .translate-mode-button::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-translate.svg");
+}
+.tux-action-bar .page-mode-button::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-page.svg");
+}
+.tux-action-bar .proofread-mode-button::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-proofread.svg");
+}
+.tux-message-filter-wrapper {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-search.svg");
+}
+.grid .tux-message-editor .close {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-close.svg");
+}
+.tux-message-editor .editor-expand {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-expand.svg");
+}
+.message-desc-edit {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-edit.svg");
+}
+.tux-list-edit a {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-edit.svg");
+}
+.tux-status-translated, .tux-status-proofread {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-translated.svg");
+}
+.tux-pagemode-status.untranslated {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-untranslated.svg");
+}
+.tux-notice-message.diff {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-clock.svg");
+}
+.uls-icon-close {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-close.svg");
+}
+.uls-icon-back {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/lang-back.svg");
+    border-right: var(--border-dark-45);
+}
+.client-js .sortable:not(.jquery-tablesorter) > * > tr:first-child > th:not(.unsortable), .jquery-tablesorter th.headerSort {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/table-sorter.svg");
+}
 /* Main body */
 body {
     background-color: var(--bg-dark);
@@ -45,15 +225,15 @@ body {
 }
 /* Top of page links */
 #p-personal a {
-    color: var(--a-blue);
+    color: var(--lightblue);
 }
 #p-personal a:visited {
-    color: var(--a-blue-visited);
+    color: var(--blue);
 }
 
 /* Document body */
 .mw-body {
-	background-color: var(--dark-25);
+    background-color: var(--dark-25);
     color: var(--white-90);
     border-color: var(--dark-45);
 }
@@ -64,24 +244,31 @@ body {
  */
 /* "# articles and counting" box */
 #statistics-bar {
-	border: 1px solid var(--dark-45) !important;
-	background: var(--dark-15) !important;
+    border: 1px solid var(--dark-45) !important;
+    background-color: var(--dark-20) !important;
     color: var(--white-90) !important;
 }
 /* Featured Article box */
 #featured-area {
-	border: 1px solid var(--dark-45) !important;
-	background: var(--dark-15) !important;
+    border: 1px solid var(--dark-45) !important;
+    background-color: var(--dark-20) !important;
 }
 /* Did You Know box */
 #dyk-area {
-	border: 1px solid var(--dark-45) !important;
-	background: var(--dark-15) !important;
+    border: 1px solid var(--dark-45) !important;
+    background-color: var(--dark-20) !important;
 }
 /* "Contributing" box */
 #contrib-area {
-	border: 1px solid var(--dark-45) !important;
-	background: var(--dark-15) !important;
+    border: 1px solid var(--dark-45) !important;
+    background-color: var(--dark-20) !important;
+}
+
+/* That thing from when you get a message on your talk page */
+.usermessage {
+    background-color: var(--yellow);
+    border: 1px solid var(--lightyellow);
+    color: var(--white-90);
 }
 
 /* Headers */
@@ -89,42 +276,58 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--white-90);
 }
 h1, h2 {
-    border-bottom: 1px solid var(--dark-45);
+    border-bottom: var(--border-dark-45);
 }
 
 /* Linkage - General */
 a.new, #p-personal a.new {
-    color: var(--a-lightred);
+    color: var(--lightred);
 }
 a {
-    color: var(--a-blue);
+    color: var(--lightblue);
 }
 a:visited {
-    color: var(--a-blue-visited);
+    color: var(--blue);
 }
 a:active {
-    color: var(--a-blue);
+    color: var(--lightblue);
 }
 
-/* History diffs */
+/**
+ * Article History comparison diff styling
+ */
+/* General styling for all diff boxes */
+.diffchange {
+    border-radius: 0.3em !important;
+    margin: 0em 0.15em !important;
+    padding: 0.15em 0.3em !important;
+    font-weight: normal !important;
+}
+/* Unchanged items */
 .diff-context {
-    background: var(--dark-35);
-    border-color: var(--dark-45);
+    background-color: var(--dark-20);
+    border-color: var(--dark-40);
     color: var(--white-90);
 }
+/* Lines added */
+.diff-addedline {
+    background-color: var(--dark-20);
+    border-color: var(--diff-green);
+}
 .diff-addedline .diffchange {
-    background: var(--dark-35);
-    color: var(--tcrf-green);
+    background-color: var(--dark-30);
+    color: var(--lightgreen);
+    text-shadow: 0px 0.6px 2px var(--dark-5);
+}
+/* Lines removed */
+.diff-deletedline {
+    background-color: var(--dark-20);
+    border-color: var(--diff-red);
 }
 .diff-deletedline .diffchange {
-    background: var(--dark-35);
-    color: var(--a-lightred);
-}
-.diff-addedline {
-    border-color: var(--tcrf-green);
-}
-.diff-deletedline {
-    border-color: var(--a-lightred);
+    background-color: var(--dark-30);
+    color: var(--lightred);
+    text-shadow: 0px 0.6px 2px var(--dark-5);
 }
 
 /* Text area stuff */
@@ -134,44 +337,75 @@ textarea {
     border-color: var(--dark-45);
 }
 
+/* RC Filters - Highlight color fix */
+div.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color-none.oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonOptionWidget a.oo-ui-buttonElement-button {
+    background-color: transparent !important;
+    border: 0px none;
+}
+div.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color-none.oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonOptionWidget a.oo-ui-buttonElement-button:hover {
+    background-color: transparent !important;
+    border: 0px none;
+}
+.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.oo-ui-buttonElement-frameless > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon.oo-ui-icon-check {
+    background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E check %3C/title%3E %3Cpath d=%22M7 14.17L2.83 10l-1.41 1.41L7 17 19 5l-1.41-1.42z%22/%3E %3C/svg%3E") !important;
+}
+.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-buttonOptionWidget.oo-ui-optionWidget-selected.oo-ui-buttonElement-active.oo-ui-iconElement a.oo-ui-buttonElement-button {
+    background-color: transparent !important;
+    border: 0px none !important;
+}
+.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-buttonOptionWidget.oo-ui-optionWidget-selected.oo-ui-buttonElement-active.oo-ui-iconElement a.oo-ui-buttonElement-button:hover {
+    background-color: transparent !important;
+    border: 0px none !important;
+}
+
+/* API Sandbox */
+.mw-apisandbox-toolbar {
+    background: var(--dark-15);
+    border-bottom: var(--border-dark-45);
+}
+.oo-ui-outlineOptionWidget.oo-ui-optionWidget-highlighted {
+    background-color: var(--dark-45) !important;
+}
+
+
 /**
  * Wiki Editor UI
  * This one's gonna be brutal, but I'm in it to win it.
  */
 
 .editOptions {
-    background-color: var(--dark-15);
+    background-color: var(--dark-20);
     color: var(--white-90);
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 
 .mw-editform #wpTextbox1 {
-    background-color: var(--dark-5);
+    background-color: var(--dark-15);
     color: var(--white-90);
 }
 .wikiEditor-ui .wikiEditor-ui-top {
-    border-bottom: 1px solid var(--dark-45);
+    border-bottom: var(--border-dark-45);
 }
 .wikiEditor-ui-toolbar {
     background-color: var(--dark-15);
     background-image: none;
 }
 .wikiEditor-ui-toolbar .sections .section {
-    border-top: 1px solid var(--dark-45);
+    border-top: var(--border-dark-45);
     background-color: var(--dark-15);
 }
 .wikiEditor-ui-toolbar .group {
-    border-right: 1px solid var(--dark-45);
+    border-right: var(--border-dark-45);
 }
 .wikiEditor-ui-toolbar .group .tool-select {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
     background-color: var(--dark-35);
 }
 .wikiEditor-ui-toolbar .group .tool-select .label {
     color: var(--white-90);
 }
 .wikiEditor-ui-toolbar .group .tool-select .options {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
     background-color: var(--dark-35);
 }
 .wikiEditor-ui-toolbar .group .tool-select .options .option {
@@ -181,13 +415,13 @@ textarea {
     background-color: var(--dark-25);
 }
 .wikiEditor-ui-toolbar .group-search {
-    border-left: 1px solid var(--dark-45);
+    border-left: var(--border-dark-45);
 }
 .wikiEditor-ui-toolbar .tabs span.tab a.current, .wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
     color: var(--white-90);
 }
 .wikiEditor-ui-toolbar .tabs span.tab a, .wikiEditor-ui-toolbar .tabs span.tab a:visited {
-    color: var(--a-blue-visited);
+    color: var(--blue);
 }
 .tool.oo-ui-buttonElement-frameless.oo-ui-iconElement {
     margin: 0.1em;
@@ -200,18 +434,18 @@ textarea {
     color: var(--white-90);
 }
 .wikiEditor-ui .wikiEditor-ui-view {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 .wikiEditor-ui-toolbar .page-characters div span:hover {
     background-color: var(--dark-45);
     color: var(--dark-15);
 }
 .wikiEditor-ui-toolbar .page-characters div span {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
     color: var(--white-90);
 }
 .wikiEditor-ui-toolbar .booklet .index .current {
-    background-color: var(--focus-highlight);
+    background-color: var(--lightblue);
 }
 .wikiEditor-ui-toolbar .booklet .index div {
     color: var(--white-90);
@@ -220,16 +454,29 @@ textarea {
     color: var(--white-90);
 }
 
+.mw-widget-calendarWidget-prevButton.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonWidget {
+    border: 1px solid var(--dark-25);
+}
+.mw-widget-calendarWidget-nextButton.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonWidget {
+    border: 1px solid var(--dark-25);
+}
+.mw-widget-calendarWidget-labelButton.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-buttonWidget.oo-ui-labelElement {
+    border: 1px solid var(--dark-25);
+}
+.mw-widget-calendarWidget-upButton.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonWidget a.oo-ui-buttonElement-button {
+    background-color: transparent !important;
+}
+
 /* Translation */
 .ext-translate-language-selector .uls {
-    color: var(--a-blue-visited);
+    color: var(--blue);
 }
 .mw-parser-output {
     color: var(--white-90);
 }
 .uls-search {
     background-color: var(--dark-35);
-    border-bottom: 1px solid var(--dark-45);
+    border-bottom: var(--border-dark-45);
 }
 .uls-languagefilter {
     background-color: var(--dark-35);
@@ -239,19 +486,19 @@ textarea {
     background-color: var(--dark-25);
 }
 .ext-translate-container .tux-messagelist .tux-message-pagemode {
-    background: var(--dark-25);
+    background-color: var(--dark-25);
 }
 .ext-translate-container .tux-messagelist .tux-message-pagemode .tux-message-item-compact {
-    border-bottom: 1px solid var(--dark-45);
-    border-left: 1px solid var(--dark-45);
-    border-right: 1px solid var(--dark-45);
-    background: var(--dark-15);
+    border-bottom: var(--border-dark-45);
+    border-left: var(--border-dark-45);
+    border-right: var(--border-dark-45);
+    background-color: var(--dark-20);
 }
 .ext-translate-container .tux-messagelist .tux-message-pagemode:first-child .tux-message-item-compact {
-    border-top: 1px solid var(--dark-45);
+    border-top: var(--border-dark-45);
 }
 .ext-translate-container .tux-messagelist .tux-message-pagemode .tux-message-item-compact:hover {
-    background: var(--dark-35);
+    background-color: var(--dark-30);
 }
 .tux-messagelist .tux-message-pagemode .tux-pagemode-source {
     color: var(--white-90);
@@ -260,27 +507,35 @@ textarea {
     background-color: var(--dark-15);
 }
 .tux-message-editor .editcolumn {
-    background-color: var(--dark-15);
+    border-right: 1px solid var(--dark-25);
+    background-color: var(--dark-20);
     color: var(--white-90);
 }
 .grid .tux-message-editor .messagekey {
     color: var(--white-90);
+    background-color: var(--dark-35);
+}
+.grid .tux-message-editor .tux-editor-titletools {
+    background-color: var(--dark-35);
 }
 .tux-breadcrumb {
-    color: var(--a-blue);
+    color: var(--lightblue);
 }
 .tux-message-selector li a {
-    color: var(--a-blue);
+    color: var(--lightblue);
+}
+.tux-action-bar.floating {
+    border-top: var(--border-dark-45);
 }
 .tux-breadcrumb__item--aggregate {
     cursor: pointer;
-    color: var(--a-blue-visited);
+    color: var(--blue);
 }
 .tux-message-selector li.selected a {
-    color: var(--a-blue-visited);
+    color: var(--blue);
 }
 .tux-message-editor textarea {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
     background-color: var(--dark-25);
     color: var(--white-90);
 }
@@ -288,23 +543,69 @@ textarea {
     background-color: var(--dark-55);
 }
 .tux-editor-editsummary-block input {
-	background-color: var(--dark-25);
-    border: 1px solid var(--dark-45);
+    background-color: var(--dark-25);
+    border: var(--border-dark-45);
 }
 .grid .tux-message-editor .infocolumn-block {
-    background: var(--dark-25);
+    background-color: var(--dark-25);
     color: var(--white-90);
 }
 .tux-editor-skip-button.mw-ui-button.mw-ui-quiet {
-    background-color: hsl(1, 100%, 65%);
+    background-color: var(--dark-30);
     color: var(--white-90);
 }
 .tux-editor-skip-button.mw-ui-button.mw-ui-quiet:hover {
-    background-color: hsl(1, 100%, 75%);
+    background-color: var(--dark-35);
     color: var(--white-90);
 }
 .tux-messagetable-header.floating {
-    background: var(--dark-15);
+    background-color: var(--dark-15);
+}
+.mw-ui-button.mw-ui-progressive:disabled {
+    background-color: var(--dark-45);
+    color: var(--white-90);
+    border-color: var(--dark-55);
+}
+.mw-ui-button.mw-ui-progressive:disabled:hover, .mw-ui-button.mw-ui-progressive:disabled:active {
+    background-color: var(--dark-45);
+    color: var(--white-90);
+    border-color: var(--dark-55);
+}
+table.mw-interwikitable.body td.mw-interwikitable-local-yes {
+    color: var(--dark-5);
+}
+.tagcloud .tag {
+    color: var(--white-90);
+}
+#uls-settings-block > button:hover {
+    color: var(--white-90);
+}
+#uls-settings-block > button {
+    color: var(--white-90);
+}
+.uls-font-item:first-child {
+    border-top: var(--border-dark-45);
+}
+.uls-font-item {
+    border-bottom: var(--border-dark-45);
+    background: var(--dark-25);
+}
+.uls-font-label strong {
+    color: var(--white-90);
+}
+.uls-font-label {
+    color: var(--white-90);
+}
+.checkbox strong {
+    color: var(--white-90);
+}
+.uls-ui-languages p, .checkbox {
+    color: var(--white-90);
+}
+.mw-notification {
+    color: var(--white-90) !important;
+    border: var(--border-dark-45);
+    background-color: var(--dark-20);
 }
 
 /* Babel */
@@ -312,13 +613,13 @@ textarea {
     color: var(--dark-5);
 }
 .mw-babel-box a {
-    color: var(--a-blue-visited);
+    color: var(--blue);
 }
 .mw-babel-header {
     background-color: var(--dark-15);
 }
 .mw-babel-wrapper {
-	border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
     background-color: var(--dark-25);
 }
 
@@ -337,25 +638,48 @@ textarea {
 
 /* Page history - Selected revisions */
 #pagehistory li.selected {
-    background-color: var(--dark-15);
+    background-color: var(--dark-20);
     color: var(--white-90);
     outline: 0 none;
 }
 
 /* Footer text */
 #footer li { color: var(--white-90); }
-#footer a { color: var(--a-blue); }
+#footer a { color: var(--lightblue); }
 
 /* Msgboxes */
+#localNotice .msgbox {
+    background-color: var(--dark-15) !important;
+    color: var(--white-90) !important;
+    border-color: var(--green) !important;
+}
 .msgbox {
-    background-color: var(--darka-35) !important;
+    background-color: var(--dark-15) !important;
+    color: var(--white-90) !important;
+    border-color: var(--dark-45) !important;
+}
+table.msgbox {
+    background-color: var(--dark-30) !important;
+    color: var(--white-90) !important;
+    border-color: var(--dark-45) !important;
+}
+.mw-revision.warningbox {
+    background-color: var(--dark-30) !important;
     color: var(--white-90) !important;
     border-color: var(--dark-45) !important;
 }
 
-/* Stupid ID-less "Don't Know How To Edit?" box */
+li.gallerybox div.thumb {
+    border: var(--border-dark-45);
+}
+
+/* Stupid ID-less "Don't Know How To Edit?" boxes */
 .mw-editnotice.mw-editnotice-namespace.mw-editnotice-0 div {
-    background-color: var(--dark-15) !important;
+    background-color: var(--dark-20) !important;
+    border-color: var(--dark-45) !important;
+}
+.mw-editnotice.mw-editnotice-namespace.mw-editnotice-1 div {
+    background-color: var(--dark-20) !important;
     border-color: var(--dark-45) !important;
 }
 
@@ -363,7 +687,7 @@ textarea {
     background-color: var(--dark-15);
 }
 .mw_metadata td, .mw_metadata th {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 .mw_metadata th {
     background-color: var(--dark-15);
@@ -373,36 +697,39 @@ textarea {
     background-color: var(--dark-15);
 }
 .mw-pt-languages-label {
-    background-color: var(--dark-5);
+    background-color: var(--dark-10);
 }
 .mw-pt-languages {
-	border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 
 /* Table of Contents */
 .toc, .mw-warning, .toccolours {
-    border: 1px solid var(--dark-45);
-    background-color: var(--dark-15);
+    border: var(--border-dark-45);
+    background-color: var(--dark-20);
 }
-
 .tocnumber {
     color: var(--white-90);
 }
-
 .toctogglelabel {
-    color: var(--a-blue-visited);
+    color: var(--blue);
+}
+/* We add a bit of padding to the TOC title background for when it's hidden */
+.toc .toctitle {
+    background-color: var(--dark-25);
+    padding: 0px 4px;
+}
+
+#filetoc {
+    border: var(--border-dark-45);
+    background-color: var(--dark-20);
 }
 
 /* Code blocks */
 .mw-code {
     color: var(--white-90);
-    background-color: var(--darka-35);
-    border: 1px solid var(--darka-35);
-}
-
-#filetoc {
-    border: 1px solid var(--dark-45);
-    background-color: var(--dark-15);
+    background-color: var(--dark-20);
+    border: var(--border-dark-45);
 }
 
 #image-info-box {
@@ -413,7 +740,7 @@ textarea {
 
 /* Calendar Widget */
 .mw-widget-calendarWidget {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 .mw-widget-calendarWidget-body-wrapper {
     background-color: var(--dark-25);
@@ -422,7 +749,7 @@ textarea {
     width: 292px;
 }
 .mw-widget-calendarWidget-header {
-    background-color: var(--dark-35);
+    background-color: var(--dark-25);
 }
 .mw-widget-dateInputWidget.oo-ui-widget-enabled .mw-widget-dateInputWidget-handle {
     background-color: var(--dark-35);
@@ -438,7 +765,7 @@ textarea {
     color: var(--white-90);
 }
 .mw-widget-dateInputWidget-calendar {
-    background-color: var(--dark-35);
+    background-color: var(--dark-25);
 }
 
 
@@ -448,19 +775,25 @@ textarea {
 
 /* Recent changes - No page found */
 a.new, #p-personal a.new {
-    color: var(--a-lightred);
+    color: var(--lightred);
+}
+a.new:visited, #p-personal a.new:visited {
+    color: var(--red);
 }
 
+.mw-parser-output a.external {
+    color: var(--lightblue);
+}
 .mw-parser-output a.external:visited {
-    color: var(--a-blue-visited);
+    color: var(--blue);
 }
 
 #mw-panel .portal .body li a:visited {
-    color: var(--a-blue-visited);
+    color: var(--blue);
 }
 
 #mw-panel .portal .body li a {
-    color: var(--a-blue);
+    color: var(--lightblue);
 }
 
 #mw-panel .portal h3 {
@@ -471,7 +804,7 @@ a.new, #p-personal a.new {
  * Recent Changes - Active Filter
  */
 .oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagMultiselectWidget-handle {
-	background-color: var(--dark-15);
+    background-color: var(--dark-20);
 }
 
 /* "Active Filters" text at the top */
@@ -481,7 +814,7 @@ a.new, #p-personal a.new {
 
 /* Active filter bubbles */
 .oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagItemWidget.oo-ui-widget-enabled {
-    background-color: var(--dark-35);
+    background-color: var(--dark-15);
     color: var(--white-90);
 }
 
@@ -495,12 +828,12 @@ a.new, #p-personal a.new {
     background-color: var(--dark-35);
 }
 .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget {
-    border-right: 1px solid var(--dark-45);
-    border-top: 1px solid var(--dark-45);
-    border-bottom: 1px solid var(--dark-45);
+    border-right: var(--border-dark-45);
+    border-top: var(--border-dark-45);
+    border-bottom: var(--border-dark-45);
 }
 .mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 
 /* Edit summaries */
@@ -510,41 +843,69 @@ span.comment {
 
 /* List of abbreviations */
 .mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend {
-    background-color: var(--dark-15);
+    background-color: var(--dark-20);
 }
+
+/* RC Filters - Namespaces button */
+#ooui-73 > a:nth-child(1) {
+    border: 0px none !important;
+}
+#ooui-72 > a:nth-child(1) {
+    border: 0px none !important;
+}
+
 
 /* "View new changes since..." */
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
-    color: var(--a-blue-visited);
+    color: var(--blue);
 }
+
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
-    background-color: var(--dark-35);
+    background-color: var(--dark-30);
 }
-.oo-ui-labelElement-label:active:visited { color: var(--a-blue-visited); }
+.oo-ui-labelElement-label:active:visited { color: var(--blue); }
 .oo-ui-labelElement-label:active { background-color: var(--dark-35); }
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:active, .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:active:focus, .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive.oo-ui-buttonElement-pressed > .oo-ui-buttonElement-button {
-    color: var(--a-blue);
+    color: var(--lightblue);
     background-color: var(--dark-35);
 }
 
 /* "Live updates" & "# changes, # days" buttons */
 .oo-ui-buttonElement-button {
-    background-color: var(--dark-35) !important;
-    color: var(--white-90) !important;
-    border-color: var(--dark-35) !important;
+    background-color: var(--dark-35);
+    color: var(--white-90);
+    border-color: var(--dark-45);
 }
 .oo-ui-buttonElement-button:hover {
-	background-color: var(--dark-45) !important;
-    border-color: var(--dark-45) !important;
+    background-color: var(--dark-45);
+    border-color: var(--dark-45);
 }
 .oo-ui-buttonElement-button:active {
+    background-color: var(--dark-35);
+}
+
+/* Recent Changes filters - Namespaces & Tags button-specific styling */
+.mw-rcfilters-ui-cell.mw-rcfilters-ui-filterTagMultiselectWidget-views-select .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget.oo-ui-widget-enabled.oo-ui-selectWidget.oo-ui-selectWidget-unpressed.oo-ui-buttonSelectWidget .oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonOptionWidget a.oo-ui-buttonElement-button {
+    margin-top: 1px;
+    border-width: 0px !important;
     background-color: var(--dark-35) !important;
+}
+
+/* Recent Changes filters - General button padding, mainly to add padding to the Show/Hide button */
+.oo-ui-buttonElement.oo-ui-labelElement > .oo-ui-buttonElement-button > .oo-ui-labelElement-label {
+    padding: 0em 0.4em;
+}
+
+/* Recent Changes filters - Search bar placeholder text color change */
+/* I know, the selector for this is a clusterfucker. This is the only way I could get the placeholder text color change to show */
+html.client-js body.mw-rcfilters-enabled.mediawiki.ltr.sitedir-ltr.mw-hide-empty-elt.ns--1.ns-special.mw-special-Recentchanges.page-Special_RecentChanges.rootpage-Special_RecentChanges.action-view.mw-rcfilters-ui-initialized.webfonts-changed div#content.mw-body div#bodyContent.mw-body-content div#mw-content-text div.rcfilters-head.mw-rcfilters-head div.rcfilters-container.mw-rcfilters-container div.oo-ui-widget.oo-ui-widget-enabled.mw-rcfilters-ui-filterWrapperWidget div.oo-ui-widget.oo-ui-widget-enabled.oo-ui-draggableGroupElement.oo-ui-tagMultiselectWidget.oo-ui-tagMultiselectWidget-outlined.oo-ui-menuTagMultiselectWidget.mw-rcfilters-ui-filterTagMultiselectWidget div.mw-rcfilters-ui-table div.mw-rcfilters-ui-row.mw-rcfilters-ui-filterTagMultiselectWidget-views div.mw-rcfilters-ui-cell.mw-rcfilters-ui-filterTagMultiselectWidget-views-input div.oo-ui-tagMultiselectWidget-input.oo-ui-widget.oo-ui-inputWidget.oo-ui-iconElement.oo-ui-textInputWidget.oo-ui-textInputWidget-type-text.oo-ui-widget-enabled input.oo-ui-inputWidget-input.webfonts-changed::placeholder {
+    color: var(--dark-10) !important;
 }
 
 /* "# changes, # days" dropdown panel */
 .oo-ui-popupWidget-popup {
-    background-color: var(--dark-35);
-    border: 1px solid var(--dark-45);
+    background-color: var(--dark-20);
+    border: var(--border-dark-45);
     color: var(--white-90);
 }
 
@@ -556,33 +917,8 @@ span.comment {
 
 /* Selected changes/days */
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active > .oo-ui-buttonElement-button {
-/*    background-color: var(--tcrf-green); */
     color: var(--dark-25);
-/*    border-color: var(--tcrf-green2); */
 }
-
-/* "Group results by page" checkbox */
-/*.oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type="checkbox"]:checked + span, .oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type="checkbox"]:indeterminate + span {
-    background-color: var(--dark-25);
-    border-color: var(--dark-45);
-}*/
-
-/* Group results by page checkbox, probably other checkboxes */
-/*
-.oo-ui-checkboxInputWidget:hover * {
-    background-color: hsl(120, 100%, 27%) !important;
-    box-shadow: inset 0 0 0 0.125em var(--tcrf-green);
-}
-
-.oo-ui-checkboxInputWidget[type="checkbox"]:active {
-    background-color: hsl(120, 100%, 27%) !important;
-    box-shadow: inset 0 0 0 0.125em var(--tcrf-green);
-}
-
-.oo-ui-checkboxInputWidget:active:hover * {
-    background-color: hsl(120, 100%, 77%) !important;
-}
-*/
 
 .oo-ui-labelElement .oo-ui-labelElement-label, .oo-ui-labelElement.oo-ui-labelElement-label {
     color: var(--white-90);
@@ -590,26 +926,42 @@ span.comment {
 
 /* Bob template stuff */
 .breakout {
-    background: var(--dark-15);
+    background-color: var(--dark-20);
+    border-color: var(--dark-45);
 }
 .breakouttitle {
-    color: var(--dark-15);
+    color: var(--white-90);
+    background-color: var(--dark-35);
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
 }
-
+.oo-ui-menuOptionWidget.oo-ui-optionWidget-selected.oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted, .oo-ui-menuOptionWidget.oo-ui-optionWidget-pressed.oo-ui-menuOptionWidget.oo-ui-optionWidget.highlighted {
+    background-color: var(--dark-25);
+    color: var(--dark-45) !important;
+}
 /* RC Filters */
 .mw-rcfilters-ui-menuSelectWidget-footer {
     background-color: var(--dark-15);
-    border-top: 1px solid var(--dark-45);
+    border-top: var(--border-dark-45);
+}
+.mw-rcfilters-ui-tagItemWidget.oo-ui-flaggedElement-muted.oo-ui-tagItemWidget.oo-ui-widget-enabled .oo-ui-labelElement-label {
+    color: var(--white-90);
+}
+.mw-rcfilters-ui-tagItemWidget.oo-ui-flaggedElement-muted.oo-ui-tagItemWidget.oo-ui-widget-enabled .oo-ui-buttonWidget {
+    opacity: 1.0;
+}
+.mw-rcfilters-ui-tagItemWidget.oo-ui-flaggedElement-muted.oo-ui-tagItemWidget.oo-ui-widget-enabled {
+    border-color: var(--dark-45);
 }
 .oo-ui-widget.oo-ui-widget-enabled.oo-ui-selectWidget.oo-ui-selectWidget-unpressed.oo-ui-floatableElement-floatable.oo-ui-menuSelectWidget.mw-rcfilters-ui-menuSelectWidget.mw-rcfilters-ui-menuSelectWidget-view-namespaces {
     background-color: var(--dark-35);
 }
 .mw-rcfilters-ui-itemMenuOptionWidget:not(:last-child):not(.mw-rcfilters-ui-itemMenuOptionWidget-identifier-talk) {
-    border-bottom: 1px solid var(--dark-45);
+    border-bottom: var(--border-dark-45);
 }
 .oo-ui-menuSelectWidget {
     background-color: var(--dark-25);
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 .mw-rcfilters-ui-row {
     background-color: var(--dark-25);
@@ -630,7 +982,7 @@ span.comment {
     background-color: var(--dark-25);
 }
 .oo-ui-menuOptionWidget.oo-ui-widget-enabled.oo-ui-optionWidget {
-	background-color: var(--dark-25);
+    background-color: var(--dark-25);
 }
 .mw-rcfilters-ui-itemMenuOptionWidget-label-desc {
     color: var(--white-90);
@@ -642,19 +994,19 @@ span.comment {
     color: var(--white-90);
 }
 .mw-rcfilters-ui-filterMenuHeaderWidget-header {
-    border-bottom: 1px solid var(--dark-45);
+    border-bottom: var(--border-dark-45);
 }
 .mw-rcfilters-ui-filterTagMultiselectWidget-cell-filters {
-    background-color: var(--dark-15);
+    background-color: var(--dark-20);
 }
 .mw-rcfilters-ui-itemMenuOptionWidget-view-namespaces {
     border-top: 4px solid var(--dark-45);
 }
 .oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined.oo-ui-flaggedElement-invalid .oo-ui-inputWidget-input {
-    border-color: var(--a-red);
+    border-color: var(--red);
 }
 .oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-flaggedElement-invalid .oo-ui-inputWidget-input {
-    color: var(--a-red);
+    color: var(--red);
 }
 .mw-rcfilters-ui-filterMenuHeaderWidget-helpIcon.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonWidget {
     padding-left: 8px;
@@ -675,18 +1027,29 @@ span.comment {
 }
 
 div.thumbinner {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
     background-color: var(--dark-15);
 }
+
 /* Game series navbox stuff */
-.navbox th {
-    background: hsla(120, 100%, 90%, 0.6);
-}
 .navboxhead {
-    background: hsla(120, 43%, 77%, 0.5) !important;
+    background: var(--dark-35) !important;
+}
+.navboxhead a {
+    color: var(--lightblue);
 }
 .navboxhead th a {
-	color: var(--a-blue);
+    color: var(--lightblue);
+}
+.navbox th {
+    background: var(--dark-40);
+}
+table.navbox {
+    border: var(--border-dark-45);
+    background-color: var(--dark-20);
+}
+table.navbox tbody {
+    background-color: var(--dark-20) !important;
 }
 
 /* Gallery thumbnails */
@@ -703,23 +1066,23 @@ div.thumbinner {
     color: var(--white-90);
 }
 .wikitable th, .prettytable th {
-    background: var(--dark-15);
+    background-color: var(--dark-15);
 }
 .wikitable td, .prettytable td {
-    border: 1px solid var(--dark-45);
-    background-color: var(--dark-35);
+    border: var(--border-dark-45);
+    background-color: var(--dark-30);
 }
 
 /* Category section */
 #catlinks {
-    background-color: var(--dark-15);
-    border: 1px solid var(--dark-45)
+    background-color: var(--dark-20);
+    border: var(--border-dark-45);
 }
 #catlinks a {
-	color: var(--a-blue);
+    color: var(--lightblue);
 }
 #catlinks a.new {
-    color: var(--a-lightred);
+    color: var(--lightred);
 }
 
 /* Data Table */
@@ -727,7 +1090,7 @@ div.thumbinner {
     background-color: var(--dark-15);
 }
 .mw-datatable td, .mw-datatable th {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 .mw-datatable td {
     background-color: var(--dark-35);
@@ -736,11 +1099,16 @@ div.thumbinner {
     background-color: var(--dark-55);
 }
 
+.oo-ui-panelLayout-framed {
+    border: var(--border-dark-45);
+    background-color: var(--dark-20);
+}
+
 
 /* History page, Compare button */
 .historysubmit {
-    border: 1px solid var(--dark-45);
-    background: var(--darka-35);
+    border: var(--border-dark-45);
+    background-color: var(--dark-20);
     color: var(--white-90);
     padding: 0.4em;
     border-radius: var(--border-radius-2);
@@ -753,27 +1121,28 @@ ul {
 
 /* <pre>, <code> */
 pre {
-    background-color: var(--dark-15);
+    background-color: var(--dark-20);
     color: var(--white-90);
     border-color: var(--dark-45);
     border-radius: var(--border-radius-2);
 }
 
 code {
-	background-color: var(--dark-15);
+    background-color: var(--dark-15);
     color: var(--white-90);
     border-color: var(--dark-45);
     border-radius: var(--border-radius-2);
 }
 
 tt {
-	background-color: var(--dark-15);
-    border: 2px solid var(--dark-15);
-    border-radius: var(--border-radius-2);
+    background-color: var(--dark-20);
+    border: 2px solid var(--dark-20);
+    border-radius: 8px;
+    padding: 0.5px 4px;
 }
 
 fieldset {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 legend {
     font-weight: bold;
@@ -783,22 +1152,26 @@ legend {
 
 /* Search Input */
 #searchInput {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 #simpleSearch input {
-    background-color: var(--dark-15);
+    background-color: var(--dark-10);
     color: var(--white-90);
 }
+#simpleSearch:hover #searchInput {
+    border-color: var(--dark-45);
+}
 #searchInput:focus, #simpleSearch:hover #searchInput:focus {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
     outline: none;
     -webkit-box-shadow: inset 0 0 0 0px transparent,inset 0 0 0 0px transparent;
     box-shadow: inset 0 0 0 0px transparent,inset 0 0 0 0px transparent;
 }
+
 .oo-ui-textInputWidget .oo-ui-inputWidget-input {
     background-color: var(--dark-35);
     color: var(--white-90);
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 
 .oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .mw-rcfilters-ui-tagItemWidget-selected.oo-ui-tagItemWidget.oo-ui-widget-enabled {
@@ -806,7 +1179,11 @@ legend {
     border-color: var(--white-40);
 }
 .oo-ui-tagItemWidget {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
+}
+
+.oo-ui-tagItemWidget.oo-ui-widget-enabled:hover {
+    border-color: var(--dark-45);
 }
 
 /* Show/Hide button for Active Filters positioning fix */
@@ -817,19 +1194,19 @@ legend {
 /* Save current filter settings button (below the Show/Hide button, on the left, the ribbon icon */
 .mw-rcfilters-ui-cell.mw-rcfilters-ui-filterTagMultiselectWidget-cell-save {
     padding-right: 0.5em;
-    background-color: var(--dark-15);
+    background-color: var(--dark-20);
 }
 .mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 
 /* Parser profiling data */
 .wikitable > tr > th, .wikitable > * > tr > th {
-    background-color: var(--dark-15);
+    background-color: var(--dark-20);
     color: var(--white-90);
 }
 .wikitable.preview-limit-report > .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 .wikitable.preview-limit-report {
     background-color: var(--dark-35);
@@ -841,7 +1218,7 @@ legend {
 }
 .suggestions-results {
     background-color: var(--dark-15);
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
     color: var(--white-90) !important;
 }
 .suggestions a.mw-searchSuggest-link, .suggestions a.mw-searchSuggest-link:hover, .suggestions a.mw-searchSuggest-link:active, .suggestions a.mw-searchSuggest-link:focus {
@@ -849,7 +1226,7 @@ legend {
 }
 .suggestions-special {
     background-color: var(--dark-5);
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
     color: var(--white-90);
 }
 .suggestions-special .special-query {
@@ -857,30 +1234,30 @@ legend {
 }
 .highlight {
     font-weight: bold;
-    color: var(--a-blue);
+    color: var(--lightblue);
 }
 
 .mw-search-profile-tabs {
     background-color: var(--dark-15);
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 .search-types .current a {
-    color: var(--a-blue);
+    color: var(--lightblue);
 }
 .results-info {
     color: var(--white-90);
 }
 #mw-searchoptions {
     background-color: var(--dark-35);
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 
 
 .ext-cc-language-selector__trigger {
-    color: var(--a-blue);
+    color: var(--lightblue);
 }
 .ext-cc-language-selector__trigger::after {
-    border-top: 4px solid var(--a-blue);
+    border-top: 4px solid var(--lightblue);
 }
 
 /**
@@ -907,7 +1284,7 @@ legend {
     color: hsl(140, 70%, 40%);
 }
 .mw-plusminus-neg {
-    color: var(--a-red);
+    color: var(--red);
 }
 .mw-plusminus-null {
     color: #a2a9b1;
@@ -915,59 +1292,88 @@ legend {
 
 /* Warning boxes */
 .warningbox {
-    background-color: var(--dark-15);
+    background-color: var(--yellow);
     color: var(--white-90);
-    border: 2px solid #FC3;
+    border: 1px solid var(--lightyellow);
     border-radius: 0 8px 0 8px;
 }
 
 .wikiEditor-ui-toolbar .booklet .pages {
     background-color: var(--dark-25);
 }
-
+.mw-pt-translate-header {
+    border-bottom: var(--border-dark-45);
+}
 /* Live Updates button */
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+    border-color: var(--dark-45);
+}
 .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
-/*    background-color: var(--tcrf-green); */
     color: var(--dark-25);
-/*    border-color: var(--tcrf-green2); */
+}
+.oo-ui-buttonElement.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
+    border-color: var(--dark-55);
+}
+.oo-ui-buttonElement.oo-ui-widget-disabled > .oo-ui-buttonElement-button:hover {
+    cursor: not-allowed;
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button {
+    border-color: var(--dark-45);
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button:hover {
+    border-color: var(--dark-55);
+}
+ div#bodyContent.mw-body-content div#mw-content-text div.mw-htmlform-ooui-wrapper.oo-ui-layout.oo-ui-panelLayout.oo-ui-panelLayout-padded.oo-ui-panelLayout-framed form.mw-htmlform.mw-htmlform-ooui.oo-ui-layout.oo-ui-formLayout fieldset.oo-ui-layout.oo-ui-labelElement.oo-ui-fieldsetLayout div.oo-ui-fieldsetLayout-group div.oo-ui-widget.oo-ui-widget-enabled div.oo-ui-layout.oo-ui-panelLayout.oo-ui-panelLayout-padded.oo-ui-panelLayout-framed {
+    background-color: var(--dark-25);
 }
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button {
     padding-left: 0.85714286em;
     padding-right: 0.85714286em;
 }
 
+.oo-ui-buttonElement.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
 input#wpUploadFile {
     background-color: var(--dark-15);
     color: var(--white-90);
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 
 input#wpDestFile {
     background-color: var(--dark-15);
     color: var(--white-90);
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 
 select#wpLicense {
     background-color: var(--dark-15);
     color: var(--white-90);
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 
 textarea#wpUploadDescription {
     background-color: var(--dark-15);
     color: var(--white-90);
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 
 .uls-ime-menu-settings-item {
-    background-color: var(--dark-35);
+    background-color: var(--dark-20);
     color: var(--white-90);
-    border-top: 1px solid var(--dark-45);
+    border-top: var(--border-dark-45);
+}
+/* IME Selector - ::before triangle styling */
+.imeselector-menu::before {
+    border-bottom: 7px solid var(--dark-45);
+    z-index: 2;
 }
 .imeselector-menu {
-    background-color: var(--dark-35);
-    border: 1px solid var(--dark-45);
+    background-color: var(--dark-25);
+    border: var(--border-dark-45);
 }
 .imeselector-menu .selectable-row-item {
     color: var(--white-90);
@@ -976,17 +1382,92 @@ textarea#wpUploadDescription {
     color: var(--dark-55);
 }
 .imeselector-menu .selectable-row:hover {
-    background-color: #36c;
+    background-color: var(--dark-35);
 }
-
+.imeselector:hover {
+    background-color: var(--dark-10);
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.ime-setting-caret {
+    margin-top: 6px;
+    border-top: 4px solid var(--white-90);
+}
+.tux-message-editor .messagekey .caret {
+    border-top: 4px solid var(--white-90);
+}
+.ime-list-title, .ime-lang-title {
+    background-color: var(--dark-20);
+    color: var(--white-90);
+    border-bottom: var(--border-dark-45);
+}
+.languagesettings-menu .menu-section {
+    color: var(--white-90);
+}
+.languagesettings-menu .menu-section .settings-text {
+    color: var(--white-90);
+}
+.languagesettings-menu .menu-section:hover .settings-text {
+    color: var(--white-90);
+}
+.languagesettings-menu .menu-section:focus {
+    border-color: var(--dark-50);
+}
+.languagesettings-menu h1 {
+    color: var(--white-90);
+}
+#languagesettings-settings-panel h3 {
+    color: var(--white-90);
+}
+#languagesettings-settings-panel h4 {
+    color: var(--white-90);
+}
+#languagesettings-settings-panel {
+    color: var(--white-90);
+    background: var(--dark-35);
+}
+.uls-language-settings-close-block {
+    background: var(--dark-25);
+}
+.uls-input-settings .uls-input-settings-inputmethods-list {
+    background: var(--dark-30);
+}
 .uls-menu {
     background-color: var(--dark-25);
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 .uls-language-block > ul > li:hover {
-    background-color: var(--a-blue);
+    background-color: var(--dark-35);
 }
-
+.uls-language-block a {
+    color: var(--lightblue);
+}
+#languagesettings-panels .mw-ui-pressed {
+    background-color: var(--dark-45);
+    color: var(--white-90);
+    border-color: var(--dark-45);
+}
+.language-settings-buttons {
+    border-top: var(--border-dark-45);
+}
+.mw-ui-button {
+    background-color: var(--dark-20);
+    color: var(--white-90);
+    border: var(--border-dark-45);
+}
+.mw-ui-button:hover {
+    background-color: var(--dark-40);
+    color: var(--white-90);
+    border-color: var(--dark-45);
+}
+.mw-ui-button.mw-ui-progressive {
+    background-color: var(--dark-20);
+    color: #fff;
+    border: var(--border-dark-45);
+}
+.mw-ui-button.mw-ui-progressive:hover {
+    background-color: var(--dark-20);
+    border-color: var(--dark-45);
+}
 .oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle {
     background-color: var(--dark-35);
     color: var(--white-90);
@@ -1001,63 +1482,164 @@ textarea#wpUploadDescription {
     color: #000;
     border-color: var(--dark-45);
 }
-
+#uls-settings-block {
+    background-color: var(--dark-20);
+    border-top: var(--border-dark-45);
+}
+.languagesettings-menu .menu-section:hover {
+    background-color: var(--dark-35);
+}
+.languagesettings-menu .menu-section.active {
+    color: var(--white-90);
+    background-color: var(--dark-35);
+    padding-left: 40px;
+    background-position: left 13px top 6px;
+    border-left-width: 3px;
+    border-left-color: var(--dark-40);
+}
 /**
  * Patch 1
  * Some translations stuff I missed
  */
 input, textarea {
-    border: 1px solid var(--dark-45);
-    background: var(--dark-15);
+    border: var(--border-dark-45);
+    background-color: var(--dark-15);
     color: var(--white-90);
 }
 .tux-action-bar button:hover {
-    background-color: var(--dark-35);
-    background-image: linear-gradient(var(--dark-35),var(--dark-25));
+    background-color: var(--dark-25);
+    background-image: linear-gradient(to bottom, var(--dark-30), var(--dark-25));
 }
 .tux-action-bar button {
-    background-color: var(--dark-35);
-    background-image: linear-gradient(var(--dark-35),var(--dark-25));
-    border: 1px solid var(--dark-45);
+    background-color: var(--dark-25);
+    background-image: linear-gradient(to bottom, var(--dark-30), var(--dark-25));
+    border: var(--border-dark-45);
+    color: var(--white-90);
+}
+.tux-action-bar button:active, .tux-action-bar button.down {
+    background-color: var(--dark-25);
+    background-image: linear-gradient(to bottom, var(--dark-30), var(--dark-25));
+    border: var(--border-dark-45);
+}
+.tux-message-selector .more ul {
+    border: var(--border-dark-45);
+    border-top: var(--border-dark-45);
+    background: var(--dark-20);
+    left: 0px;
+}
+.tux-message-selector label {
+    color: var(--white-90);
 }
 .tux-message-filter-box {
-    border: 1px solid var(--dark-45);
+    border: var(--border-dark-45);
 }
 .tux-messagelist {
     color: var(--white-90);
 }
 .tux-message-item {
-    border-bottom: 1px solid var(--dark-45);
-    background: var(--dark-25);
+    border-bottom: var(--border-dark-45);
+    background-color: var(--dark-20);
 }
 .tux-message-item:hover {
-    background-color: var(--dark-15);
+    background-color: var(--dark-35);
 }
 .ext-translate-container .tux-messagelist .tux-message-proofread:first-child .tux-message-item-compact {
-    border-top: 1px solid var(--dark-45);
+    border-top: var(--border-dark-45);
 }
 .ext-translate-container .tux-messagelist .tux-message-proofread .tux-message-item-compact {
-    border-bottom: 1px solid var(--dark-45);
-    border-left: 1px solid var(--dark-45);
-    border-right: 1px solid var(--dark-45);
+    background-color: var(--dark-20);
+    color: var(--white-90) !important;
+    border-bottom: var(--border-dark-45);
+    border-left: var(--border-dark-45);
+    border-right: var(--border-dark-45);
 }
 .ext-translate-container .tux-messagelist .tux-message-proofread .tux-message-item-compact:hover {
-    background: var(--dark-25);
-    color: var(--white-90) !important;
-}
-.ext-translate-container .tux-messagelist .tux-message-proofread .tux-message-item-compact {
-    background: var(--dark-25);
+    background-color: var(--dark-35);
     color: var(--white-90) !important;
 }
 
 .tux-messagelist .tux-message-proofread .tux-proofread-source {
     color: var(--white-90);
 }
+.tux-message-editor {
+    border: var(--border-dark-45);
+    background-color: var(--dark-25);
+}
 .tux-message-editor__caret::after {
     border-right: 20px solid var(--dark-25);
 }
 .tux-message-editor__caret::before, .tux-message-editor__caret::after {
-    border-right: 19px solid var(--dark-45);
+    border-right: 19px solid var(--dark-25);
+}
+.mw-ui-button.mw-ui-quiet, .mw-ui-button.mw-ui-quiet.mw-ui-progressive, .mw-ui-button.mw-ui-quiet.mw-ui-destructive {
+    background-color: var(--dark-35);
+    color: var(--white-90);
+    border-color: var(--dark-45);
+}
+.mw-ui-button.mw-ui-quiet:hover, .mw-ui-button.mw-ui-quiet.mw-ui-progressive:hover, .mw-ui-button.mw-ui-quiet.mw-ui-destructive:hover {
+    background-color: var(--dark-35);
+    color: var(--white-90);
+    border-color: var(--dark-45);
+}
+.tux-message-editor .shortcutinfo {
+    color: var(--white-90);
+}
+.tux-message-item.translated {
+    background-color: var(--dark-20);
+}
+.tux-editor-insert-buttons .tux-editor-paste-original-button {
+    background: var(--dark-35) left center no-repeat;
+    background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2232%22 height=%2232%22 viewBox=%220 0 32 32%22%3E %3Cpath fill=%22%2354595d%22 d=%22M29.077 29.012c0 1.06-.86 1.92-1.92 1.92H4.844c-1.06 0-1.92-.86-1.92-1.92V4.042c0-1.06.86-1.92 1.92-1.92h22.313c1.06 0 1.92.86 1.92 1.92v24.97z%22/%3E %3Cpath fill=%22%23f8f9fa%22 stroke=%22%2354595d%22 stroke-width=%22.5%22 stroke-miterlimit=%2210%22 d=%22M5.368 4.054h21v24.35h-21z%22/%3E %3Cpath fill=%22%23a2a9b1%22 d=%22M7.743 8.896h15.625v2.872H7.743zM7.743 15.09h15.625v2.875H7.743zM7.743 21.287h6.125v2.873H7.743z%22/%3E %3Cpath fill=%22%23414042%22 d=%22M18.646 2.814V1.068h-5.292v1.746H10.46v2.338H21.54V2.814%22/%3E %3C/svg%3E");
+    background-size: 16px 16px;
+}
+.tux-editor-insert-buttons button {
+    border: var(--border-dark-45);
+    background: var(--dark-35);
+    color: var(--white-90);
+}
+.tux-messagelist .tux-message-pagemode .tux-pagemode-translation {
+    color: var(--dark-50);
+}
+.group-warning {
+    background: var(--dark-45);
+    padding: 5px !important;
+    color: var(--white-90);
+}
+.tux-notice {
+    background-color: var(--dark-15);
+    border: var(--border-dark-45);
+}
+.tux-message-item.translated, .tux-message-item.proofread {
+    background-color: var(--dark-20);
+}
+.tux-message-item.translated:hover, .tux-message-item.proofread:hover {
+    background-color: var(--dark-30);
+}
+.tux-list-translation {
+    color: var(--dark-55);
+}
+.tux-breadcrumb .grouplink + .grouplink::before {
+    border-left: 4px solid var(--white-90);
+}
+
+/**
+ * Tux Stats Table
+ */
+.statstable > * > tr > th {
+    background-color: var(--dark-20);
+    border: var(--border-dark-45);
+}
+.statstable > * > tr > td {
+    background-color: var(--dark-40);
+    border-left: var(--border-dark-45);
+    border-right: var(--border-dark-45);
+    color: var(--dark-5);
+}
+.statstable > * > tr.tux-statstable-even > td {
+    background-color: var(--dark-35);
+}
+.statstable > * > tr > td:nth-child(6)[data-sort-value="0.00000"] {
+    color: var(--dark-5) !important;
 }
 
 /**
@@ -1065,15 +1647,15 @@ input, textarea {
  * More random stuff
  */
 .tux-messagelist {
-    background-color: var(--dark-15);
+    background-color: var(--dark-20);
 }
 .ext-translate-language-selector-label {
     color: var(--white-90);
 }
 .ext-translate-container .tux-messagelist .tux-message-proofread {
-    background: var(--dark-15);
+    background-color: var(--dark-25);
 }
 .tux-messagetable-loader {
     color: var(--white-90);
-    background: var(--dark-15);
+    background-color: var(--dark-15);
 }
