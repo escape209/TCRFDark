@@ -869,9 +869,9 @@ span.comment {
 
 /* "Live updates" & "# changes, # days" buttons */
 .oo-ui-buttonElement-button {
-    background-color: var(--dark-35);
-    color: var(--white-90);
-    border-color: var(--dark-45);
+    background-color: var(--dark-35) !important;
+    color: var(--white-90) !important;
+    border-color: var(--dark-45) !important;
 }
 .oo-ui-buttonElement-button:hover {
     background-color: var(--dark-45);
