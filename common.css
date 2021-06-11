@@ -38,11 +38,11 @@
 
 /* Revamped Translation Progress Icons */
 /* To do: Remake these in SVG */
-.mw-pt-progress--stub { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog1.png"); }
-.mw-pt-progress--low { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog2.png"); }
-.mw-pt-progress--med { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog3.png"); }
-.mw-pt-progress--high { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog4.png"); }
-.mw-pt-progress--complete { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/prog5.png"); }
+.mw-pt-progress--stub { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/prog1.png"); }
+.mw-pt-progress--low { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/prog2.png"); }
+.mw-pt-progress--med { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/prog3.png"); }
+.mw-pt-progress--high { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/prog4.png"); }
+.mw-pt-progress--complete { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/prog5.png"); }
 
 /* SVG Icons */
 #pt-uls .uls-trigger::before { 
@@ -869,9 +869,9 @@ span.comment {
 
 /* "Live updates" & "# changes, # days" buttons */
 .oo-ui-buttonElement-button {
-    background-color: var(--dark-35);
-    color: var(--white-90);
-    border-color: var(--dark-45);
+    background-color: var(--dark-35) !important;
+    color: var(--white-90) !important;
+    border-color: var(--dark-45) !important;
 }
 .oo-ui-buttonElement-button:hover {
     background-color: var(--dark-45);

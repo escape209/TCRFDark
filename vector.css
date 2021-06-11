@@ -90,6 +90,9 @@
 .vectorTabs .selected a, .vectorTabs .selected a:visited {
     color: var(--blue);
 }
+.vectorMenu h3:hover span, .vectorMenu h3:focus span {
+    color: var(--lightblue);
+}
 
 /* These were fixes for something, but I don't remember what. */
 .skin-vector .uls-menu {
