@@ -209,6 +209,58 @@
 .client-js .sortable:not(.jquery-tablesorter) > * > tr:first-child > th:not(.unsortable), .jquery-tablesorter th.headerSort {
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/table-sorter.svg");
 }
+/* Editor SVGs */
+.oo-ui-icon-bold, .mw-ui-icon-bold::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-bold.svg");
+}
+.oo-ui-icon-italic, .mw-ui-icon-italic::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-italic.svg");
+}
+.oo-ui-icon-link, .mw-ui-icon-link::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-link.svg");
+}
+.oo-ui-icon-image, .mw-ui-icon-image::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-image.svg");
+}
+.oo-ui-icon-reference, .mw-ui-icon-reference::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-reference.svg");
+}
+.oo-ui-icon-listBullet, .mw-ui-icon-listBullet::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-listbullet.svg");
+}
+.oo-ui-icon-listNumbered, .mw-ui-icon-listNumbered::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-listnumbered.svg");
+}
+.oo-ui-icon-noWikiText, .mw-ui-icon-noWikiText::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-nowikitext.svg");
+}
+.oo-ui-icon-newline, .mw-ui-icon-newline::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-newline.svg");
+}
+.oo-ui-icon-bigger, .mw-ui-icon-bigger::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-bigger.svg");
+}
+.oo-ui-icon-smaller, .mw-ui-icon-smaller::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-smaller.svg");
+}
+.oo-ui-icon-superscript, .mw-ui-icon-superscript::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-superscript.svg");
+}
+.oo-ui-icon-subscript, .mw-ui-icon-subscript::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-subscript.svg");
+}
+.oo-ui-icon-imageGallery, .mw-ui-icon-imageGallery::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-imagegallery.svg");
+}
+.oo-ui-icon-articleRedirect, .mw-ui-icon-articleRedirect::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-articleredirect.svg");
+}
+.oo-ui-icon-table, .mw-ui-icon-table::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-table.svg");
+}
+.oo-ui-icon-articleSearch, .mw-ui-icon-articleSearch::before {
+    background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-articlesearch.svg");
+}
 /* Main body */
 body {
     background-color: var(--bg-dark);
