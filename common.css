@@ -1145,7 +1145,7 @@ table.navbox tbody {
     background-color: var(--dark-35);
 }
 .mw-datatable tr:hover td {
-    background-color: var(--dark-55);
+    background-color: var(--dark-30);
 }
 
 .oo-ui-panelLayout-framed {
@@ -1373,7 +1373,7 @@ legend {
     border-color: var(--dark-55);
 }
  div#bodyContent.mw-body-content div#mw-content-text div.mw-htmlform-ooui-wrapper.oo-ui-layout.oo-ui-panelLayout.oo-ui-panelLayout-padded.oo-ui-panelLayout-framed form.mw-htmlform.mw-htmlform-ooui.oo-ui-layout.oo-ui-formLayout fieldset.oo-ui-layout.oo-ui-labelElement.oo-ui-fieldsetLayout div.oo-ui-fieldsetLayout-group div.oo-ui-widget.oo-ui-widget-enabled div.oo-ui-layout.oo-ui-panelLayout.oo-ui-panelLayout-padded.oo-ui-panelLayout-framed {
-    background-color: var(--dark-25);
+    background-color: var(--dark-20);
 }
 .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button {
     padding-left: 0.85714286em;
@@ -1717,4 +1717,35 @@ input, textarea {
 }
 .tux-empty-list-guide {
     color: var(--dark-50);
+}
+
+/* Checkboxes/Radio Buttons */
+.oo-ui-checkboxInputWidget [type="checkbox"] + span {
+    background-color: var(--dark-10);
+    border-color: var(--dark-45);
+}
+.oo-ui-radioInputWidget [type="radio"] + span {
+    background-color: var(--dark-10);
+    border-color: var(--dark-45);
+}
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-inlined:hover .oo-ui-tagMultiselectWidget-handle {
+    border-color: var(--dark-45);
+}
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle {
+    background-color:  var(--dark-35);
+}
+.oo-ui-tagMultiselectWidget-handle > .oo-ui-tagMultiselectWidget-content > input {
+    color: var(--white-90);
+}
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-inlined.oo-ui-flaggedElement-invalid .oo-ui-tagMultiselectWidget-handle, .oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-inlined.oo-ui-flaggedElement-invalid:hover .oo-ui-tagMultiselectWidget-handle {
+    border-color: var(--red);
+}
+.oo-ui-textInputWidget.oo-ui-widget-enabled:hover .oo-ui-inputWidget-input {
+    border-color: var(--dark-45);
+}
+.oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed) {
+    background-color: var(--dark-20);
+}
+.mw-protectedpages-unknown {
+    color: var(--white-90);
 }
