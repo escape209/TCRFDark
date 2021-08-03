@@ -1749,3 +1749,19 @@ input, textarea {
 .mw-protectedpages-unknown {
     color: var(--white-90);
 }
+.mw-sp-translate-edit-fields fieldset {
+    border: 1px solid var(--dark-45);
+}
+.mw-sp-translate-message-documentation {
+    background-color: var(--dark-20);
+}
+.mw-sp-translate-edit-fields a {
+    color: var(--blue);
+}
+.mw-sp-translate-edit-definition {
+    background-color: var(--dark-20);
+}
+.mw-translate-fuzzy {
+    background-color: var(--dark-45);
+    color: var(--dark-10);
+}
