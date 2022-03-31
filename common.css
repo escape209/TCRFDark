@@ -1,4 +1,5 @@
 /* TCRF.net - Dark Common CSS */
+/* Version: Beta 1.0 - First Versioning Version */
 
 :root {
  --bg-dark: hsl(120, 2%, 19%);
@@ -284,7 +285,7 @@ body {
 .mw-body {
     background-color: var(--dark-25);
     color: var(--white-90);
-    border-color: var(--dark-45);
+    border: 1px solid var(--dark-45);
 }
 
 /**
@@ -698,9 +699,9 @@ table.mw-interwikitable.body td.mw-interwikitable-local-yes {
 
 /* Msgboxes */
 #localNotice .msgbox {
-    background-color: var(--dark-15) !important;
+    background: var(--dark-15) !important;
     color: var(--white-90) !important;
-    border-color: var(--green) !important;
+    border: 1px solid var(--green) !important;
 }
 .msgbox {
     background-color: var(--dark-15) !important;
@@ -708,9 +709,9 @@ table.mw-interwikitable.body td.mw-interwikitable-local-yes {
     border-color: var(--dark-45) !important;
 }
 table.msgbox {
-    background-color: var(--dark-30) !important;
+    background: var(--dark-30) !important;
     color: var(--white-90) !important;
-    border-color: var(--dark-45) !important;
+    border: 1px solid var(--dark-45) !important;
 }
 .mw-revision.warningbox {
     background-color: var(--dark-30) !important;
@@ -728,6 +729,15 @@ li.gallerybox div.thumb {
     border-color: var(--dark-45) !important;
 }
 .mw-editnotice.mw-editnotice-namespace.mw-editnotice-1 div {
+    background-color: var(--dark-20) !important;
+    border-color: var(--dark-45) !important;
+}
+/* Don't know if there's a 2, but gonna cover that base anyway */
+.mw-editnotice.mw-editnotice-namespace.mw-editnotice-2 div {
+    background-color: var(--dark-20) !important;
+    border-color: var(--dark-45) !important;
+}
+.mw-editnotice.mw-editnotice-namespace.mw-editnotice-3 div {
     background-color: var(--dark-20) !important;
     border-color: var(--dark-45) !important;
 }
@@ -782,7 +792,7 @@ li.gallerybox div.thumb {
 }
 
 #image-info-box {
-    background-color: var(--dark-15) !important;
+    background: var(--dark-15) !important;
     color: var(--white-90) !important;
     border: 1px solid var(--dark-45) !important;
 }
@@ -975,8 +985,8 @@ html.client-js body.mw-rcfilters-enabled.mediawiki.ltr.sitedir-ltr.mw-hide-empty
 
 /* Bob template stuff */
 .breakout {
-    background-color: var(--dark-20);
-    border-color: var(--dark-45);
+    background: var(--dark-20);
+    border: 1px solid var(--dark-45);
 }
 .breakouttitle {
     color: var(--white-90);
@@ -1091,7 +1101,7 @@ div.thumbinner {
     color: var(--lightblue);
 }
 .navbox th {
-    background: var(--dark-40);
+    background: var(--dark-40) !important;
 }
 table.navbox {
     border: var(--border-dark-45);
@@ -1114,6 +1124,10 @@ table.navbox tbody {
 .wikitable {
     color: var(--white-90);
 }
+table.wikitable, table.prettytable {
+  background: var(--dark-30);
+  border: var(--border-dark-45);
+}
 .wikitable th, .prettytable th {
     background-color: var(--dark-15);
 }
@@ -1132,6 +1146,9 @@ table.navbox tbody {
 }
 #catlinks a.new {
     color: var(--lightred);
+}
+#catlinks a:visited {
+  color: var(--blue);
 }
 
 /* Data Table */
@@ -1764,4 +1781,13 @@ input, textarea {
 .mw-translate-fuzzy {
     background-color: var(--dark-45);
     color: var(--dark-10);
+}
+
+/* Testing */
+kbd {
+    border: 0.2em outset var(--dark-50);
+    background: var(--dark-40);
+    padding: 0.1em 0.3em 0em 0.3em;
+    font-size: 0.85em;
+    white-space: nowrap;
 }
