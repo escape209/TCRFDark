@@ -1,7 +1,8 @@
 /* TCRF.net - Dark Common CSS */
 /* Version: Beta 1.0 - First Versioning Version */
 
-:root {
+:root 
+{
  --bg-dark: hsl(120, 2%, 19%);
  
  --dark-5: hsl(0, 0%, 5%);
@@ -46,243 +47,317 @@
 .mw-pt-progress--complete { background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/prog5.png"); }
 
 /* SVG Icons */
-#pt-uls .uls-trigger::before { 
+#pt-uls .uls-trigger::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/language.svg");
     opacity: 1.0;
 }
-#mw-indicator-mw-helplink a {
+#mw-indicator-mw-helplink a 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/help.svg");
 }
-.oo-ui-icon-help, .mw-ui-icon-help::before {
+.oo-ui-icon-help, .mw-ui-icon-help::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/help2.svg");
 }
-.oo-ui-icon-helpNotice, .mw-ui-icon-helpNotice::before {
+.oo-ui-icon-helpNotice, .mw-ui-icon-helpNotice::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/help.svg");
 }
-.oo-ui-indicator-down {
+.oo-ui-indicator-down 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/down.svg");
 }
-.oo-ui-icon-checkAll, .mw-ui-icon-checkAll::before {
+.oo-ui-icon-checkAll, .mw-ui-icon-checkAll::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/check-all.svg");
 }
-.oo-ui-icon-menu, .mw-ui-icon-menu::before {
+.oo-ui-icon-menu, .mw-ui-icon-menu::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/menu.svg");
 }
-.oo-ui-icon-play, .mw-ui-icon-play::before {
+.oo-ui-icon-play, .mw-ui-icon-play::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/play.svg");
 }
-.oo-ui-icon-close, .mw-ui-icon-close::before {
+.oo-ui-icon-close, .mw-ui-icon-close::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/close.svg");
 }
-.oo-ui-icon-edit, .mw-ui-icon-edit::before {
+.oo-ui-icon-edit, .mw-ui-icon-edit::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/edit.svg");
 }
-.oo-ui-icon-bookmark, .mw-ui-icon-bookmark::before {
+.oo-ui-icon-bookmark, .mw-ui-icon-bookmark::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/bookmark.svg");
 }
-.oo-ui-icon-trash, .mw-ui-icon-trash::before {
+.oo-ui-icon-trash, .mw-ui-icon-trash::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/trash.svg");
 }
-.oo-ui-icon-settings, .mw-ui-icon-settings::before {
+.oo-ui-icon-settings, .mw-ui-icon-settings::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/settings.svg");
 }
-.oo-ui-icon-article, .mw-ui-icon-article::before {
+.oo-ui-icon-article, .mw-ui-icon-article::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/article.svg");
 }
-.oo-ui-icon-tag, .mw-ui-icon-tag::before {
+.oo-ui-icon-tag, .mw-ui-icon-tag::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tag.svg");
 }
-.oo-ui-icon-search, .mw-ui-icon-search::before {
+.oo-ui-icon-search, .mw-ui-icon-search::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/search.svg");
 }
-.oo-ui-icon-feedback, .mw-ui-icon-feedback::before {
+.oo-ui-icon-feedback, .mw-ui-icon-feedback::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/feedback.svg") !important;
 }
-.oo-ui-image-progressive.oo-ui-icon-feedback, .mw-ui-icon-feedback-progressive::before {
+.oo-ui-image-progressive.oo-ui-icon-feedback, .mw-ui-icon-feedback-progressive::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/feedback.svg") !important;
 }
-.oo-ui-icon-highlight, .mw-ui-icon-highlight::before {
+.oo-ui-icon-highlight, .mw-ui-icon-highlight::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/highlight.svg");
 }
-.oo-ui-icon-next, .mw-ui-icon-next::before {
+.oo-ui-icon-next, .mw-ui-icon-next::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/next.svg");
 }
-.oo-ui-icon-previous, .mw-ui-icon-previous::before {
+.oo-ui-icon-previous, .mw-ui-icon-previous::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/previous.svg");
 }
-.oo-ui-icon-check, .mw-ui-icon-check::before {
+.oo-ui-icon-check, .mw-ui-icon-check::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/check.svg");
 }
-.oo-ui-image-invert.oo-ui-icon-stop, .mw-ui-icon-stop-invert::before {
+.oo-ui-image-invert.oo-ui-icon-stop, .mw-ui-icon-stop-invert::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/invert.svg") !important;
 }
-.oo-ui-icon-stop, .mw-ui-icon-stop::before {
+.oo-ui-icon-stop, .mw-ui-icon-stop::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/invert.svg") !important;
 }
-.oo-ui-icon-reload, .mw-ui-icon-reload::before {
+.oo-ui-icon-reload, .mw-ui-icon-reload::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/reload.svg");
 }
-.oo-ui-icon-code, .mw-ui-icon-code::before {
+.oo-ui-icon-code, .mw-ui-icon-code::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/code.svg");
 }
-.oo-ui-icon-expand, .mw-ui-icon-expand::before {
+.oo-ui-icon-expand, .mw-ui-icon-expand::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/expand.svg");
 }
-.oo-ui-icon-collapse, .mw-ui-icon-collapse::before {
+.oo-ui-icon-collapse, .mw-ui-icon-collapse::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/collapse.svg");
 }
-#pt-anonuserpage, #pt-userpage a {
+#pt-anonuserpage, #pt-userpage a 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/avatar.svg");
     margin-top: 3px;
     padding-top: 0.3em !important;
 }
-.imeselector {
+.imeselector 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/imeselector.svg");
     background-color: var(--dark-15);
     box-shadow: 0 0 0 0 transparent !important;
 }
-.uls-ime-disable-link {
+.uls-ime-disable-link 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/imeselector-disabled.svg");
 }
-.imeselector-menu .ime-checked {
+.imeselector-menu .ime-checked 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/ime-check.svg");
 }
-.uls-ime-more-settings-link {
+.uls-ime-more-settings-link 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/ime-settings.svg");
     border-left: var(--border-dark-45);
 }
-.languagesettings-menu .menu-section.display-settings-block {
+.languagesettings-menu .menu-section.display-settings-block 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/ime-display.svg");
 }
-#uls-settings-block > button.display-settings-block {
+#uls-settings-block > button.display-settings-block 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/ime-display.svg");
 }
-#uls-settings-block > button.input-settings-block {
+#uls-settings-block > button.input-settings-block 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/imeselector.svg");
 }
-.languagesettings-menu .menu-section.input-settings-block {
+.languagesettings-menu .menu-section.input-settings-block 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/imeselector.svg");
 }
-.uls-search-label {
+.uls-search-label 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/search.svg");
 }
 /* Tux Translation System - SVG Icons */
-.tux-action-bar .translate-mode-button::before {
+.tux-action-bar .translate-mode-button::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-translate.svg");
 }
-.tux-action-bar .page-mode-button::before {
+.tux-action-bar .page-mode-button::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-page.svg");
 }
-.tux-action-bar .proofread-mode-button::before {
+.tux-action-bar .proofread-mode-button::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-proofread.svg");
 }
-.tux-message-filter-wrapper {
+.tux-message-filter-wrapper 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-search.svg");
 }
-.grid .tux-message-editor .close {
+.grid .tux-message-editor .close 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-close.svg");
 }
-.tux-message-editor .editor-expand {
+.tux-message-editor .editor-expand 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-expand.svg");
 }
-.message-desc-edit {
+.message-desc-edit 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-edit.svg");
 }
-.tux-list-edit a {
+.tux-list-edit a 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-edit.svg");
 }
-.tux-status-translated, .tux-status-proofread {
+.tux-status-translated, .tux-status-proofread 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-translated.svg");
 }
-.tux-pagemode-status.untranslated {
+.tux-pagemode-status.untranslated 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-untranslated.svg");
 }
-.tux-notice-message.diff {
+.tux-notice-message.diff 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-clock.svg");
 }
-.uls-icon-close {
+.uls-icon-close 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/tux-close.svg");
 }
-.uls-icon-back {
+.uls-icon-back 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/lang-back.svg");
     border-right: var(--border-dark-45);
 }
-.client-js .sortable:not(.jquery-tablesorter) > * > tr:first-child > th:not(.unsortable), .jquery-tablesorter th.headerSort {
+.client-js .sortable:not(.jquery-tablesorter) > * > tr:first-child > th:not(.unsortable), .jquery-tablesorter th.headerSort 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/table-sorter.svg");
 }
 /* Editor SVGs */
-.oo-ui-icon-bold, .mw-ui-icon-bold::before {
+.oo-ui-icon-bold, .mw-ui-icon-bold::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-bold.svg");
 }
-.oo-ui-icon-italic, .mw-ui-icon-italic::before {
+.oo-ui-icon-italic, .mw-ui-icon-italic::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-italic.svg");
 }
-.oo-ui-icon-link, .mw-ui-icon-link::before {
+.oo-ui-icon-link, .mw-ui-icon-link::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-link.svg");
 }
-.oo-ui-icon-image, .mw-ui-icon-image::before {
+.oo-ui-icon-image, .mw-ui-icon-image::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-image.svg");
 }
-.oo-ui-icon-reference, .mw-ui-icon-reference::before {
+.oo-ui-icon-reference, .mw-ui-icon-reference::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-reference.svg");
 }
-.oo-ui-icon-listBullet, .mw-ui-icon-listBullet::before {
+.oo-ui-icon-listBullet, .mw-ui-icon-listBullet::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-listbullet.svg");
 }
-.oo-ui-icon-listNumbered, .mw-ui-icon-listNumbered::before {
+.oo-ui-icon-listNumbered, .mw-ui-icon-listNumbered::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-listnumbered.svg");
 }
-.oo-ui-icon-noWikiText, .mw-ui-icon-noWikiText::before {
+.oo-ui-icon-noWikiText, .mw-ui-icon-noWikiText::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-nowikitext.svg");
 }
-.oo-ui-icon-newline, .mw-ui-icon-newline::before {
+.oo-ui-icon-newline, .mw-ui-icon-newline::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-newline.svg");
 }
-.oo-ui-icon-bigger, .mw-ui-icon-bigger::before {
+.oo-ui-icon-bigger, .mw-ui-icon-bigger::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-bigger.svg");
 }
-.oo-ui-icon-smaller, .mw-ui-icon-smaller::before {
+.oo-ui-icon-smaller, .mw-ui-icon-smaller::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-smaller.svg");
 }
-.oo-ui-icon-superscript, .mw-ui-icon-superscript::before {
+.oo-ui-icon-superscript, .mw-ui-icon-superscript::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-superscript.svg");
 }
-.oo-ui-icon-subscript, .mw-ui-icon-subscript::before {
+.oo-ui-icon-subscript, .mw-ui-icon-subscript::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-subscript.svg");
 }
-.oo-ui-icon-imageGallery, .mw-ui-icon-imageGallery::before {
+.oo-ui-icon-imageGallery, .mw-ui-icon-imageGallery::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-imagegallery.svg");
 }
-.oo-ui-icon-articleRedirect, .mw-ui-icon-articleRedirect::before {
+.oo-ui-icon-articleRedirect, .mw-ui-icon-articleRedirect::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-articleredirect.svg");
 }
-.oo-ui-icon-table, .mw-ui-icon-table::before {
+.oo-ui-icon-table, .mw-ui-icon-table::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-table.svg");
 }
-.oo-ui-icon-articleSearch, .mw-ui-icon-articleSearch::before {
+.oo-ui-icon-articleSearch, .mw-ui-icon-articleSearch::before 
+{
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/assets/editor-articlesearch.svg");
 }
 /* Main body */
-body {
+body 
+{
     background-color: var(--bg-dark);
     background-image: url("https://raw.githubusercontent.com/404UNFca/TCRFDark/main/tcrf-dark.png");
 }
 
 /* Top of page gradient */
-#mw-page-base {
+#mw-page-base 
+{
     background-image: linear-gradient(to top, var(--bg-dark) 30%, var(--dark-5));
     background-color: transparent;
 }
 /* Top of page links */
-#p-personal a {
+#p-personal a 
+{
     color: var(--lightblue);
 }
-#p-personal a:visited {
+#p-personal a:visited 
+{
     color: var(--blue);
 }
 
 /* Document body */
-.mw-body {
+.mw-body 
+{
     background-color: var(--dark-25);
     color: var(--white-90);
     border: 1px solid var(--dark-45);
@@ -293,53 +368,64 @@ body {
  * Thank you CounterDiving for adding IDs to those boxes!
  */
 /* "# articles and counting" box */
-#statistics-bar {
+#statistics-bar 
+{
     border: 1px solid var(--dark-45) !important;
     background-color: var(--dark-20) !important;
     color: var(--white-90) !important;
 }
 /* Featured Article box */
-#featured-area {
+#featured-area 
+{
     border: 1px solid var(--dark-45) !important;
     background-color: var(--dark-20) !important;
 }
 /* Did You Know box */
-#dyk-area {
+#dyk-area 
+{
     border: 1px solid var(--dark-45) !important;
     background-color: var(--dark-20) !important;
 }
 /* "Contributing" box */
-#contrib-area {
+#contrib-area 
+{
     border: 1px solid var(--dark-45) !important;
     background-color: var(--dark-20) !important;
 }
 
 /* That thing from when you get a message on your talk page */
-.usermessage {
+.usermessage 
+{
     background-color: var(--yellow);
     border: 1px solid var(--lightyellow);
     color: var(--white-90);
 }
 
 /* Headers */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 
+{
     color: var(--white-90);
 }
-h1, h2 {
+h1, h2 
+{
     border-bottom: var(--border-dark-45);
 }
 
 /* Linkage - General */
-a.new, #p-personal a.new {
+a.new, #p-personal a.new 
+{
     color: var(--lightred);
 }
-a {
+a 
+{
     color: var(--lightblue);
 }
-a:visited {
+a:visited 
+{
     color: var(--blue);
 }
-a:active {
+a:active 
+{
     color: var(--lightblue);
 }
 
@@ -347,73 +433,87 @@ a:active {
  * Article History comparison diff styling
  */
 /* General styling for all diff boxes */
-.diffchange {
+.diffchange 
+{
     border-radius: 0.3em !important;
     margin: 0em 0.15em !important;
     padding: 0.15em 0.3em !important;
     font-weight: normal !important;
 }
 /* Unchanged items */
-.diff-context {
+.diff-context 
+{
     background-color: var(--dark-20);
     border-color: var(--dark-40);
     color: var(--white-90);
 }
 /* Lines added */
-.diff-addedline {
+.diff-addedline 
+{
     background-color: var(--dark-20);
     border-color: var(--diff-green);
 }
-.diff-addedline .diffchange {
+.diff-addedline .diffchange 
+{
     background-color: var(--dark-30);
     color: var(--lightgreen);
     text-shadow: 0px 0.6px 2px var(--dark-5);
 }
 /* Lines removed */
-.diff-deletedline {
+.diff-deletedline 
+{
     background-color: var(--dark-20);
     border-color: var(--diff-red);
 }
-.diff-deletedline .diffchange {
+.diff-deletedline .diffchange 
+{
     background-color: var(--dark-30);
     color: var(--lightred);
     text-shadow: 0px 0.6px 2px var(--dark-5);
 }
 
 /* Text area stuff */
-textarea {
+textarea 
+{
     background-color: var(--dark-5);
     color: var(--white-90);
     border-color: var(--dark-45);
 }
 
 /* RC Filters - Highlight color fix */
-div.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color-none.oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonOptionWidget a.oo-ui-buttonElement-button {
+div.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color-none.oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonOptionWidget a.oo-ui-buttonElement-button 
+{
     background-color: transparent !important;
     border: 0px none;
 }
-div.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color-none.oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonOptionWidget a.oo-ui-buttonElement-button:hover {
+div.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color-none.oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonOptionWidget a.oo-ui-buttonElement-button:hover 
+{
     background-color: transparent !important;
     border: 0px none;
 }
-.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.oo-ui-buttonElement-frameless > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon.oo-ui-icon-check {
+.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.oo-ui-buttonElement-frameless > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon.oo-ui-icon-check 
+{
     background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E check %3C/title%3E %3Cpath d=%22M7 14.17L2.83 10l-1.41 1.41L7 17 19 5l-1.41-1.42z%22/%3E %3C/svg%3E") !important;
 }
-.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-buttonOptionWidget.oo-ui-optionWidget-selected.oo-ui-buttonElement-active.oo-ui-iconElement a.oo-ui-buttonElement-button {
+.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-buttonOptionWidget.oo-ui-optionWidget-selected.oo-ui-buttonElement-active.oo-ui-iconElement a.oo-ui-buttonElement-button 
+{
     background-color: transparent !important;
     border: 0px none !important;
 }
-.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-buttonOptionWidget.oo-ui-optionWidget-selected.oo-ui-buttonElement-active.oo-ui-iconElement a.oo-ui-buttonElement-button:hover {
+.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.oo-ui-widget.oo-ui-widget-enabled.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-buttonOptionWidget.oo-ui-optionWidget-selected.oo-ui-buttonElement-active.oo-ui-iconElement a.oo-ui-buttonElement-button:hover 
+{
     background-color: transparent !important;
     border: 0px none !important;
 }
 
 /* API Sandbox */
-.mw-apisandbox-toolbar {
+.mw-apisandbox-toolbar 
+{
     background: var(--dark-15);
     border-bottom: var(--border-dark-45);
 }
-.oo-ui-outlineOptionWidget.oo-ui-optionWidget-highlighted {
+.oo-ui-outlineOptionWidget.oo-ui-optionWidget-highlighted 
+{
     background-color: var(--dark-45) !important;
 }
 
@@ -423,271 +523,346 @@ div.mw-rcfilters-ui-highlightColorPickerWidget-buttonSelect-color.mw-rcfilters-u
  * This one's gonna be brutal, but I'm in it to win it.
  */
 
-.editOptions {
+.editOptions 
+{
     background-color: var(--dark-20);
     color: var(--white-90);
     border: var(--border-dark-45);
 }
 
-.mw-editform #wpTextbox1 {
+.mw-editform #wpTextbox1 
+{
     background-color: var(--dark-15);
     color: var(--white-90);
 }
-.wikiEditor-ui .wikiEditor-ui-top {
+.wikiEditor-ui .wikiEditor-ui-top 
+{
     border-bottom: var(--border-dark-45);
 }
-.wikiEditor-ui-toolbar {
+.wikiEditor-ui-toolbar 
+{
     background-color: var(--dark-15);
     background-image: none;
 }
-.wikiEditor-ui-toolbar .sections .section {
+.wikiEditor-ui-toolbar .sections .section 
+{
     border-top: var(--border-dark-45);
     background-color: var(--dark-15);
 }
-.wikiEditor-ui-toolbar .group {
+.wikiEditor-ui-toolbar .group 
+{
     border-right: var(--border-dark-45);
 }
-.wikiEditor-ui-toolbar .group .tool-select {
+.wikiEditor-ui-toolbar .group .tool-select 
+{
     border: var(--border-dark-45);
     background-color: var(--dark-35);
 }
-.wikiEditor-ui-toolbar .group .tool-select .label {
+.wikiEditor-ui-toolbar .group .tool-select .label 
+{
     color: var(--white-90);
 }
-.wikiEditor-ui-toolbar .group .tool-select .options {
+.wikiEditor-ui-toolbar .group .tool-select .options 
+{
     border: var(--border-dark-45);
     background-color: var(--dark-35);
 }
-.wikiEditor-ui-toolbar .group .tool-select .options .option {
+.wikiEditor-ui-toolbar .group .tool-select .options .option 
+{
     color: var(--white-90);
 }
-.wikiEditor-ui-toolbar .group .tool-select .options .option:hover {
+.wikiEditor-ui-toolbar .group .tool-select .options .option:hover 
+{
     background-color: var(--dark-25);
 }
-.wikiEditor-ui-toolbar .group-search {
+.wikiEditor-ui-toolbar .group-search 
+{
     border-left: var(--border-dark-45);
 }
-.wikiEditor-ui-toolbar .tabs span.tab a.current, .wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
+.wikiEditor-ui-toolbar .tabs span.tab a.current, .wikiEditor-ui-toolbar .tabs span.tab a.current:visited 
+{
     color: var(--white-90);
 }
-.wikiEditor-ui-toolbar .tabs span.tab a, .wikiEditor-ui-toolbar .tabs span.tab a:visited {
+.wikiEditor-ui-toolbar .tabs span.tab a, .wikiEditor-ui-toolbar .tabs span.tab a:visited 
+{
     color: var(--blue);
 }
-.tool.oo-ui-buttonElement-frameless.oo-ui-iconElement {
+.tool.oo-ui-buttonElement-frameless.oo-ui-iconElement 
+{
     margin: 0.1em;
 }
-.tool.oo-ui-buttonElement-frameless.oo-ui-iconElement:hover {
+.tool.oo-ui-buttonElement-frameless.oo-ui-iconElement:hover 
+{
     background-color: transparent;
     outline: 0 none;
 }
-.wikiEditor-ui-toolbar .group .label {
+.wikiEditor-ui-toolbar .group .label 
+{
     color: var(--white-90);
 }
-.wikiEditor-ui .wikiEditor-ui-view {
+.wikiEditor-ui .wikiEditor-ui-view 
+{
     border: var(--border-dark-45);
 }
-.wikiEditor-ui-toolbar .page-characters div span:hover {
+.wikiEditor-ui-toolbar .page-characters div span:hover 
+{
     background-color: var(--dark-45);
     color: var(--dark-15);
 }
-.wikiEditor-ui-toolbar .page-characters div span {
+.wikiEditor-ui-toolbar .page-characters div span 
+{
     border: var(--border-dark-45);
     color: var(--white-90);
 }
-.wikiEditor-ui-toolbar .booklet .index .current {
+.wikiEditor-ui-toolbar .booklet .index .current 
+{
     background-color: var(--lightblue);
 }
-.wikiEditor-ui-toolbar .booklet .index div {
+.wikiEditor-ui-toolbar .booklet .index div 
+{
     color: var(--white-90);
 }
-.wikiEditor-ui-toolbar .page-table th, .wikiEditor-ui-toolbar .page-table td {
+.wikiEditor-ui-toolbar .page-table th, .wikiEditor-ui-toolbar .page-table td 
+{
     color: var(--white-90);
 }
 
-.mw-widget-calendarWidget-prevButton.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonWidget {
+.mw-widget-calendarWidget-prevButton.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonWidget 
+{
     border: 1px solid var(--dark-25);
 }
-.mw-widget-calendarWidget-nextButton.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonWidget {
+.mw-widget-calendarWidget-nextButton.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonWidget 
+{
     border: 1px solid var(--dark-25);
 }
-.mw-widget-calendarWidget-labelButton.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-buttonWidget.oo-ui-labelElement {
+.mw-widget-calendarWidget-labelButton.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-buttonWidget.oo-ui-labelElement 
+{
     border: 1px solid var(--dark-25);
 }
-.mw-widget-calendarWidget-upButton.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonWidget a.oo-ui-buttonElement-button {
+.mw-widget-calendarWidget-upButton.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonWidget a.oo-ui-buttonElement-button 
+{
     background-color: transparent !important;
 }
 
 /* Translation */
-.ext-translate-language-selector .uls {
+.ext-translate-language-selector .uls 
+{
     color: var(--blue);
 }
-.mw-parser-output {
+.mw-parser-output 
+{
     color: var(--white-90);
 }
-.uls-search {
+.uls-search 
+{
     background-color: var(--dark-35);
     border-bottom: var(--border-dark-45);
 }
-.uls-languagefilter {
+.uls-languagefilter 
+{
     background-color: var(--dark-35);
     color: var(--white-90);
 }
-.uls-lcd {
+.uls-lcd 
+{
     background-color: var(--dark-25);
 }
-.ext-translate-container .tux-messagelist .tux-message-pagemode {
+.ext-translate-container .tux-messagelist .tux-message-pagemode 
+{
     background-color: var(--dark-25);
 }
-.ext-translate-container .tux-messagelist .tux-message-pagemode .tux-message-item-compact {
+.ext-translate-container .tux-messagelist .tux-message-pagemode .tux-message-item-compact 
+{
     border-bottom: var(--border-dark-45);
     border-left: var(--border-dark-45);
     border-right: var(--border-dark-45);
     background-color: var(--dark-20);
 }
-.ext-translate-container .tux-messagelist .tux-message-pagemode:first-child .tux-message-item-compact {
+.ext-translate-container .tux-messagelist .tux-message-pagemode:first-child .tux-message-item-compact 
+{
     border-top: var(--border-dark-45);
 }
-.ext-translate-container .tux-messagelist .tux-message-pagemode .tux-message-item-compact:hover {
+.ext-translate-container .tux-messagelist .tux-message-pagemode .tux-message-item-compact:hover 
+{
     background-color: var(--dark-30);
 }
-.tux-messagelist .tux-message-pagemode .tux-pagemode-source {
+.tux-messagelist .tux-message-pagemode .tux-pagemode-source 
+{
     color: var(--white-90);
 }
-.tux-action-bar {
+.tux-action-bar 
+{
     background-color: var(--dark-15);
 }
-.tux-message-editor .editcolumn {
+.tux-message-editor .editcolumn 
+{
     border-right: 1px solid var(--dark-25);
     background-color: var(--dark-20);
     color: var(--white-90);
 }
-.grid .tux-message-editor .messagekey {
+.grid .tux-message-editor .messagekey 
+{
     color: var(--white-90);
     background-color: var(--dark-35);
 }
-.grid .tux-message-editor .tux-editor-titletools {
+.grid .tux-message-editor .tux-editor-titletools 
+{
     background-color: var(--dark-35);
 }
-.tux-breadcrumb {
+.tux-breadcrumb 
+{
     color: var(--lightblue);
 }
-.tux-message-selector li a {
+.tux-message-selector li a 
+{
     color: var(--lightblue);
 }
-.tux-action-bar.floating {
+.tux-action-bar.floating 
+{
     border-top: var(--border-dark-45);
 }
-.tux-breadcrumb__item--aggregate {
+.tux-breadcrumb__item--aggregate 
+{
     cursor: pointer;
     color: var(--blue);
 }
-.tux-message-selector li.selected a {
+.tux-message-selector li.selected a 
+{
     color: var(--blue);
 }
-.tux-message-editor textarea {
+.tux-message-editor textarea 
+{
     border: var(--border-dark-45);
     background-color: var(--dark-25);
     color: var(--white-90);
 }
-.tux-editor-editsummary-block input:disabled {
+.tux-editor-editsummary-block input:disabled 
+{
     background-color: var(--dark-55);
 }
-.tux-editor-editsummary-block input {
+.tux-editor-editsummary-block input 
+{
     background-color: var(--dark-25);
     border: var(--border-dark-45);
 }
-.grid .tux-message-editor .infocolumn-block {
+.grid .tux-message-editor .infocolumn-block 
+{
     background-color: var(--dark-25);
     color: var(--white-90);
 }
-.tux-editor-skip-button.mw-ui-button.mw-ui-quiet {
+.tux-editor-skip-button.mw-ui-button.mw-ui-quiet 
+{
     background-color: var(--dark-30);
     color: var(--white-90);
 }
-.tux-editor-skip-button.mw-ui-button.mw-ui-quiet:hover {
+.tux-editor-skip-button.mw-ui-button.mw-ui-quiet:hover 
+{
     background-color: var(--dark-35);
     color: var(--white-90);
 }
-.tux-messagetable-header.floating {
+.tux-messagetable-header.floating 
+{
     background-color: var(--dark-15);
 }
-.mw-ui-button.mw-ui-progressive:disabled {
+.mw-ui-button.mw-ui-progressive:disabled 
+{
     background-color: var(--dark-45);
     color: var(--white-90);
     border-color: var(--dark-55);
 }
-.mw-ui-button.mw-ui-progressive:disabled:hover, .mw-ui-button.mw-ui-progressive:disabled:active {
+.mw-ui-button.mw-ui-progressive:disabled:hover, .mw-ui-button.mw-ui-progressive:disabled:active 
+{
     background-color: var(--dark-45);
     color: var(--white-90);
     border-color: var(--dark-55);
 }
-table.mw-interwikitable.body td.mw-interwikitable-local-yes {
+table.mw-interwikitable.body td.mw-interwikitable-local-yes 
+{
     color: var(--dark-5);
 }
-.tagcloud .tag {
+.tagcloud .tag 
+{
     color: var(--white-90);
 }
-#uls-settings-block > button:hover {
+#uls-settings-block > button:hover 
+{
     color: var(--white-90);
 }
-#uls-settings-block > button {
+#uls-settings-block > button 
+{
     color: var(--white-90);
 }
-.uls-font-item:first-child {
+.uls-font-item:first-child 
+{
     border-top: var(--border-dark-45);
 }
-.uls-font-item {
+.uls-font-item 
+{
     border-bottom: var(--border-dark-45);
     background: var(--dark-25);
 }
-.uls-font-label strong {
+.uls-font-label strong 
+{
     color: var(--white-90);
 }
-.uls-font-label {
+.uls-font-label 
+{
     color: var(--white-90);
 }
-.checkbox strong {
+.checkbox strong 
+{
     color: var(--white-90);
 }
-.uls-ui-languages p, .checkbox {
+.uls-ui-languages p, .checkbox 
+{
     color: var(--white-90);
 }
-.mw-notification {
+.mw-notification 
+{
     color: var(--white-90) !important;
     border: var(--border-dark-45);
     background-color: var(--dark-20);
 }
 
 /* Babel */
-.mw-babel-box {
+.mw-babel-box 
+{
     color: var(--dark-5);
 }
-.mw-babel-box a {
+.mw-babel-box a 
+{
     color: var(--blue);
 }
-.mw-babel-header {
+.mw-babel-header 
+{
     background-color: var(--dark-15);
 }
-.mw-babel-wrapper {
+.mw-babel-wrapper 
+{
     border: var(--border-dark-45);
     background-color: var(--dark-25);
 }
 
-#mw-allmessagestable > tbody > tr > td {
+#mw-allmessagestable > tbody > tr > td 
+{
     background-color: var(--dark-15);
 }
-#mw-allmessagestable > tbody > tr > td:hover {
+#mw-allmessagestable > tbody > tr > td:hover 
+{
     background-color: var(--dark-35);
 }
-#mw-allmessagestable tbody:hover td {
+#mw-allmessagestable tbody:hover td 
+{
     background-color: var(--dark-35);
 }
-#mw-allmessagestable > thead > tr > th {
+#mw-allmessagestable > thead > tr > th 
+{
     background-color: var(--dark-5);
 }
 
 /* Page history - Selected revisions */
-#pagehistory li.selected {
+#pagehistory li.selected 
+{
     background-color: var(--dark-20);
     color: var(--white-90);
     outline: 0 none;
@@ -698,271 +873,331 @@ table.mw-interwikitable.body td.mw-interwikitable-local-yes {
 #footer a { color: var(--lightblue); }
 
 /* Msgboxes */
-#localNotice .msgbox {
+#localNotice .msgbox 
+{
     background: var(--dark-15) !important;
     color: var(--white-90) !important;
     border: 1px solid var(--green) !important;
 }
-.msgbox {
+.msgbox 
+{
     background-color: var(--dark-15) !important;
     color: var(--white-90) !important;
     border-color: var(--dark-45) !important;
 }
-table.msgbox {
+table.msgbox 
+{
     background: var(--dark-30) !important;
     color: var(--white-90) !important;
     border: 1px solid var(--dark-45) !important;
 }
-.mw-revision.warningbox {
+.mw-revision.warningbox 
+{
     background-color: var(--dark-30) !important;
     color: var(--white-90) !important;
     border-color: var(--dark-45) !important;
 }
 
-li.gallerybox div.thumb {
+li.gallerybox div.thumb 
+{
     border: var(--border-dark-45);
 }
 
 /* Stupid ID-less "Don't Know How To Edit?" boxes */
-.mw-editnotice.mw-editnotice-namespace.mw-editnotice-0 div {
+.mw-editnotice.mw-editnotice-namespace.mw-editnotice-0 div 
+{
     background-color: var(--dark-20) !important;
     border-color: var(--dark-45) !important;
 }
-.mw-editnotice.mw-editnotice-namespace.mw-editnotice-1 div {
+.mw-editnotice.mw-editnotice-namespace.mw-editnotice-1 div 
+{
     background-color: var(--dark-20) !important;
     border-color: var(--dark-45) !important;
 }
 /* Don't know if there's a 2, but gonna cover that base anyway */
-.mw-editnotice.mw-editnotice-namespace.mw-editnotice-2 div {
+.mw-editnotice.mw-editnotice-namespace.mw-editnotice-2 div 
+{
     background-color: var(--dark-20) !important;
     border-color: var(--dark-45) !important;
 }
-.mw-editnotice.mw-editnotice-namespace.mw-editnotice-3 div {
+.mw-editnotice.mw-editnotice-namespace.mw-editnotice-3 div 
+{
     background-color: var(--dark-20) !important;
     border-color: var(--dark-45) !important;
 }
 
-.mw_metadata td {
+.mw_metadata td 
+{
     background-color: var(--dark-15);
 }
-.mw_metadata td, .mw_metadata th {
+.mw_metadata td, .mw_metadata th 
+{
     border: var(--border-dark-45);
 }
-.mw_metadata th {
+.mw_metadata th 
+{
     background-color: var(--dark-15);
 }
 
-.mw-pt-languages-list {
+.mw-pt-languages-list 
+{
     background-color: var(--dark-15);
 }
-.mw-pt-languages-label {
+.mw-pt-languages-label 
+{
     background-color: var(--dark-10);
 }
-.mw-pt-languages {
+.mw-pt-languages 
+{
     border: var(--border-dark-45);
 }
 
 /* Table of Contents */
-.toc, .mw-warning, .toccolours {
+.toc, .mw-warning, .toccolours 
+{
     border: var(--border-dark-45);
     background-color: var(--dark-20);
 }
-.tocnumber {
+.tocnumber 
+{
     color: var(--white-90);
 }
-.toctogglelabel {
+.toctogglelabel 
+{
     color: var(--blue);
 }
 /* We add a bit of padding to the TOC title background for when it's hidden */
-.toc .toctitle {
+.toc .toctitle 
+{
     background-color: var(--dark-25);
     padding: 0px 4px;
 }
 
-#filetoc {
+#filetoc 
+{
     border: var(--border-dark-45);
     background-color: var(--dark-20);
 }
 
 /* Code blocks */
-.mw-code {
+.mw-code 
+{
     color: var(--white-90);
     background-color: var(--dark-20);
     border: var(--border-dark-45);
 }
 
-#image-info-box {
+#image-info-box 
+{
     background: var(--dark-15) !important;
     color: var(--white-90) !important;
     border: 1px solid var(--dark-45) !important;
 }
 
 /* Calendar Widget */
-.mw-widget-calendarWidget {
+.mw-widget-calendarWidget 
+{
     border: var(--border-dark-45);
 }
-.mw-widget-calendarWidget-body-wrapper {
+.mw-widget-calendarWidget-body-wrapper 
+{
     background-color: var(--dark-25);
 }
-.mw-widget-calendarWidget-body-outer-wrapper {
+.mw-widget-calendarWidget-body-outer-wrapper 
+{
     width: 292px;
 }
-.mw-widget-calendarWidget-header {
+.mw-widget-calendarWidget-header 
+{
     background-color: var(--dark-25);
 }
-.mw-widget-dateInputWidget.oo-ui-widget-enabled .mw-widget-dateInputWidget-handle {
+.mw-widget-dateInputWidget.oo-ui-widget-enabled .mw-widget-dateInputWidget-handle 
+{
     background-color: var(--dark-35);
     color: var(--white-90);
 }
-.mw-widget-calendarWidget-item {
+.mw-widget-calendarWidget-item 
+{
     color: var(--white-90);
 }
-.mw-widget-calendarWidget-day-additional {
+.mw-widget-calendarWidget-day-additional 
+{
     color: var(--dark-55);
 }
-.mw-widget-calendarWidget-day-heading {
+.mw-widget-calendarWidget-day-heading 
+{
     color: var(--white-90);
 }
-.mw-widget-dateInputWidget-calendar {
+.mw-widget-dateInputWidget-calendar 
+{
     background-color: var(--dark-25);
 }
 
 
-#contentSub, #contentSub2 {
+#contentSub, #contentSub2 
+{
     color: var(--white-90);
 }
 
 /* Recent changes - No page found */
-a.new, #p-personal a.new {
+a.new, #p-personal a.new 
+{
     color: var(--lightred);
 }
-a.new:visited, #p-personal a.new:visited {
+a.new:visited, #p-personal a.new:visited 
+{
     color: var(--red);
 }
 
-.mw-parser-output a.external {
+.mw-parser-output a.external 
+{
     color: var(--lightblue);
 }
-.mw-parser-output a.external:visited {
+.mw-parser-output a.external:visited 
+{
     color: var(--blue);
 }
 
-#mw-panel .portal .body li a:visited {
+#mw-panel .portal .body li a:visited 
+{
     color: var(--blue);
 }
 
-#mw-panel .portal .body li a {
+#mw-panel .portal .body li a 
+{
     color: var(--lightblue);
 }
 
-#mw-panel .portal h3 {
+#mw-panel .portal h3 
+{
     color: var(--white-90);
 }
 
 /**
  * Recent Changes - Active Filter
  */
-.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagMultiselectWidget-handle {
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagMultiselectWidget-handle 
+{
     background-color: var(--dark-20);
 }
 
 /* "Active Filters" text at the top */
-.mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-content-title {
+.mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-content-title 
+{
     color: var(--white-90);
 }
 
 /* Active filter bubbles */
-.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagItemWidget.oo-ui-widget-enabled {
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagItemWidget.oo-ui-widget-enabled 
+{
     background-color: var(--dark-15);
     color: var(--white-90);
 }
 
 /* Active filter bubble text height adjustment */
-.oo-ui-tagItemWidget.oo-ui-labelElement .oo-ui-labelElement-label {
+.oo-ui-tagItemWidget.oo-ui-labelElement .oo-ui-labelElement-label 
+{
     line-height: 1.4em;
 }
 
 /* Namespaces & Tags area of Active Filters */
-.mw-rcfilters-ui-cell.mw-rcfilters-ui-filterTagMultiselectWidget-views-select {
+.mw-rcfilters-ui-cell.mw-rcfilters-ui-filterTagMultiselectWidget-views-select 
+{
     background-color: var(--dark-35);
 }
-.mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget {
+.mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget 
+{
     border-right: var(--border-dark-45);
     border-top: var(--border-dark-45);
     border-bottom: var(--border-dark-45);
 }
-.mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle {
+.mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle 
+{
     border: var(--border-dark-45);
 }
 
 /* Edit summaries */
-span.comment {
+span.comment 
+{
     color: var(--dark-55);
 }
 
 /* List of abbreviations */
-.mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend {
+.mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend 
+{
     background-color: var(--dark-20);
 }
 
 /* RC Filters - Namespaces button */
-#ooui-73 > a:nth-child(1) {
+#ooui-73 > a:nth-child(1) 
+{
     border: 0px none !important;
 }
-#ooui-72 > a:nth-child(1) {
+#ooui-72 > a:nth-child(1) 
+{
     border: 0px none !important;
 }
 
 
 /* "View new changes since..." */
-.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button 
+{
     color: var(--blue);
 }
 
-.oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover 
+{
     background-color: var(--dark-30);
 }
 .oo-ui-labelElement-label:active:visited { color: var(--blue); }
 .oo-ui-labelElement-label:active { background-color: var(--dark-35); }
-.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:active, .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:active:focus, .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive.oo-ui-buttonElement-pressed > .oo-ui-buttonElement-button {
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:active, .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:active:focus, .oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-progressive.oo-ui-buttonElement-pressed > .oo-ui-buttonElement-button 
+{
     color: var(--lightblue);
     background-color: var(--dark-35);
 }
 
 /* "Live updates" & "# changes, # days" buttons */
-.oo-ui-buttonElement-button {
+.oo-ui-buttonElement-button 
+{
     background-color: var(--dark-35) !important;
     color: var(--white-90) !important;
     border-color: var(--dark-45) !important;
 }
-.oo-ui-buttonElement-button:hover {
+.oo-ui-buttonElement-button:hover 
+{
     background-color: var(--dark-45);
     border-color: var(--dark-45);
 }
-.oo-ui-buttonElement-button:active {
+.oo-ui-buttonElement-button:active 
+{
     background-color: var(--dark-35);
 }
 
 /* Recent Changes filters - Namespaces & Tags button-specific styling */
-.mw-rcfilters-ui-cell.mw-rcfilters-ui-filterTagMultiselectWidget-views-select .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget.oo-ui-widget-enabled.oo-ui-selectWidget.oo-ui-selectWidget-unpressed.oo-ui-buttonSelectWidget .oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonOptionWidget a.oo-ui-buttonElement-button {
+.mw-rcfilters-ui-cell.mw-rcfilters-ui-filterTagMultiselectWidget-views-select .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget.oo-ui-widget-enabled.oo-ui-selectWidget.oo-ui-selectWidget-unpressed.oo-ui-buttonSelectWidget .oo-ui-widget.oo-ui-widget-enabled.oo-ui-labelElement.oo-ui-optionWidget.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonOptionWidget a.oo-ui-buttonElement-button 
+{
     margin-top: 1px;
     border-width: 0px !important;
     background-color: var(--dark-35) !important;
 }
 
 /* Recent Changes filters - General button padding, mainly to add padding to the Show/Hide button */
-.oo-ui-buttonElement.oo-ui-labelElement > .oo-ui-buttonElement-button > .oo-ui-labelElement-label {
+.oo-ui-buttonElement.oo-ui-labelElement > .oo-ui-buttonElement-button > .oo-ui-labelElement-label 
+{
     padding: 0em 0.4em;
 }
 
 /* Recent Changes filters - Search bar placeholder text color change */
 /* I know, the selector for this is a clusterfucker. This is the only way I could get the placeholder text color change to show */
-html.client-js body.mw-rcfilters-enabled.mediawiki.ltr.sitedir-ltr.mw-hide-empty-elt.ns--1.ns-special.mw-special-Recentchanges.page-Special_RecentChanges.rootpage-Special_RecentChanges.action-view.mw-rcfilters-ui-initialized.webfonts-changed div#content.mw-body div#bodyContent.mw-body-content div#mw-content-text div.rcfilters-head.mw-rcfilters-head div.rcfilters-container.mw-rcfilters-container div.oo-ui-widget.oo-ui-widget-enabled.mw-rcfilters-ui-filterWrapperWidget div.oo-ui-widget.oo-ui-widget-enabled.oo-ui-draggableGroupElement.oo-ui-tagMultiselectWidget.oo-ui-tagMultiselectWidget-outlined.oo-ui-menuTagMultiselectWidget.mw-rcfilters-ui-filterTagMultiselectWidget div.mw-rcfilters-ui-table div.mw-rcfilters-ui-row.mw-rcfilters-ui-filterTagMultiselectWidget-views div.mw-rcfilters-ui-cell.mw-rcfilters-ui-filterTagMultiselectWidget-views-input div.oo-ui-tagMultiselectWidget-input.oo-ui-widget.oo-ui-inputWidget.oo-ui-iconElement.oo-ui-textInputWidget.oo-ui-textInputWidget-type-text.oo-ui-widget-enabled input.oo-ui-inputWidget-input.webfonts-changed::placeholder {
+html.client-js body.mw-rcfilters-enabled.mediawiki.ltr.sitedir-ltr.mw-hide-empty-elt.ns--1.ns-special.mw-special-Recentchanges.page-Special_RecentChanges.rootpage-Special_RecentChanges.action-view.mw-rcfilters-ui-initialized.webfonts-changed div#content.mw-body div#bodyContent.mw-body-content div#mw-content-text div.rcfilters-head.mw-rcfilters-head div.rcfilters-container.mw-rcfilters-container div.oo-ui-widget.oo-ui-widget-enabled.mw-rcfilters-ui-filterWrapperWidget div.oo-ui-widget.oo-ui-widget-enabled.oo-ui-draggableGroupElement.oo-ui-tagMultiselectWidget.oo-ui-tagMultiselectWidget-outlined.oo-ui-menuTagMultiselectWidget.mw-rcfilters-ui-filterTagMultiselectWidget div.mw-rcfilters-ui-table div.mw-rcfilters-ui-row.mw-rcfilters-ui-filterTagMultiselectWidget-views div.mw-rcfilters-ui-cell.mw-rcfilters-ui-filterTagMultiselectWidget-views-input div.oo-ui-tagMultiselectWidget-input.oo-ui-widget.oo-ui-inputWidget.oo-ui-iconElement.oo-ui-textInputWidget.oo-ui-textInputWidget-type-text.oo-ui-widget-enabled input.oo-ui-inputWidget-input.webfonts-changed::placeholder 
+{
     color: var(--dark-10) !important;
 }
 
 /* "# changes, # days" dropdown panel */
-.oo-ui-popupWidget-popup {
+.oo-ui-popupWidget-popup 
+{
     background-color: var(--dark-20);
     border: var(--border-dark-45);
     color: var(--white-90);
@@ -970,209 +1205,265 @@ html.client-js body.mw-rcfilters-enabled.mediawiki.ltr.sitedir-ltr.mw-hide-empty
 
 
 /* "# changes, # days" dropdown panel, "Recent hours" & "Recent days" text */
-.mw-rcfilters-ui-datePopupWidget .mw-rcfilters-ui-valuePickerWidget-title {
+.mw-rcfilters-ui-datePopupWidget .mw-rcfilters-ui-valuePickerWidget-title 
+{
     color: var(--white-90);
 }
 
 /* Selected changes/days */
-.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active > .oo-ui-buttonElement-button {
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active > .oo-ui-buttonElement-button 
+{
     color: var(--dark-25);
 }
 
-.oo-ui-labelElement .oo-ui-labelElement-label, .oo-ui-labelElement.oo-ui-labelElement-label {
+.oo-ui-labelElement .oo-ui-labelElement-label, .oo-ui-labelElement.oo-ui-labelElement-label 
+{
     color: var(--white-90);
 }
 
 /* Bob template stuff */
-.breakout {
+.breakout 
+{
     background: var(--dark-20);
     border: 1px solid var(--dark-45);
 }
-.breakouttitle {
+.breakouttitle 
+{
     color: var(--white-90);
     background-color: var(--dark-35);
     border-top: 0px solid transparent;
     border-bottom: 0px solid transparent;
 }
-.oo-ui-menuOptionWidget.oo-ui-optionWidget-selected.oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted, .oo-ui-menuOptionWidget.oo-ui-optionWidget-pressed.oo-ui-menuOptionWidget.oo-ui-optionWidget.highlighted {
+.oo-ui-menuOptionWidget.oo-ui-optionWidget-selected.oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted, .oo-ui-menuOptionWidget.oo-ui-optionWidget-pressed.oo-ui-menuOptionWidget.oo-ui-optionWidget.highlighted 
+{
     background-color: var(--dark-25);
     color: var(--dark-45) !important;
 }
 /* RC Filters */
-.mw-rcfilters-ui-menuSelectWidget-footer {
+.mw-rcfilters-ui-menuSelectWidget-footer 
+{
     background-color: var(--dark-15);
     border-top: var(--border-dark-45);
 }
-.mw-rcfilters-ui-tagItemWidget.oo-ui-flaggedElement-muted.oo-ui-tagItemWidget.oo-ui-widget-enabled .oo-ui-labelElement-label {
+.mw-rcfilters-ui-tagItemWidget.oo-ui-flaggedElement-muted.oo-ui-tagItemWidget.oo-ui-widget-enabled .oo-ui-labelElement-label 
+{
     color: var(--white-90);
 }
-.mw-rcfilters-ui-tagItemWidget.oo-ui-flaggedElement-muted.oo-ui-tagItemWidget.oo-ui-widget-enabled .oo-ui-buttonWidget {
+.mw-rcfilters-ui-tagItemWidget.oo-ui-flaggedElement-muted.oo-ui-tagItemWidget.oo-ui-widget-enabled .oo-ui-buttonWidget 
+{
     opacity: 1.0;
 }
-.mw-rcfilters-ui-tagItemWidget.oo-ui-flaggedElement-muted.oo-ui-tagItemWidget.oo-ui-widget-enabled {
+.mw-rcfilters-ui-tagItemWidget.oo-ui-flaggedElement-muted.oo-ui-tagItemWidget.oo-ui-widget-enabled 
+{
     border-color: var(--dark-45);
 }
-.oo-ui-widget.oo-ui-widget-enabled.oo-ui-selectWidget.oo-ui-selectWidget-unpressed.oo-ui-floatableElement-floatable.oo-ui-menuSelectWidget.mw-rcfilters-ui-menuSelectWidget.mw-rcfilters-ui-menuSelectWidget-view-namespaces {
+.oo-ui-widget.oo-ui-widget-enabled.oo-ui-selectWidget.oo-ui-selectWidget-unpressed.oo-ui-floatableElement-floatable.oo-ui-menuSelectWidget.mw-rcfilters-ui-menuSelectWidget.mw-rcfilters-ui-menuSelectWidget-view-namespaces 
+{
     background-color: var(--dark-35);
 }
-.mw-rcfilters-ui-itemMenuOptionWidget:not(:last-child):not(.mw-rcfilters-ui-itemMenuOptionWidget-identifier-talk) {
+.mw-rcfilters-ui-itemMenuOptionWidget:not(:last-child):not(.mw-rcfilters-ui-itemMenuOptionWidget-identifier-talk) 
+{
     border-bottom: var(--border-dark-45);
 }
-.oo-ui-menuSelectWidget {
+.oo-ui-menuSelectWidget 
+{
     background-color: var(--dark-25);
     border: var(--border-dark-45);
 }
-.mw-rcfilters-ui-row {
+.mw-rcfilters-ui-row 
+{
     background-color: var(--dark-25);
 }
-.mw-rcfilters-ui-rcTopSectionWidget-savedLinks {
+.mw-rcfilters-ui-rcTopSectionWidget-savedLinks 
+{
     background-color: var(--dark-25);
 }
-.mw-rcfilters-ui-rcTopSectionWidget-topLinks-table {
+.mw-rcfilters-ui-rcTopSectionWidget-topLinks-table 
+{
     background-color: var(--dark-25);
 }
-.oo-ui-menuSectionOptionWidget.oo-ui-widget-enabled {
+.oo-ui-menuSectionOptionWidget.oo-ui-widget-enabled 
+{
     background-color: var(--dark-15);
 }
-.mw-rcfilters-ui-itemMenuOptionWidget.oo-ui-optionWidget-selected {
+.mw-rcfilters-ui-itemMenuOptionWidget.oo-ui-optionWidget-selected 
+{
     background-color: var(--dark-25);
 }
-.mw-rcfilters-ui-itemMenuOptionWidget:hover {
+.mw-rcfilters-ui-itemMenuOptionWidget:hover 
+{
     background-color: var(--dark-25);
 }
-.oo-ui-menuOptionWidget.oo-ui-widget-enabled.oo-ui-optionWidget {
+.oo-ui-menuOptionWidget.oo-ui-widget-enabled.oo-ui-optionWidget 
+{
     background-color: var(--dark-25);
 }
-.mw-rcfilters-ui-itemMenuOptionWidget-label-desc {
+.mw-rcfilters-ui-itemMenuOptionWidget-label-desc 
+{
     color: var(--white-90);
 }
-.mw-rcfilters-ui-filterMenuOptionWidget.oo-ui-flaggedElement-muted:not(.oo-ui-optionWidget-selected) {
+.mw-rcfilters-ui-filterMenuOptionWidget.oo-ui-flaggedElement-muted:not(.oo-ui-optionWidget-selected) 
+{
     background-color: var(--dark-25);
 }
-.mw-rcfilters-ui-savedLinksListWidget-placeholder.oo-ui-optionWidget .oo-ui-labelElement-label {
+.mw-rcfilters-ui-savedLinksListWidget-placeholder.oo-ui-optionWidget .oo-ui-labelElement-label 
+{
     color: var(--white-90);
 }
-.mw-rcfilters-ui-filterMenuHeaderWidget-header {
+.mw-rcfilters-ui-filterMenuHeaderWidget-header 
+{
     border-bottom: var(--border-dark-45);
 }
-.mw-rcfilters-ui-filterTagMultiselectWidget-cell-filters {
+.mw-rcfilters-ui-filterTagMultiselectWidget-cell-filters 
+{
     background-color: var(--dark-20);
 }
-.mw-rcfilters-ui-itemMenuOptionWidget-view-namespaces {
+.mw-rcfilters-ui-itemMenuOptionWidget-view-namespaces 
+{
     border-top: 4px solid var(--dark-45);
 }
-.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined.oo-ui-flaggedElement-invalid .oo-ui-inputWidget-input {
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined.oo-ui-flaggedElement-invalid .oo-ui-inputWidget-input 
+{
     border-color: var(--red);
 }
-.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-flaggedElement-invalid .oo-ui-inputWidget-input {
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-flaggedElement-invalid .oo-ui-inputWidget-input 
+{
     color: var(--red);
 }
-.mw-rcfilters-ui-filterMenuHeaderWidget-helpIcon.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonWidget {
+.mw-rcfilters-ui-filterMenuHeaderWidget-helpIcon.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-iconElement.oo-ui-buttonWidget 
+{
     padding-left: 8px;
 }
-.mw-rcfilters-ui-viewSwitchWidget label.oo-ui-labelWidget {
+.mw-rcfilters-ui-viewSwitchWidget label.oo-ui-labelWidget 
+{
     color: var(--white-90);
 }
-.mw-rcfilters-ui-filterMenuOptionWidget.oo-ui-flaggedElement-muted .mw-rcfilters-ui-itemMenuOptionWidget-label-title, .mw-rcfilters-ui-filterMenuOptionWidget.oo-ui-flaggedElement-muted .mw-rcfilters-ui-itemMenuOptionWidget-label-desc {
+.mw-rcfilters-ui-filterMenuOptionWidget.oo-ui-flaggedElement-muted .mw-rcfilters-ui-itemMenuOptionWidget-label-title, .mw-rcfilters-ui-filterMenuOptionWidget.oo-ui-flaggedElement-muted .mw-rcfilters-ui-itemMenuOptionWidget-label-desc 
+{
     color: var(--white-90);
 }
-.mw-rcfilters-ui-changesListWrapperWidget:not(.mw-rcfilters-ui-changesListWrapperWidget-highlighted) .mw-changeslist-watchedseen div.mw-rcfilters-ui-highlights-color-none {
+.mw-rcfilters-ui-changesListWrapperWidget:not(.mw-rcfilters-ui-changesListWrapperWidget-highlighted) .mw-changeslist-watchedseen div.mw-rcfilters-ui-highlights-color-none 
+{
     background-color: var(--white-90);
     border: 1px solid var(--white-90);
 }
-.mw-rcfilters-ui-changesListWrapperWidget:not(.mw-rcfilters-ui-changesListWrapperWidget-highlighted) .mw-changeslist-watchedunseen div.mw-rcfilters-ui-highlights-color-none {
+.mw-rcfilters-ui-changesListWrapperWidget:not(.mw-rcfilters-ui-changesListWrapperWidget-highlighted) .mw-changeslist-watchedunseen div.mw-rcfilters-ui-highlights-color-none 
+{
     background-color: var(--white-90);
     border: 1px solid var(--white-90);
 }
 
-div.thumbinner {
+div.thumbinner 
+{
     border: var(--border-dark-45);
     background-color: var(--dark-15);
 }
 
 /* Game series navbox stuff */
-.navboxhead {
+.navboxhead 
+{
     background: var(--dark-35) !important;
 }
-.navboxhead a {
+.navboxhead a 
+{
     color: var(--lightblue);
 }
-.navboxhead th a {
+.navboxhead th a 
+{
     color: var(--lightblue);
 }
-.navbox th {
+.navbox th 
+{
     background: var(--dark-40) !important;
 }
-table.navbox {
+table.navbox 
+{
     border: var(--border-dark-45);
     background-color: var(--dark-20);
 }
-table.navbox tbody {
+table.navbox tbody 
+{
     background-color: var(--dark-20) !important;
 }
 
 /* Gallery thumbnails */
-#content .gallerybox div.thumb {
+#content .gallerybox div.thumb 
+{
     background-color: var(--dark-35);
     border-color: var(--dark-45);
 }
-.gallerybox .thumb img {
+.gallerybox .thumb img 
+{
     background-color: var(--dark-35);
 }
 
 /* Tables */
-.wikitable {
+.wikitable 
+{
     color: var(--white-90);
 }
-table.wikitable, table.prettytable {
+table.wikitable, table.prettytable 
+{
   background: var(--dark-30);
   border: var(--border-dark-45);
 }
-.wikitable th, .prettytable th {
+.wikitable th, .prettytable th 
+{
     background-color: var(--dark-15);
 }
-.wikitable td, .prettytable td {
+.wikitable td, .prettytable td 
+{
     border: var(--border-dark-45);
     background-color: var(--dark-30);
 }
 
 /* Category section */
-#catlinks {
+#catlinks 
+{
     background-color: var(--dark-20);
     border: var(--border-dark-45);
 }
-#catlinks a {
+#catlinks a 
+{
     color: var(--lightblue);
 }
-#catlinks a.new {
+#catlinks a.new 
+{
     color: var(--lightred);
 }
-#catlinks a:visited {
+#catlinks a:visited 
+{
   color: var(--blue);
 }
 
 /* Data Table */
-.mw-datatable th {
+.mw-datatable th 
+{
     background-color: var(--dark-15);
 }
-.mw-datatable td, .mw-datatable th {
+.mw-datatable td, .mw-datatable th 
+{
     border: var(--border-dark-45);
 }
-.mw-datatable td {
+.mw-datatable td 
+{
     background-color: var(--dark-35);
 }
-.mw-datatable tr:hover td {
+.mw-datatable tr:hover td 
+{
     background-color: var(--dark-30);
 }
 
-.oo-ui-panelLayout-framed {
+.oo-ui-panelLayout-framed 
+{
     border: var(--border-dark-45);
     background-color: var(--dark-20);
 }
 
 
 /* History page, Compare button */
-.historysubmit {
+.historysubmit 
+{
     border: var(--border-dark-45);
     background-color: var(--dark-20);
     color: var(--white-90);
@@ -1181,148 +1472,180 @@ table.wikitable, table.prettytable {
 }
 
 /* No dark list bullets */
-ul {
+ul 
+{
     list-style-image: none;
 }
 
 /* <pre>, <code> */
-pre {
+pre 
+{
     background-color: var(--dark-20);
     color: var(--white-90);
     border-color: var(--dark-45);
     border-radius: var(--border-radius-2);
 }
 
-code {
+code 
+{
     background-color: var(--dark-15);
     color: var(--white-90);
     border-color: var(--dark-45);
     border-radius: var(--border-radius-2);
 }
 
-tt {
+tt 
+{
     background-color: var(--dark-20);
     border: 2px solid var(--dark-20);
     border-radius: 8px;
     padding: 0.5px 4px;
 }
 
-fieldset {
+fieldset 
+{
     border: var(--border-dark-45);
 }
-legend {
+legend 
+{
     font-weight: bold;
     color: var(--white-90);
 }
 
 
 /* Search Input */
-#searchInput {
+#searchInput 
+{
     border: var(--border-dark-45);
 }
-#simpleSearch input {
+#simpleSearch input 
+{
     background-color: var(--dark-10);
     color: var(--white-90);
 }
-#simpleSearch:hover #searchInput {
+#simpleSearch:hover #searchInput 
+{
     border-color: var(--dark-45);
 }
-#searchInput:focus, #simpleSearch:hover #searchInput:focus {
+#searchInput:focus, #simpleSearch:hover #searchInput:focus 
+{
     border: var(--border-dark-45);
     outline: none;
     -webkit-box-shadow: inset 0 0 0 0px transparent,inset 0 0 0 0px transparent;
     box-shadow: inset 0 0 0 0px transparent,inset 0 0 0 0px transparent;
 }
 
-.oo-ui-textInputWidget .oo-ui-inputWidget-input {
+.oo-ui-textInputWidget .oo-ui-inputWidget-input 
+{
     background-color: var(--dark-35);
     color: var(--white-90);
     border: var(--border-dark-45);
 }
 
-.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .mw-rcfilters-ui-tagItemWidget-selected.oo-ui-tagItemWidget.oo-ui-widget-enabled {
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .mw-rcfilters-ui-tagItemWidget-selected.oo-ui-tagItemWidget.oo-ui-widget-enabled 
+{
     background-color: var(--dark-35);
     border-color: var(--white-40);
 }
-.oo-ui-tagItemWidget {
+.oo-ui-tagItemWidget 
+{
     border: var(--border-dark-45);
 }
 
-.oo-ui-tagItemWidget.oo-ui-widget-enabled:hover {
+.oo-ui-tagItemWidget.oo-ui-widget-enabled:hover 
+{
     border-color: var(--dark-45);
 }
 
 /* Show/Hide button for Active Filters positioning fix */
-.mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-top-hideshow {
+.mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-top-hideshow 
+{
     margin-top: 0.5em;
     padding-bottom: 0.5em;
 }
 /* Save current filter settings button (below the Show/Hide button, on the left, the ribbon icon */
-.mw-rcfilters-ui-cell.mw-rcfilters-ui-filterTagMultiselectWidget-cell-save {
+.mw-rcfilters-ui-cell.mw-rcfilters-ui-filterTagMultiselectWidget-cell-save 
+{
     padding-right: 0.5em;
     background-color: var(--dark-20);
 }
-.mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend {
+.mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend 
+{
     border: var(--border-dark-45);
 }
 
 /* Parser profiling data */
-.wikitable > tr > th, .wikitable > * > tr > th {
+.wikitable > tr > th, .wikitable > * > tr > th 
+{
     background-color: var(--dark-20);
     color: var(--white-90);
 }
-.wikitable.preview-limit-report > .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+.wikitable.preview-limit-report > .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td 
+{
     border: var(--border-dark-45);
 }
-.wikitable.preview-limit-report {
+.wikitable.preview-limit-report 
+{
     background-color: var(--dark-35);
     color: var(--white-90);
 }
 
-.suggestions-result {
+.suggestions-result 
+{
     color: var(--white-90);
 }
-.suggestions-results {
+.suggestions-results 
+{
     background-color: var(--dark-15);
     border: var(--border-dark-45);
     color: var(--white-90) !important;
 }
-.suggestions a.mw-searchSuggest-link, .suggestions a.mw-searchSuggest-link:hover, .suggestions a.mw-searchSuggest-link:active, .suggestions a.mw-searchSuggest-link:focus {
+.suggestions a.mw-searchSuggest-link, .suggestions a.mw-searchSuggest-link:hover, .suggestions a.mw-searchSuggest-link:active, .suggestions a.mw-searchSuggest-link:focus 
+{
     color: var(--white-90);
 }
-.suggestions-special {
+.suggestions-special 
+{
     background-color: var(--dark-5);
     border: var(--border-dark-45);
     color: var(--white-90);
 }
-.suggestions-special .special-query {
+.suggestions-special .special-query 
+{
     color: var(--white-90);
 }
-.highlight {
+.highlight 
+{
     font-weight: bold;
     color: var(--lightblue);
 }
 
-.mw-search-profile-tabs {
+.mw-search-profile-tabs 
+{
     background-color: var(--dark-15);
     border: var(--border-dark-45);
 }
-.search-types .current a {
+.search-types .current a 
+{
     color: var(--lightblue);
 }
-.results-info {
+.results-info 
+{
     color: var(--white-90);
 }
-#mw-searchoptions {
+#mw-searchoptions 
+{
     background-color: var(--dark-35);
     border: var(--border-dark-45);
 }
 
 
-.ext-cc-language-selector__trigger {
+.ext-cc-language-selector__trigger 
+{
     color: var(--lightblue);
 }
-.ext-cc-language-selector__trigger::after {
+.ext-cc-language-selector__trigger::after 
+{
     border-top: 4px solid var(--lightblue);
 }
 
@@ -1330,232 +1653,290 @@ legend {
  * Change placeholder text color.
  * This is supposed to work, but it doesn't seem to work for me.
  */
-::placeholder {
+::placeholder 
+{
     color: var(--white-90);
     opacity: 1;
 }
 
-:-ms-input-placeholder {
+:-ms-input-placeholder 
+{
     color: var(--white-90);
     opacity: 1;
 }
 
-::-ms-input-placeholder {
+::-ms-input-placeholder 
+{
     color: var(--white-90);
     opacity: 1;
 }
 
 /* Plus/Minus text colors */
-.mw-plusminus-pos {
+.mw-plusminus-pos 
+{
     color: hsl(140, 70%, 40%);
 }
-.mw-plusminus-neg {
+.mw-plusminus-neg 
+{
     color: var(--red);
 }
-.mw-plusminus-null {
+.mw-plusminus-null 
+{
     color: #a2a9b1;
 }
 
 /* Warning boxes */
-.warningbox {
+.warningbox 
+{
     background-color: var(--yellow);
     color: var(--white-90);
     border: 1px solid var(--lightyellow);
     border-radius: 0 8px 0 8px;
 }
 
-.wikiEditor-ui-toolbar .booklet .pages {
+.wikiEditor-ui-toolbar .booklet .pages 
+{
     background-color: var(--dark-25);
 }
-.mw-pt-translate-header {
+.mw-pt-translate-header 
+{
     border-bottom: var(--border-dark-45);
 }
 /* Live Updates button */
-.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button 
+{
     border-color: var(--dark-45);
 }
-.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover 
+{
     color: var(--dark-25);
 }
-.oo-ui-buttonElement.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
+.oo-ui-buttonElement.oo-ui-widget-disabled > .oo-ui-buttonElement-button 
+{
     border-color: var(--dark-55);
 }
-.oo-ui-buttonElement.oo-ui-widget-disabled > .oo-ui-buttonElement-button:hover {
+.oo-ui-buttonElement.oo-ui-widget-disabled > .oo-ui-buttonElement-button:hover 
+{
     cursor: not-allowed;
 }
-.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button {
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button 
+{
     border-color: var(--dark-45);
 }
-.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button:hover {
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button:hover 
+{
     border-color: var(--dark-55);
 }
- div#bodyContent.mw-body-content div#mw-content-text div.mw-htmlform-ooui-wrapper.oo-ui-layout.oo-ui-panelLayout.oo-ui-panelLayout-padded.oo-ui-panelLayout-framed form.mw-htmlform.mw-htmlform-ooui.oo-ui-layout.oo-ui-formLayout fieldset.oo-ui-layout.oo-ui-labelElement.oo-ui-fieldsetLayout div.oo-ui-fieldsetLayout-group div.oo-ui-widget.oo-ui-widget-enabled div.oo-ui-layout.oo-ui-panelLayout.oo-ui-panelLayout-padded.oo-ui-panelLayout-framed {
+ div#bodyContent.mw-body-content div#mw-content-text div.mw-htmlform-ooui-wrapper.oo-ui-layout.oo-ui-panelLayout.oo-ui-panelLayout-padded.oo-ui-panelLayout-framed form.mw-htmlform.mw-htmlform-ooui.oo-ui-layout.oo-ui-formLayout fieldset.oo-ui-layout.oo-ui-labelElement.oo-ui-fieldsetLayout div.oo-ui-fieldsetLayout-group div.oo-ui-widget.oo-ui-widget-enabled div.oo-ui-layout.oo-ui-panelLayout.oo-ui-panelLayout-padded.oo-ui-panelLayout-framed 
+{
     background-color: var(--dark-20);
 }
-.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button {
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive > .oo-ui-buttonElement-button 
+{
     padding-left: 0.85714286em;
     padding-right: 0.85714286em;
 }
 
-.oo-ui-buttonElement.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+.oo-ui-buttonElement.oo-ui-widget-enabled > .oo-ui-buttonElement-button 
+{
     -webkit-transition: none;
     -moz-transition: none;
     transition: none;
 }
 
-input#wpUploadFile {
+input#wpUploadFile 
+{
     background-color: var(--dark-15);
     color: var(--white-90);
     border: var(--border-dark-45);
 }
 
-input#wpDestFile {
+input#wpDestFile 
+{
     background-color: var(--dark-15);
     color: var(--white-90);
     border: var(--border-dark-45);
 }
 
-select#wpLicense {
+select#wpLicense 
+{
     background-color: var(--dark-15);
     color: var(--white-90);
     border: var(--border-dark-45);
 }
 
-textarea#wpUploadDescription {
+textarea#wpUploadDescription 
+{
     background-color: var(--dark-15);
     color: var(--white-90);
     border: var(--border-dark-45);
 }
 
-.uls-ime-menu-settings-item {
+.uls-ime-menu-settings-item 
+{
     background-color: var(--dark-20);
     color: var(--white-90);
     border-top: var(--border-dark-45);
 }
 /* IME Selector - ::before triangle styling */
-.imeselector-menu::before {
+.imeselector-menu::before 
+{
     border-bottom: 7px solid var(--dark-45);
     z-index: 2;
 }
-.imeselector-menu {
+.imeselector-menu 
+{
     background-color: var(--dark-25);
     border: var(--border-dark-45);
 }
-.imeselector-menu .selectable-row-item {
+.imeselector-menu .selectable-row-item 
+{
     color: var(--white-90);
 }
-.imeselector a, .ime-disable {
+.imeselector a, .ime-disable 
+{
     color: var(--dark-55);
 }
-.imeselector-menu .selectable-row:hover {
+.imeselector-menu .selectable-row:hover 
+{
     background-color: var(--dark-35);
 }
-.imeselector:hover {
+.imeselector:hover 
+{
     background-color: var(--dark-10);
     box-shadow: 0 0 0 0 transparent !important;
 }
-.ime-setting-caret {
+.ime-setting-caret 
+{
     margin-top: 6px;
     border-top: 4px solid var(--white-90);
 }
-.tux-message-editor .messagekey .caret {
+.tux-message-editor .messagekey .caret 
+{
     border-top: 4px solid var(--white-90);
 }
-.ime-list-title, .ime-lang-title {
+.ime-list-title, .ime-lang-title 
+{
     background-color: var(--dark-20);
     color: var(--white-90);
     border-bottom: var(--border-dark-45);
 }
-.languagesettings-menu .menu-section {
+.languagesettings-menu .menu-section 
+{
     color: var(--white-90);
 }
-.languagesettings-menu .menu-section .settings-text {
+.languagesettings-menu .menu-section .settings-text 
+{
     color: var(--white-90);
 }
-.languagesettings-menu .menu-section:hover .settings-text {
+.languagesettings-menu .menu-section:hover .settings-text 
+{
     color: var(--white-90);
 }
-.languagesettings-menu .menu-section:focus {
+.languagesettings-menu .menu-section:focus 
+{
     border-color: var(--dark-50);
 }
-.languagesettings-menu h1 {
+.languagesettings-menu h1 
+{
     color: var(--white-90);
 }
-#languagesettings-settings-panel h3 {
+#languagesettings-settings-panel h3 
+{
     color: var(--white-90);
 }
-#languagesettings-settings-panel h4 {
+#languagesettings-settings-panel h4 
+{
     color: var(--white-90);
 }
-#languagesettings-settings-panel {
+#languagesettings-settings-panel 
+{
     color: var(--white-90);
     background: var(--dark-35);
 }
-.uls-language-settings-close-block {
+.uls-language-settings-close-block 
+{
     background: var(--dark-25);
 }
-.uls-input-settings .uls-input-settings-inputmethods-list {
+.uls-input-settings .uls-input-settings-inputmethods-list 
+{
     background: var(--dark-30);
 }
-.uls-menu {
+.uls-menu 
+{
     background-color: var(--dark-25);
     border: var(--border-dark-45);
 }
-.uls-language-block > ul > li:hover {
+.uls-language-block > ul > li:hover 
+{
     background-color: var(--dark-35);
 }
-.uls-language-block a {
+.uls-language-block a 
+{
     color: var(--lightblue);
 }
-#languagesettings-panels .mw-ui-pressed {
+#languagesettings-panels .mw-ui-pressed 
+{
     background-color: var(--dark-45);
     color: var(--white-90);
     border-color: var(--dark-45);
 }
-.language-settings-buttons {
+.language-settings-buttons 
+{
     border-top: var(--border-dark-45);
 }
-.mw-ui-button {
+.mw-ui-button 
+{
     background-color: var(--dark-20);
     color: var(--white-90);
     border: var(--border-dark-45);
 }
-.mw-ui-button:hover {
+.mw-ui-button:hover 
+{
     background-color: var(--dark-40);
     color: var(--white-90);
     border-color: var(--dark-45);
 }
-.mw-ui-button.mw-ui-progressive {
+.mw-ui-button.mw-ui-progressive 
+{
     background-color: var(--dark-20);
     color: #fff;
     border: var(--border-dark-45);
 }
-.mw-ui-button.mw-ui-progressive:hover {
+.mw-ui-button.mw-ui-progressive:hover 
+{
     background-color: var(--dark-20);
     border-color: var(--dark-45);
 }
-.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle {
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle 
+{
     background-color: var(--dark-35);
     color: var(--white-90);
 }
-.oo-ui-dropdownWidget.oo-ui-widget-enabled.oo-ui-dropdownWidget-open .oo-ui-dropdownWidget-handle {
+.oo-ui-dropdownWidget.oo-ui-widget-enabled.oo-ui-dropdownWidget-open .oo-ui-dropdownWidget-handle 
+{
     background-color: var(--dark-45);
 }
-.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle:hover {
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle:hover 
+{
     background-color: var(--dark-35);
 }
-.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle:active {
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle:active 
+{
     color: #000;
     border-color: var(--dark-45);
 }
-#uls-settings-block {
+#uls-settings-block 
+{
     background-color: var(--dark-20);
     border-top: var(--border-dark-45);
 }
-.languagesettings-menu .menu-section:hover {
+.languagesettings-menu .menu-section:hover 
+{
     background-color: var(--dark-35);
 }
-.languagesettings-menu .menu-section.active {
+.languagesettings-menu .menu-section.active 
+{
     color: var(--white-90);
     background-color: var(--dark-35);
     padding-left: 40px;
@@ -1567,144 +1948,178 @@ textarea#wpUploadDescription {
  * Patch 1
  * Some translations stuff I missed
  */
-input, textarea {
+input, textarea 
+{
     border: var(--border-dark-45);
     background-color: var(--dark-15);
     color: var(--white-90);
 }
-.tux-action-bar button:hover {
+.tux-action-bar button:hover 
+{
     background-color: var(--dark-25);
     background-image: linear-gradient(to bottom, var(--dark-30), var(--dark-25));
 }
-.tux-action-bar button {
+.tux-action-bar button 
+{
     background-color: var(--dark-25);
     background-image: linear-gradient(to bottom, var(--dark-30), var(--dark-25));
     border: var(--border-dark-45);
     color: var(--white-90);
 }
-.tux-action-bar button:active, .tux-action-bar button.down {
+.tux-action-bar button:active, .tux-action-bar button.down 
+{
     background-color: var(--dark-25);
     background-image: linear-gradient(to bottom, var(--dark-30), var(--dark-25));
     border: var(--border-dark-45);
 }
-.tux-message-selector .more ul {
+.tux-message-selector .more ul 
+{
     border: var(--border-dark-45);
     border-top: var(--border-dark-45);
     background: var(--dark-20);
     left: 0px;
 }
-.tux-message-selector label {
+.tux-message-selector label 
+{
     color: var(--white-90);
 }
-.tux-message-filter-box {
+.tux-message-filter-box 
+{
     border: var(--border-dark-45);
 }
-.tux-messagelist {
+.tux-messagelist 
+{
     color: var(--white-90);
 }
-.tux-message-item {
+.tux-message-item 
+{
     border-bottom: var(--border-dark-45);
     background-color: var(--dark-20);
 }
-.tux-message-item:hover {
+.tux-message-item:hover 
+{
     background-color: var(--dark-35);
 }
-.ext-translate-container .tux-messagelist .tux-message-proofread:first-child .tux-message-item-compact {
+.ext-translate-container .tux-messagelist .tux-message-proofread:first-child .tux-message-item-compact 
+{
     border-top: var(--border-dark-45);
 }
-.ext-translate-container .tux-messagelist .tux-message-proofread .tux-message-item-compact {
+.ext-translate-container .tux-messagelist .tux-message-proofread .tux-message-item-compact 
+{
     background-color: var(--dark-20);
     color: var(--white-90) !important;
     border-bottom: var(--border-dark-45);
     border-left: var(--border-dark-45);
     border-right: var(--border-dark-45);
 }
-.ext-translate-container .tux-messagelist .tux-message-proofread .tux-message-item-compact:hover {
+.ext-translate-container .tux-messagelist .tux-message-proofread .tux-message-item-compact:hover 
+{
     background-color: var(--dark-35);
     color: var(--white-90) !important;
 }
 
-.tux-messagelist .tux-message-proofread .tux-proofread-source {
+.tux-messagelist .tux-message-proofread .tux-proofread-source 
+{
     color: var(--white-90);
 }
-.tux-message-editor {
+.tux-message-editor 
+{
     border: var(--border-dark-45);
     background-color: var(--dark-25);
 }
-.tux-message-editor__caret::after {
+.tux-message-editor__caret::after 
+{
     border-right: 20px solid var(--dark-25);
 }
-.tux-message-editor__caret::before, .tux-message-editor__caret::after {
+.tux-message-editor__caret::before, .tux-message-editor__caret::after 
+{
     border-right: 19px solid var(--dark-25);
 }
-.mw-ui-button.mw-ui-quiet, .mw-ui-button.mw-ui-quiet.mw-ui-progressive, .mw-ui-button.mw-ui-quiet.mw-ui-destructive {
+.mw-ui-button.mw-ui-quiet, .mw-ui-button.mw-ui-quiet.mw-ui-progressive, .mw-ui-button.mw-ui-quiet.mw-ui-destructive 
+{
     background-color: var(--dark-35);
     color: var(--white-90);
     border-color: var(--dark-45);
 }
-.mw-ui-button.mw-ui-quiet:hover, .mw-ui-button.mw-ui-quiet.mw-ui-progressive:hover, .mw-ui-button.mw-ui-quiet.mw-ui-destructive:hover {
+.mw-ui-button.mw-ui-quiet:hover, .mw-ui-button.mw-ui-quiet.mw-ui-progressive:hover, .mw-ui-button.mw-ui-quiet.mw-ui-destructive:hover 
+{
     background-color: var(--dark-35);
     color: var(--white-90);
     border-color: var(--dark-45);
 }
-.tux-message-editor .shortcutinfo {
+.tux-message-editor .shortcutinfo 
+{
     color: var(--white-90);
 }
-.tux-message-item.translated {
+.tux-message-item.translated 
+{
     background-color: var(--dark-20);
 }
-.tux-editor-insert-buttons .tux-editor-paste-original-button {
+.tux-editor-insert-buttons .tux-editor-paste-original-button 
+{
     background: var(--dark-35) left center no-repeat;
     background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2232%22 height=%2232%22 viewBox=%220 0 32 32%22%3E %3Cpath fill=%22%2354595d%22 d=%22M29.077 29.012c0 1.06-.86 1.92-1.92 1.92H4.844c-1.06 0-1.92-.86-1.92-1.92V4.042c0-1.06.86-1.92 1.92-1.92h22.313c1.06 0 1.92.86 1.92 1.92v24.97z%22/%3E %3Cpath fill=%22%23f8f9fa%22 stroke=%22%2354595d%22 stroke-width=%22.5%22 stroke-miterlimit=%2210%22 d=%22M5.368 4.054h21v24.35h-21z%22/%3E %3Cpath fill=%22%23a2a9b1%22 d=%22M7.743 8.896h15.625v2.872H7.743zM7.743 15.09h15.625v2.875H7.743zM7.743 21.287h6.125v2.873H7.743z%22/%3E %3Cpath fill=%22%23414042%22 d=%22M18.646 2.814V1.068h-5.292v1.746H10.46v2.338H21.54V2.814%22/%3E %3C/svg%3E");
     background-size: 16px 16px;
 }
-.tux-editor-insert-buttons button {
+.tux-editor-insert-buttons button 
+{
     border: var(--border-dark-45);
     background: var(--dark-35);
     color: var(--white-90);
 }
-.tux-messagelist .tux-message-pagemode .tux-pagemode-translation {
+.tux-messagelist .tux-message-pagemode .tux-pagemode-translation 
+{
     color: var(--dark-50);
 }
-.group-warning {
+.group-warning 
+{
     background: var(--dark-45);
     padding: 5px !important;
     color: var(--white-90);
 }
-.tux-notice {
+.tux-notice 
+{
     background-color: var(--dark-15);
     border: var(--border-dark-45);
 }
-.tux-message-item.translated, .tux-message-item.proofread {
+.tux-message-item.translated, .tux-message-item.proofread 
+{
     background-color: var(--dark-20);
 }
-.tux-message-item.translated:hover, .tux-message-item.proofread:hover {
+.tux-message-item.translated:hover, .tux-message-item.proofread:hover 
+{
     background-color: var(--dark-30);
 }
-.tux-list-translation {
+.tux-list-translation 
+{
     color: var(--dark-55);
 }
-.tux-breadcrumb .grouplink + .grouplink::before {
+.tux-breadcrumb .grouplink + .grouplink::before 
+{
     border-left: 4px solid var(--white-90);
 }
 
 /**
  * Tux Stats Table
  */
-.statstable > * > tr > th {
+.statstable > * > tr > th 
+{
     background-color: var(--dark-20);
     border: var(--border-dark-45);
 }
-.statstable > * > tr > td {
+.statstable > * > tr > td 
+{
     background-color: var(--dark-40);
     border-left: var(--border-dark-45);
     border-right: var(--border-dark-45);
     color: var(--dark-5);
 }
-.statstable > * > tr.tux-statstable-even > td {
+.statstable > * > tr.tux-statstable-even > td 
+{
     background-color: var(--dark-35);
 }
-.statstable > * > tr > td:nth-child(6)[data-sort-value="0.00000"] {
+.statstable > * > tr > td:nth-child(6)[data-sort-value="0.00000"] 
+{
     color: var(--dark-5) !important;
 }
 
@@ -1712,79 +2127,101 @@ input, textarea {
  * Patch 2
  * More random stuff
  */
-.tux-messagelist {
+.tux-messagelist 
+{
     background-color: var(--dark-20);
 }
-.ext-translate-language-selector-label {
+.ext-translate-language-selector-label 
+{
     color: var(--white-90);
 }
-.ext-translate-container .tux-messagelist .tux-message-proofread {
+.ext-translate-container .tux-messagelist .tux-message-proofread 
+{
     background-color: var(--dark-25);
 }
-.tux-messagetable-loader {
+.tux-messagetable-loader 
+{
     color: var(--white-90);
     background-color: var(--dark-15);
 }
-.tux-messagelist .tux-message-proofread .tux-proofread-translation {
+.tux-messagelist .tux-message-proofread .tux-proofread-translation 
+{
     color: var(--dark-50);
 }
-.tux-empty-list {
+.tux-empty-list 
+{
     background-color: var(--dark-20);
     border-bottom: var(--border-dark-45);
 }
-.tux-empty-list-guide {
+.tux-empty-list-guide 
+{
     color: var(--dark-50);
 }
 
 /* Checkboxes/Radio Buttons */
-.oo-ui-checkboxInputWidget [type="checkbox"] + span {
+.oo-ui-checkboxInputWidget [type="checkbox"] + span 
+{
     background-color: var(--dark-10);
     border-color: var(--dark-45);
 }
-.oo-ui-radioInputWidget [type="radio"] + span {
+.oo-ui-radioInputWidget [type="radio"] + span 
+{
     background-color: var(--dark-10);
     border-color: var(--dark-45);
 }
-.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-inlined:hover .oo-ui-tagMultiselectWidget-handle {
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-inlined:hover .oo-ui-tagMultiselectWidget-handle 
+{
     border-color: var(--dark-45);
 }
-.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle {
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle 
+{
     background-color:  var(--dark-35);
 }
-.oo-ui-tagMultiselectWidget-handle > .oo-ui-tagMultiselectWidget-content > input {
+.oo-ui-tagMultiselectWidget-handle > .oo-ui-tagMultiselectWidget-content > input 
+{
     color: var(--white-90);
 }
-.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-inlined.oo-ui-flaggedElement-invalid .oo-ui-tagMultiselectWidget-handle, .oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-inlined.oo-ui-flaggedElement-invalid:hover .oo-ui-tagMultiselectWidget-handle {
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-inlined.oo-ui-flaggedElement-invalid .oo-ui-tagMultiselectWidget-handle, .oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-inlined.oo-ui-flaggedElement-invalid:hover .oo-ui-tagMultiselectWidget-handle 
+{
     border-color: var(--red);
 }
-.oo-ui-textInputWidget.oo-ui-widget-enabled:hover .oo-ui-inputWidget-input {
+.oo-ui-textInputWidget.oo-ui-widget-enabled:hover .oo-ui-inputWidget-input 
+{
     border-color: var(--dark-45);
 }
-.oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed) {
+.oo-ui-tagItemWidget.oo-ui-widget-enabled:not(.oo-ui-tagItemWidget-fixed) 
+{
     background-color: var(--dark-20);
 }
-.mw-protectedpages-unknown {
+.mw-protectedpages-unknown 
+{
     color: var(--white-90);
 }
-.mw-sp-translate-edit-fields fieldset {
+.mw-sp-translate-edit-fields fieldset 
+{
     border: 1px solid var(--dark-45);
 }
-.mw-sp-translate-message-documentation {
+.mw-sp-translate-message-documentation 
+{
     background-color: var(--dark-20);
 }
-.mw-sp-translate-edit-fields a {
+.mw-sp-translate-edit-fields a 
+{
     color: var(--blue);
 }
-.mw-sp-translate-edit-definition {
+.mw-sp-translate-edit-definition 
+{
     background-color: var(--dark-20);
 }
-.mw-translate-fuzzy {
+.mw-translate-fuzzy 
+{
     background-color: var(--dark-45);
     color: var(--dark-10);
 }
 
 /* Testing */
-kbd {
+kbd 
+{
     border: 0.2em outset var(--dark-50);
     background: var(--dark-40);
     padding: 0.1em 0.3em 0em 0.3em;

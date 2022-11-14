@@ -1,7 +1,8 @@
 /* TCRF.net - Dark Monobook-specific CSS */
 /* Version: Beta 1.0 - First Versioning Version */
 
-:root {
+:root 
+{
  --bg-dark: hsl(120, 2%, 19%);
  
  --dark-5: hsl(0, 0%, 5%);
@@ -38,35 +39,43 @@
 }
 
 /* Monobook page tabs */
-.pBody {
+.pBody 
+{
     background-color: var(--dark-15);
     border: var(--border-dark-45);
 }
-.skin-monobook input#searchInput {
+.skin-monobook input#searchInput 
+{
     background-color: var(--dark-35);
     margin-bottom: 4px;
 }
-#p-cactions li.selected {
+#p-cactions li.selected 
+{
     border-color: var(--dark-45);
 }
-#p-cactions li {
+#p-cactions li 
+{
     background-color: var(--dark-20);
     border-color: var(--dark-45);
 }
-#p-cactions li.selected a {
+#p-cactions li.selected a 
+{
     background-color: var(--dark-25);
 }
-#p-cactions li a {
+#p-cactions li a 
+{
     background-color: var(--dark-20);
     color: var(--lightblue);
 }
 
 /* Recent changes filter buttons fix for Monobook */
-.oo-ui-buttonElement-framed > .oo-ui-buttonElement-button {
+.oo-ui-buttonElement-framed > .oo-ui-buttonElement-button 
+{
     background-image: none;
     background-color: var(--dark-35) !important;
     border: var(--border-dark-45);
 }
-.oo-ui-tagItemWidget {
+.oo-ui-tagItemWidget 
+{
     background-image: none;
 }
